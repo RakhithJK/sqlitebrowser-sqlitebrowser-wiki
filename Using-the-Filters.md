@@ -12,7 +12,7 @@ Say, you want to search for those records with Field2 set to 'b'. In this case a
 
 ![](filter2.png)
 
-As you can see it performs an exact search, that is the records where Field2 contains a 'b' are not shown. To achieve this you are free to use the '%' wild card. 'b%' searches for records starting with 'b', '%b' searches for records ending in 'b' and '%b%' searches for records containing a 'b' at any position. You are free to use as many '%' wild cards as you wish and in any combination. Here's an example:
+As you can see it performs an exact search, so only the records where Field2 contains a 'b' are shown. For more flexibility you can use the '%' wild card. 'b%' searches for records starting with 'b', '%b' searches for records ending in 'b' and '%b%' searches for records containing a 'b' at any position. You are free to use as many '%' wild cards as you wish and in any combination. Here's an example:
 
 ![](filter3.png)
 
