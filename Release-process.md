@@ -2,7 +2,7 @@
 
 1. In the master branch, update the "CFBundleShortVersionString" and "CFBundleVersion" version strings in src/app.plist.  The new version string needs to be the latest release number + .99 on the end.  eg if the new release is for version 3.4, then the master branch version of this string will be 3.4.99.
 2. In the new git version branch, update the "CFBundleShortVersionString" and "CFBundleVersion" version strings in src/app.plist.  The new version string needs to be the latest release number + .0 on the end.  eg if the new release is for version 3.4, then the master branch version of this string will be 3.4.0.
-3. In the new git version branch, CMakeLists.txt file, update the APP_VERSION, MAJOR_VERSION, MINOR_VERSION, and PATCH_VERSION place holder strings with the new release number.  eg APP_VERSION with "3.4.0", MAJOR_VERSION with "3", MINOR_VERSION with "4", and PATCH_VERSION with "0".
+3. In the new git version branch, CMakeLists.txt file, update the APP_VERSION, MAJOR_VERSION, MINOR_VERSION, PATCH_VERSION, CPACK_PACKAGE_VERSION_MAJOR, CPACK_PACKAGE_VERSION_MINOR, and CPACK_PACKAGE_VERSION_PATCH place holder strings with the new release number.  eg APP_VERSION with "3.4.0", MAJOR_VERSION with "3", MINOR_VERSION with "4", and PATCH_VERSION with "0".
 
 ## Translation strings?
 
