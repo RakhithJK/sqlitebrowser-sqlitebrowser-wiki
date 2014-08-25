@@ -5,3 +5,4 @@ Welcome to the SQLite Database Browser wiki!
 Pages so far:
 
 * [Using Filters](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Using-the-Filters) - How to use the Filters in the Browse Data tab
+* [Our Release Process](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Release-process) - Checklist / steps to follow when creating new SQLite Database Browser releases
