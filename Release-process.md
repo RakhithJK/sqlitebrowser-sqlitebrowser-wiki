@@ -33,5 +33,6 @@
 
 ## Notify people
 
-1. Email John Haller to let him know
-2. Send a tweet about it (retweet that from our personal accounts)
+1. Update currentrelease file in master branch
+2. Email John Haller to let him know
+3. Send a tweet about it (retweet that from our personal accounts)
