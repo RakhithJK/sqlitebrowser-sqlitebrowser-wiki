@@ -37,3 +37,4 @@
 2. Email John Haller to let him know
 3. Send a tweet about it (retweet that from our personal accounts)
 4. Email SQLite Users &lt;sqlite-users@sqlite.org&gt; mailing list about the new release
+5. Update the MacOS X Homebrew formula for the new version
