@@ -25,7 +25,7 @@ For a full list of supported operators see the table below. You can also combine
 ![](filter5.png)
 
 ## Supported operators
-The default comparison operator we use is an exact comparison for numbers and an exact but case-independent comparison for text. In both cases wild cards ('%') are allowed. You can override this behaviour by starting your query with one of these operators, e.g. '>1':
+The default comparison operator we use is an exact comparison for numbers and an exact but case-independent comparison for text. In both cases wild cards ('%') are allowed. You can override this behavior by starting your query with one of these operators, e.g. '>1':
 
 Operator | Description         | Notes
 ---------|---------------------|------
@@ -33,7 +33,7 @@ Operator | Description         | Notes
 <        | Less than           | 
 >=       | Equal to or greater | 
 <=       | Equal to or less    | 
-=        | Equal to            | Unlike the default behaviour this performs an 100% exact search, i.e. not case-independent and '%' characters not treated as wild cards but as normal characters.
+=        | Equal to            | Unlike the default behavior this performs an 100% exact search, i.e. not case-independent and '%' characters not treated as wild cards but as normal characters.
 <>       | Unequal             | This is the opposite of the '=' operator, that is no wild cards allowed and case-dependent search.
 
 ## A look behind the scenes
