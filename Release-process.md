@@ -27,7 +27,6 @@
 
 1. Make sure we have both the Windows and OSX packages on there first
 2. Add the new release info to the README.md file in both the master and version branches.  Releases section
-3. Do a "News" item release on our SourceForge page (but don't upload the files there)
 
 ## Update website
 
@@ -44,3 +43,4 @@
 4. Email SQLite Users &lt;sqlite-users@sqlite.org&gt; mailing list about the new release
 5. Update the MacOS X Homebrew formula, and the Homebrew Cask, for the new version
 6. Add a mention of the new release on the [SQLCipher forums](https://discuss.zetetic.net/c/sqlcipher)
+7. Do a "News" item release on our SourceForge page (but don't upload the files there)
