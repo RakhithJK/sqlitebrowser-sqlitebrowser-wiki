@@ -35,6 +35,10 @@
 2. Add a line to the News piece (keep max of 3 lines?)
 3. Add the new release to the Releases list
 
+## Updates stats counters
+
+1. Create cronjob scripts to get the daily download count for the new release binaries
+
 ## Notify people
 
 1. Update currentrelease file in master branch
