@@ -26,8 +26,8 @@
 ## Publish the release
 
 1. Make sure we have both the Windows and OSX packages on there first
-2. Add the files to SourceForge as well (1/2 our downloads still come from there)
-3. Add the new release info to the README.md file in both the master and version branches.  Releases section
+2. Add the new release info to the README.md file in both the master and version branches.  Releases section
+3. Do a "News" item release on our SourceForge page (but don't upload the files there)
 
 ## Update website
 
