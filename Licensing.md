@@ -6,10 +6,10 @@ This means that when you are creating something from this project you can choose
 
 Links to the actual licenses used:
 
-* [Mozilla](http://opensource.org/licenses/MPL-2.0)
-* [Mozilla](https://www.mozilla.org/MPL/2.0/)
-* [GNU](http://opensource.org/licenses/GPL-3.0)
-* [GNU](http://www.gnu.org/licenses/gpl-3.0-standalone.html)
+* <http://opensource.org/licenses/MPL-2.0> - Mozilla
+* <https://www.mozilla.org/MPL/2.0/> - Mozilla
+* <http://opensource.org/licenses/GPL-3.0> - GNU
+* <http://www.gnu.org/licenses/gpl-3.0-standalone.html> - GNU
 
 ### Footnote
 
