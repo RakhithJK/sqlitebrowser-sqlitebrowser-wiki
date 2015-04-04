@@ -13,4 +13,4 @@ Links to the actual licenses used:
 
 ### Footnote
 
-The file sqlitebrowser.desktop.appdata.xml is technically licensed under "Creative Commons Zero v1.0 Universal" which is normal for AppData files.
+The file sqlitebrowser.desktop.appdata.xml is technically licensed under "Creative Commons Zero v1.0 Universal" (see https://creativecommons.org/publicdomain/zero/1.0/) which is normal for AppData files.
