@@ -10,7 +10,7 @@ Pages so far:
 
 ### For Users
 * [Using Filters](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Using-the-Filters) - How to use the Filters in the Browse Data tab
-* [Licensing](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Licensing) - how our licenses work
+* [Licensing](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Licensing) - How our licenses work
 
 ### For Developers
 * [Our Release Process](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Release-process) - Checklist / steps to follow when creating new DB Browser for SQLite releases
