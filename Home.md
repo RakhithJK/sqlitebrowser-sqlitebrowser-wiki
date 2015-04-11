@@ -8,6 +8,10 @@ There is information on SQLite itself at <http://www.sqlite.org/>, which include
 
 Pages so far:
 
+### For Users
 * [Using Filters](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Using-the-Filters) - How to use the Filters in the Browse Data tab
-* [Our Release Process](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Release-process) - Checklist / steps to follow when creating new DB Browser for SQLite releases
 * [Licensing](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Licensing) - how our licenses work
+
+### For Developers
+* [Our Release Process](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Release-process) - Checklist / steps to follow when creating new DB Browser for SQLite releases
+* [Merging Commits](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Merging-Commits) - how to merge the commits on your fork into one commit for a pull request
