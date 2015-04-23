@@ -1,4 +1,8 @@
-Regular expression support in the where clause of a query is a powerful feature of SQLite. It is a reserved word as part of the language syntax but it is not quite "out of the box", it requires a function to be hooked at run-time. DB Browser for SQLite (DB4S) does provide this hooked function with a standard regular expression engine from Qt, the framework on which DB4S is built.
+Regular expression support in the where clause of a query is a powerful feature of SQLite.
+
+It is a reserved word as part of the language syntax but it is not quite "out of the box", as it requires a function to be hooked at run-time.
+
+DB Browser for SQLite (DB4S) provides this hooked function using a standard regular expression engine from Qt, the GUI framework on which DB4S is built.
 
 Assuming you have a table of products then the following query will return every product where the description ends with "Kg" or "kg".
 
@@ -10,6 +14,5 @@ It should be noted that the regular expression implementation used is the standa
 
 Useful references:
 
-<https://www.sqlite.org/lang_expr.html#regexp> - Official SQLite documentation
-
-<http://en.wikipedia.org/wiki/Regular_expression> - handy reference and introduction
+* <https://www.sqlite.org/lang_expr.html#regexp> - Official SQLite documentation
+* <http://en.wikipedia.org/wiki/Regular_expression> - Handy reference and introduction
