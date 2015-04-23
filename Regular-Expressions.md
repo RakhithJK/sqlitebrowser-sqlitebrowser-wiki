@@ -10,6 +10,8 @@ Assuming you have a table of products then the following query will return every
 
 You can extend this to more complex possibilities, this is just a simple example. If you get the message "no such function: regexp" this means you are either using a version of DB4S prior to 3.6, due for release in April 2015 or you have checked "Disable Regular Expression extension" on the Extensions tab of the Preferences dialog.
 
+[[images/regexp_filter_checkbox_screenshot.png]]
+
 It should be noted that the regular expression implementation used is the standard Qt regular expression engine, which is a "rich Perl-like pattern matching syntax".
 
 Useful references:
