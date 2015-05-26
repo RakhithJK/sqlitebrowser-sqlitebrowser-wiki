@@ -13,6 +13,7 @@ Pages so far:
 * [Licensing](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Licensing) - How our licenses work
 * [Using Regular Expressions](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Regular-Expressions) - How to use Regular Expressions for powerful queries
 * [Windows File Associations](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Windows-File-Associations) - Making Windows file associations
+* [Encrypted Databases](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Encrypted-Databases) - working with Encrypted Databases
 
 ### For Developers
 * [Our Release Process](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Release-process) - Checklist / steps to follow when creating new DB Browser for SQLite releases
