@@ -5,8 +5,12 @@ Haven't yet managed to figure get it working, but am making progress.  So, keepi
 ### Software being used
 
 * Win 8.1 x64
-* MS Visual Studio Community 2013 Edition Update 5
-* Qt Creator 3.6.1
+* MS Visual Studio Community 2013 Edition Update 5 - https://www.visualstudio.com/downloads/download-visual-studio-vs.
+ * "Visual Studio 2013" option 1/2 way down the left side → "Community 2013"
+* Qt Creator 3.6.1 - https://www.qt.io/download-open-source/
+* SQLite 3.12.2 - https://www.sqlite.org/download.html
+* OpenSSL - https://wiki.openssl.org/index.php/Binaries
+ * From the first link (Shining Light Productions) → Win64 OpenSSL v1.0.2g
 
 ### Compiling SQLite
 
@@ -39,6 +43,15 @@ Ironically, I'm not the only one.  StackExchange shows another user hitting exac
 &nbsp; &nbsp; https://stackoverflow.com/questions/36117817/qt-cannot-open-file-sqlite3-lib/36786563
 
 The people there didn't help the previous person at all, so no joy here either.
+
+### Trying with CMake
+
+1. Installed the above SQLite + OpenSSL to a directory off C:\
+2. Change the paths in the CMakeLists.txt file to match the correct locations
+ * QT5_PATH
+ * SQLITE3_PATH
+ * OPENSSL_PATH
+3. Run "cmake" (the command line version, not the gui) from the main sqlitebrowser git repo directory
 
 ### Related Issue(s) in our repo
 
