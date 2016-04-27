@@ -28,7 +28,7 @@ The correct command to run instead, which created both the .dll file and other s
 
 That's copied from [here](http://protyposis.net/blog/compiling-sqlite-as-dll-with-msvc/).
 
-### Current error - linking
+### Current error using in-built Qt tools - linking
 
 It's all compiling ok, but linking is failing:
 
@@ -44,7 +44,7 @@ Ironically, I'm not the only one.  StackExchange shows another user hitting exac
 
 The people there didn't help the previous person at all, so no joy here either.
 
-### Trying with CMake
+### Trying with CMake now instead
 
 1. Installed the above SQLite + OpenSSL to a directory off C:\
 2. Change the paths in the CMakeLists.txt file to match the correct locations
