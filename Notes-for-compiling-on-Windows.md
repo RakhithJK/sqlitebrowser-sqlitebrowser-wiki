@@ -78,6 +78,14 @@ CMake Error at libs/qhexedit/CMakeLists.txt:6 (find_package):
 
 It doesn't seem to be automatically picking up the cmake/FindAntlr2.cmake file for some reason. :frowning:
 
+### New error.  "MS Visual Studio 2013 **Community Edition**" just expired on me after 30 days
+
+What the ...?  It's supposed to be Free.
+
+Looks like Microsoft are being sleazy again after all. :frowning:
+
+Anyone have suggestions on alternative compilers for Windows?
+
 ### Related Issue(s) in our repo
 
 * https://github.com/sqlitebrowser/sqlitebrowser/issues/482#issuecomment-169941468
