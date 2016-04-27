@@ -30,7 +30,7 @@ It's all compiling ok, but linking is failing:
 
     LINK : fatal error LNK1104: cannot open file 'sqlite3.lib'
 
-To me, this is bizarre, as I've created the exact .lib file it needs (above), and also added the library definition for it to the project _using the Qt wizard for doing exactly that_.  (Right click project name, "Add Library")
+To me, this is bizarre, as I've created the exact .lib file it needs (above), and also added the library definition for it to the project _[using the Qt wizard for doing exactly that](https://doc.qt.io/qtcreator/creator-project-qmake-libraries.html#example-of-adding-internal-libraries)_.
 
 Yes, getting frustrated. :wink:
 
