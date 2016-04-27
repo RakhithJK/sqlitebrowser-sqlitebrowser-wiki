@@ -38,7 +38,7 @@ To me, this is bizarre, as I've created the exact .lib file it needs (above), an
 
 Yes, getting frustrated. :wink:
 
-Ironically, I'm not the only one.  StackExchange shows another user hitting exactly the same problem... with *our project*. :frowning: 
+Ironically, I'm not the only one.  StackExchange shows another person hitting exactly the same problem... with *our project*. :frowning: 
 
 &nbsp; &nbsp; https://stackoverflow.com/questions/36117817/qt-cannot-open-file-sqlite3-lib/36786563
 
