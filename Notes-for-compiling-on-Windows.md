@@ -12,7 +12,7 @@ Haven't yet managed to figure get it working, but am making progress.  So, keepi
 * OpenSSL - https://wiki.openssl.org/index.php/Binaries
  * From the first link (Shining Light Productions) → Win64 OpenSSL v1.0.2g
 
-### Compiling SQLite
+### ✔ Compiling SQLite
 
 Initially followed the official SQLite instructions here, underneath the "Building A Windows DLL" heading:
 
@@ -28,7 +28,7 @@ The correct command to run instead, which created both the .dll file and other s
 
 That's copied from [here](http://protyposis.net/blog/compiling-sqlite-as-dll-with-msvc/).
 
-### Current error using in-built Qt tools - linking
+### ✗ Current error using in-built Qt tools - linking
 
 It's all compiling ok, but linking is failing:
 
@@ -44,7 +44,7 @@ Ironically, I'm not the only one.  StackExchange shows another user hitting exac
 
 The people there didn't help the previous person at all, so no joy here either.
 
-### Trying with CMake now instead
+### ✗ Trying with CMake now instead
 
 1. Installed the above SQLite + OpenSSL to a directory off C:\
 2. Change the paths in the CMakeLists.txt file to match the correct locations
@@ -53,7 +53,7 @@ The people there didn't help the previous person at all, so no joy here either.
  * OPENSSL_PATH
 3. Run "cmake" (the command line version, not the gui) from the main sqlitebrowser git repo directory
 
-### Current error using CMake
+### ✗ Current error using CMake
 
 Well, this is non-optimal:
 
