@@ -58,6 +58,20 @@ The people there didn't help the previous person at all, so no joy here either.
 Well, this is non-optimal:
 
 ```
+C:\git_repos\sqlitebrowser>cmake .
+-- Building for: Visual Studio 12 2013
+-- The C compiler identification is MSVC 18.0.40629.0
+-- The CXX compiler identification is MSVC 18.0.40629.0
+-- Check for working C compiler using: Visual Studio 12 2013
+-- Check for working C compiler using: Visual Studio 12 2013 -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler using: Visual Studio 12 2013
+-- Check for working CXX compiler using: Visual Studio 12 2013 -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Could NOT find Antlr2 (missing:  ANTLR2_LIBRARIES ANTLR2_INCLUDE_DIRS)
 CMake Error at libs/qhexedit/CMakeLists.txt:6 (find_package):
   By not providing "FindQt5Widgets.cmake" in CMAKE_MODULE_PATH this project
@@ -74,17 +88,13 @@ CMake Error at libs/qhexedit/CMakeLists.txt:6 (find_package):
   "Qt5Widgets_DIR" to a directory containing one of the above files.  If
   "Qt5Widgets" provides a separate development package or SDK, be sure it has
   been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/git_repos/sqlitebrowser/CMakeFiles/CMakeOutput.log".
 ```
 
 It doesn't seem to be automatically picking up the cmake/FindAntlr2.cmake file for some reason. :frowning:
-
-### New error.  "MS Visual Studio 2013 **Community Edition**" just expired on me after 30 days
-
-What the ...?  It's supposed to be Free.
-
-Looks like Microsoft are being sleazy again after all. :frowning:
-
-Anyone have suggestions on alternative compilers for Windows?
 
 ### Related Issue(s) in our repo
 
