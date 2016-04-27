@@ -22,4 +22,8 @@ The correct command to run, for creating both the .lib file and .dll file, is th
 
     cl sqlite3.c -DSQLITE_API=__declspec(dllexport) -link -dll -out:sqlite3.dll
 
-That's copied from [here](http://protyposis.net/blog/compiling-sqlite-as-dll-with-msvc/### ).
+That's copied from [here](http://protyposis.net/blog/compiling-sqlite-as-dll-with-msvc/).
+
+### Related Issue(s) in our repo
+
+* https://github.com/sqlitebrowser/sqlitebrowser/issues/482#issuecomment-169941468
