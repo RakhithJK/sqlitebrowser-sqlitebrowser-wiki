@@ -56,3 +56,7 @@ The people there didn't help the previous person at all, so no joy here either.
 ### Related Issue(s) in our repo
 
 * https://github.com/sqlitebrowser/sqlitebrowser/issues/482#issuecomment-169941468
+
+### Other notes
+
+* Conan looks like it might be useful for dependency management - https://www.conan.io.  [It's Open Source](https://github.com/conan-io/conan).
