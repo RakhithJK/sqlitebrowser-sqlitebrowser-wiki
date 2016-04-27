@@ -36,7 +36,7 @@ Yes, getting frustrated. :wink:
 
 Ironically, I'm not the only one.  StackExchange shows another user hitting exactly the same problem... with *our project*. :frowning: 
 
-    https://stackoverflow.com/questions/36117817/qt-cannot-open-file-sqlite3-lib/36786563
+&nbsp; &nbsp; https://stackoverflow.com/questions/36117817/qt-cannot-open-file-sqlite3-lib/36786563
 
 The people there didn't help the previous person at all, so no joy here either.
 
