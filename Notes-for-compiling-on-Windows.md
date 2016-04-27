@@ -14,9 +14,9 @@ Initially followed the official SQLite instructions here, underneath the "Buildi
 
 &nbsp; &nbsp; https://sqlite.org/howtocompile.html
 
-The command line given to run, needs to be launched by through the "VS2013 x64 Native Tools Command Prompt", which is accessed through the "Visual Studio Tools" launcher option in the Win 8.1 menu structure.
+The command line given needs to be launched through the "VS2013 x64 Native Tools Command Prompt".  That's accessed through the "Visual Studio Tools" launcher found in the Win 8.1 menu structure.
 
-Although that generates the .dll, as per the heading... it turns out MSVC needs a .lib file generated as well to be able to do any useful compiling/development against it.  (REALLY should be mentioned on that page :frowning:)
+Although the command generates the .dll (as per the heading)... it turns out MSVC needs a .lib file generated as well to do any useful compiling/development with it.  (That REALLY should be mentioned on the SQLite compiling page :frowning:)
 
 The correct command to run, for creating both the .lib file and .dll file, is this:
 
