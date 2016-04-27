@@ -53,6 +53,31 @@ The people there didn't help the previous person at all, so no joy here either.
  * OPENSSL_PATH
 3. Run "cmake" (the command line version, not the gui) from the main sqlitebrowser git repo directory
 
+### Current error using CMake
+
+Well, this is non-optimal:
+
+```
+-- Could NOT find Antlr2 (missing:  ANTLR2_LIBRARIES ANTLR2_INCLUDE_DIRS)
+CMake Error at libs/qhexedit/CMakeLists.txt:6 (find_package):
+  By not providing "FindQt5Widgets.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "Qt5Widgets", but CMake did not find one.
+
+  Could not find a package configuration file provided by "Qt5Widgets" with
+  any of the following names:
+
+    Qt5WidgetsConfig.cmake
+    qt5widgets-config.cmake
+
+  Add the installation prefix of "Qt5Widgets" to CMAKE_PREFIX_PATH or set
+  "Qt5Widgets_DIR" to a directory containing one of the above files.  If
+  "Qt5Widgets" provides a separate development package or SDK, be sure it has
+  been installed.
+```
+
+It doesn't seem to be automatically picking up the cmake/FindAntlr2.cmake file for some reason. :frowning:
+
 ### Related Issue(s) in our repo
 
 * https://github.com/sqlitebrowser/sqlitebrowser/issues/482#issuecomment-169941468
