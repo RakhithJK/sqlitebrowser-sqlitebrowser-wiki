@@ -18,7 +18,7 @@ The command line given needs to be launched through the "VS2013 x64 Native Tools
 
 Although the command generates the .dll (as per the heading)... it turns out MSVC needs a .lib file generated as well to do any useful compiling/development with it.  (That REALLY should be mentioned on the SQLite compiling page :frowning:)
 
-The correct command to run, for creating both the .lib file and .dll file, is this:
+The correct command to run instead, which created both the .dll file and other supporting files (such as the .lib), is this:
 
     cl sqlite3.c -DSQLITE_API=__declspec(dllexport) -link -dll -out:sqlite3.dll
 
