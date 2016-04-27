@@ -44,7 +44,7 @@ Ironically, I'm not the only one.  StackExchange shows another person hitting ex
 
 The people there didn't help the previous person at all, so no joy here either.
 
-### ✗ Trying with CMake now instead
+### ✔ Trying with CMake now instead
 
 1. Installed the above SQLite + OpenSSL to a directory off C:\
 2. Change the paths in the CMakeLists.txt file to match the correct locations
@@ -53,48 +53,11 @@ The people there didn't help the previous person at all, so no joy here either.
  * OPENSSL_PATH
 3. Run "cmake" (the command line version, not the gui) from the main sqlitebrowser git repo directory
 
-### ✗ Current error using CMake
+...
 
-Well, this is non-optimal:
+Managed to [get it working](https://github.com/sqlitebrowser/sqlitebrowser/issues/482#issuecomment-215229614), with the assistance of [@drescherjm](https://github.com/drescherjm) (seriously, thanks! :smile:).
 
-```
-C:\git_repos\sqlitebrowser>cmake .
--- Building for: Visual Studio 12 2013
--- The C compiler identification is MSVC 18.0.40629.0
--- The CXX compiler identification is MSVC 18.0.40629.0
--- Check for working C compiler using: Visual Studio 12 2013
--- Check for working C compiler using: Visual Studio 12 2013 -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working CXX compiler using: Visual Studio 12 2013
--- Check for working CXX compiler using: Visual Studio 12 2013 -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Could NOT find Antlr2 (missing:  ANTLR2_LIBRARIES ANTLR2_INCLUDE_DIRS)
-CMake Error at libs/qhexedit/CMakeLists.txt:6 (find_package):
-  By not providing "FindQt5Widgets.cmake" in CMAKE_MODULE_PATH this project
-  has asked CMake to find a package configuration file provided by
-  "Qt5Widgets", but CMake did not find one.
-
-  Could not find a package configuration file provided by "Qt5Widgets" with
-  any of the following names:
-
-    Qt5WidgetsConfig.cmake
-    qt5widgets-config.cmake
-
-  Add the installation prefix of "Qt5Widgets" to CMAKE_PREFIX_PATH or set
-  "Qt5Widgets_DIR" to a directory containing one of the above files.  If
-  "Qt5Widgets" provides a separate development package or SDK, be sure it has
-  been installed.
-
-
--- Configuring incomplete, errors occurred!
-See also "C:/git_repos/sqlitebrowser/CMakeFiles/CMakeOutput.log".
-```
-
-It doesn't seem to be automatically picking up the cmake/FindAntlr2.cmake file for some reason. :frowning:
+Tomorrow I'll go back through it, get it working from scratch, and document the process so everyone else with an interest can make it happen too.
 
 ### Related Issue(s) in our repo
 
