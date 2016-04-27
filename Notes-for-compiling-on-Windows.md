@@ -11,6 +11,7 @@ Haven't yet managed to figure get it working, but am making progress.  So, keepi
 * SQLite 3.12.2 - https://www.sqlite.org/download.html
 * OpenSSL - https://wiki.openssl.org/index.php/Binaries
  * From the first link (Shining Light Productions) → Win64 OpenSSL v1.0.2g
+* CMake 3.5.2 - https://cmake.org/download/
 
 ### ✔ Compiling SQLite
 
