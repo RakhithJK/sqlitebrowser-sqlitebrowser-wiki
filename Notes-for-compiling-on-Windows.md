@@ -12,6 +12,7 @@ Haven't yet managed to figure get it working, but am making progress.  So, keepi
 * OpenSSL - https://wiki.openssl.org/index.php/Binaries
  * From the first link (Shining Light Productions) → Win64 OpenSSL v1.0.2g
 * CMake 3.5.2 - https://cmake.org/download/
+* The INSTALL target on windows needs Visual C++ Redistributable Packages for Visual Studio 2013 (x64) - https://www.microsoft.com/en-us/download/details.aspx?id=40784
 
 ### ✔ Compiling SQLite
 
