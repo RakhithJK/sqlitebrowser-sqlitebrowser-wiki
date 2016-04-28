@@ -1,6 +1,8 @@
 ## These are initial rough notes for compiling on Windows
 
-Haven't yet managed to figure get it working, but am making progress.  So, keeping notes here in the meantime. :smile:
+Managed to get it working, but haven't written down the process (yet), which I'll start on tomorrow.
+
+In the meantime, these are my initial notes below. :smile:
 
 ### Software being used
 
@@ -29,22 +31,6 @@ The correct command to run instead, which created both the .dll file and other s
     cl sqlite3.c -DSQLITE_API=__declspec(dllexport) -link -dll -out:sqlite3.dll
 
 That's copied from [here](http://protyposis.net/blog/compiling-sqlite-as-dll-with-msvc/).
-
-### ✗ Current error using in-built Qt tools - linking
-
-It's all compiling ok, but linking is failing:
-
-    LINK : fatal error LNK1104: cannot open file 'sqlite3.lib'
-
-To me, this is bizarre, as I've created the exact .lib file it needs (above), and also added the library definition for it to the project _[using the Qt wizard for doing exactly that](https://doc.qt.io/qtcreator/creator-project-qmake-libraries.html#example-of-adding-internal-libraries)_.
-
-Yes, getting frustrated. :wink:
-
-Ironically, I'm not the only one.  StackExchange shows another person hitting exactly the same problem... with *our project*. :frowning: 
-
-&nbsp; &nbsp; https://stackoverflow.com/questions/36117817/qt-cannot-open-file-sqlite3-lib/36786563
-
-The people there didn't help the previous person at all, so no joy here either.
 
 ### ✔ Trying with CMake now instead
 
