@@ -1,8 +1,12 @@
 ## These are initial rough notes for compiling on Windows
 
-Managed to get it working, but haven't written down the process (yet), which I'll start on tomorrow.
+Managed to get it working, and am writing up the process (with detailed screenshots) here:
 
-In the meantime, these are my initial notes below. :smile:
+&nbsp; &nbsp; https://github.com/justinclift/sqlitebrowser/wiki/Setting-up-a-Win64-development-environment-for-DB4S
+
+That's very rough.  When it's in good shape, I'll transfer the contents here. :smile:
+
+The pieces below are my initial (older) notes while figuring out a working process.  They can be deleted when the above process documentation is ready.
 
 ### Software being used
 
