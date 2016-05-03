@@ -1,7 +1,7 @@
 ## These are initial notes for compiling on Windows
 
 * MS Visual Studio 2013 (as both compiler + IDE) works
- * Complete setup, build, and packaging [instructions are here](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Setting-up-a-Win64-development-environment-for-DB4S#1-gather-the-required-files).
+ * Complete setup, build, and packaging [instructions are here](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Setting-up-a-Win64-development-environment-for-DB4S).
 * Qt Creator (as IDE) works, using MSVC 2013 as the compiler
  * Instructions for setting it up and building haven't yet been written up
 
