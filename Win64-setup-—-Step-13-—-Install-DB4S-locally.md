@@ -10,7 +10,11 @@ To install DB4S locally from MSVC, you'll need to manually create the `C:\Progra
 
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/13-install_db4s/092.png)
 
+Switch to the Security tab of the Properties dialog
+
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/13-install_db4s/093.png)
+
+Click the Edit button and you should see the following where you first select "Users" and then can set their permissions
 
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/13-install_db4s/094.png)
 
