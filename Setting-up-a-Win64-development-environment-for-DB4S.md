@@ -17,7 +17,7 @@ If you're using a different version of windows, then some things may look slight
 * [Nullsoft Scriptable Install System](http://nsis.sourceforge.net/Download)
  * Version 3.0rc1 or later
 * [OpenSSL](https://wiki.openssl.org/index.php/Binaries)
- * From the first link (Shining Light Productions) → Win64 OpenSSL v1.0.2g
+ * From the first link (Shining Light Productions) → Win64 OpenSSL (use latest version)
 * [Qt](https://www.qt.io/download-open-source)
  * Choose the Qt Online Installer for Windows
 * [SQLite 3.12.2](https://www.sqlite.org/download.html)
