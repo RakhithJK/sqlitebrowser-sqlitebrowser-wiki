@@ -2,6 +2,11 @@
 
 ## 4. Install OpenSSL
 
+Make sure you're using the most recent release of OpenSSL.
+
+New ones are often released when bugs or security problems get discovered in the older ones, so this
+is important. :wink:
+
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/04-install_openssl/013.png)
 
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/04-install_openssl/014.png)
