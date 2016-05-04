@@ -7,7 +7,8 @@ Tools :   Windows10 64bit, Visual C++ Build Tools 2015,Qt 5.6 with Qt Creator
      /git_repos/sqlitebrowser/libs    
      .....
    
-1 Download the source package with git client or by "download zip"   
+1 Download the source package with git client or by "download zip"
+  * The "download zip" is a good idea.  Do you reckon we should add a note for that to the MSVC2013 page?
 
 2 Download and install SQLite as https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-%E2%80%94-Step-8-%E2%80%94-Install-SQLite    
 
@@ -16,3 +17,5 @@ Tools :   Windows10 64bit, Visual C++ Build Tools 2015,Qt 5.6 with Qt Creator
 4 After doing the above, close the src/src.pro file, then open the sqlitebrowser.pro one   
 Choose the msvc 2013 64-bit kit for the project (it will ask when you open the .pro file)   
 Compile/debug as per normal
+
+
