@@ -1,4 +1,4 @@
-0 Note for folder :    
+0 Note for folder structure:    
       /dev/SQLite    
      /git_repos/sqlitebrowser/    
      /git_repos/sqlitebrowser/src   
