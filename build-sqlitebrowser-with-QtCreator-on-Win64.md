@@ -1,3 +1,5 @@
+Tools :   Windows10 64bit, Visual C++ Build Tools 2015,Qt 5.6 with Qt Creator    
+
 0 Note for folder structure:    
       /dev/SQLite    
      /git_repos/sqlitebrowser/    
