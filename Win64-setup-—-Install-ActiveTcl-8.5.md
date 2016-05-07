@@ -1,6 +1,6 @@
 ## Install ActiveTcl 8.5
 
-This is the [ActiveTcl 8.5 Community Edition](https://www.activestate.com/activetcl/downloads) installer.  Make sure it's the 8.5 version, not the 8.6 one:
+This is the [ActiveTcl 8.5 Community Edition](https://www.activestate.com/activetcl/downloads) installer.  Make sure it's the 8.5 version, not 8.6:
 
 ![ActiveTcl installer in Windows Explorer](https://github.com/justinclift/db4s-screenshots/raw/activetcl/wiki/win64_install/install_activetcl/activetcl01.png)
 
