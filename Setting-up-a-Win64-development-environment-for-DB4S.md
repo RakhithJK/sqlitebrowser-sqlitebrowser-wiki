@@ -29,7 +29,7 @@ If you're using a different version of windows, then some things may look slight
 
 As a first step, download all of the files listed in the Requirements section (above), and place them in a single directory.  This is purely for reference purposes, and you can skip this if you want to do it differently. ;)
 
-![Gather the requirements](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/01-install_requirements/000-installation_requirements.png)
+![Gather the requirements](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/01-install_requirements/000-installation_requirements.png)
 
 **2.** [Install Microsoft Visual Studio 2013](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-2-—-Install-MSVC2013)
 
