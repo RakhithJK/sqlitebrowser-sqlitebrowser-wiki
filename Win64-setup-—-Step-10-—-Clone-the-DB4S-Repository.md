@@ -10,6 +10,8 @@ Then click the "Clone" tab.
 
 Assuming you have forked the "sqlitebrowser" repository already, it should be in the list.
 
+If it is not then go to https://github.com/sqlitebrowser/sqlitebrowser and Fork the repository first.
+
 Select it, then click "Clone **sqlitebrowser**":
 
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/10-clone_db4s_repo/073.png)
