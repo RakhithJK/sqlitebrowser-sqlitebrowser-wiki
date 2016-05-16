@@ -20,8 +20,9 @@ If you're using a different version of windows, then some things may look slight
  * From the first link (Shining Light Productions) → Win64 OpenSSL (use latest version)
 * [Qt](https://www.qt.io/download-open-source)
  * Choose the Qt Online Installer for Windows
-* [SQLite 3.12.2](https://www.sqlite.org/download.html)
+* [SQLite](https://www.sqlite.org/download.html)
  * Under the "Source Code" heading, download the "sqlite-amalgamation" .zip file
+ * Version 3.12.2 was used for this guide, but other versions will probably work without issue too
 
 ## Steps
 
