@@ -19,6 +19,7 @@ an assembler view on the output, which is generally not useful.
 To compile Qt4 with debugging information included isn't difficult.  It's just a
 bit more time consuming:
 
+    $ brew install openssl
     $ git clone git://code.qt.io/qt/qt.git
     $ cd qt
     $ ./configure -prefix $HOME/Qt4 -debug-and-release -opensource -confirm-license -fast -system-zlib \
