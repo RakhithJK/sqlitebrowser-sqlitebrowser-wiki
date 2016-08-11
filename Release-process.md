@@ -1,9 +1,24 @@
 ## Update application version numbers (and commit + push the changes)
 
-1. In the master branch, update the "CFBundleShortVersionString" and "CFBundleVersion" version strings in src/app.plist.  The new version string needs to be the latest release number + .99 on the end.  eg if the new release is for version 3.6, then the master branch version of this string will be 3.6.99.
-2. In the new git version branch, update the "CFBundleShortVersionString" and "CFBundleVersion" version strings in src/app.plist.  The new version string needs to be the latest release number + .0 on the end.  eg if the new release is for version 3.6, then the new string value will be 3.6.0.
-3. In the new git version branch, CMakeLists.txt file, update the APP_VERSION, MAJOR_VERSION, MINOR_VERSION, PATCH_VERSION, CPACK_PACKAGE_VERSION_MAJOR, CPACK_PACKAGE_VERSION_MINOR, and CPACK_PACKAGE_VERSION_PATCH place holder strings with the new release number.  eg APP_VERSION with "3.6.0", MAJOR_VERSION with "3", MINOR_VERSION with "6", and PATCH_VERSION with "0".
-4. In the new git version branch, update the version numbers in src/gen_version.h.
+Create a new branch in git, based upon the new release version:
+
+    $ git checkout -b v3.9.x
+
+The `x` on the end as the minor version number is correct, as for branches
+all of the `3.9` series code will go into this same branch.  eg 3.9.0, 3.9.1, etc.
+
+### In the new version branch
+
+1. Update the "CFBundleShortVersionString", "CFBundleGetInfoString", and "CFBundleVersion" strings in `src/app.plist`.  Use the full version for these.  eg `3.9.0`
+2. In `CMakeLists.txt`, update the CPACK_PACKAGE_VERSION_MAJOR, CPACK_PACKAGE_VERSION_MINOR, and CPACK_PACKAGE_VERSION_PATCH place holder strings with the new release numbers.
+3. Update the version numbers in src/gen_version.h.
+
+
+### In the master branch
+
+1. Update the "CFBundleShortVersionString" and "CFBundleVersion" version strings in src/app.plist.  The new version string needs to be the latest release number + .99 on the end.  eg if the new release is for version 3.9, then the master branch version of this string will be `3.9.99`.
+2. In `CMakeLists.txt`, update the CPACK_PACKAGE_VERSION_MAJOR, CPACK_PACKAGE_VERSION_MINOR, and CPACK_PACKAGE_VERSION_PATCH place holder strings with the new development version numbers. eg `3.9.99`
+3. Update the version numbers in src/gen_version.h to reflect the new development version. eg `3.9.99`
 
 ## Translation strings?
 
