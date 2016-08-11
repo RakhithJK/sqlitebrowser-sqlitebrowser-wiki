@@ -6,8 +6,9 @@ If you're using a different version of windows, then some things may look slight
 
 ## Requirements
 
-* [CMake 3.5.2](https://cmake.org/download)
+* [CMake 3.6.1 or later](https://cmake.org/download)
   * Under the "Binary distributions" heading, choose the Windows Installer
+  * Make sure you get version 3.6.1 or later.  Earlier versions can introduce security problems.
 * [GitHub Desktop for Windows](https://desktop.github.com)
   * GitHub Desktop for Windows 7 or later
 * [Microsoft Visual Studio Community 2013 Edition Update 5](https://www.visualstudio.com/downloads/download-visual-studio-vs)
