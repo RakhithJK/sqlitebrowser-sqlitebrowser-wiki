@@ -17,7 +17,13 @@
 
 When compiling 32-bit builds, Windows XP compatibility can be enabled for them.
 
+### CMake
+
+[This post](http://cmake.3232098.n2.nabble.com/Windows-XP-CMake-VS2013-td7586295.html) mentions adding `-T vc120_xp` to the cmake command line as one way to make it happen.
+
 ### MSVC 2013
+
+Using the MSVC 2013 IDE, it can be achieved like this:
 
 ![Right click the project file used to compile](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/winxp_compile_notes/winxp_compat01.png)
 ![Choose the WinXP compatibility option](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/winxp_compile_notes/winxp_compat02.png)
