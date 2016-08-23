@@ -24,7 +24,7 @@ bit more time consuming:
     $ cd qt
     $ ./configure -prefix $HOME/Qt4 -debug-and-release -opensource -confirm-license -fast -system-zlib \
         -qt-libtiff -qt-libpng -qt-libjpeg -nomake demos -nomake examples -cocoa -openssl-linked \
-        -I/usr/local/opt/openssl/include -L/usr/local/opt/openssl/lib -arch x86_64
+        -I/usr/local/opt/openssl/include -L/usr/local/opt/openssl/lib -arch x86_64 -no-webkit
     $ make -j6
     $ make -j1 install
 
