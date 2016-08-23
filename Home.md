@@ -20,7 +20,8 @@ Pages so far:
 * [Merging Commits](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Merging-Commits) - How to merge the commits on your fork into one commit for a pull request
 * [Dev environment setup on Windows using MSVC 2013](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Setting-up-a-Win64-development-environment-for-DB4S) - How to set up a development environment for DB4S on 64-bit Windows, based on using MSVC.  Lots of screenshots.
 * [Compiling SQLCipher on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Compiling-SQLCipher) - How to compile SQLCipher on Windows
-* [Notes for compiling on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-compiling-on-Windows) - Presently being developed.  Assistance is very welcome. :grinning:
+* [Notes for compiling on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-compiling-on-Windows) - Presently being developed.  Assistance is very welcome.
+* [Notes for compiling on OSX](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-setting-up-your-build-environment-on-OSX) - Presently being developed too.  Assistance is very welcome. :grinning:
 
 ### Other
 
