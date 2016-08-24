@@ -42,6 +42,7 @@ all of the `3.9` series code will go into this same branch.  eg 3.9.0, 3.9.1, et
 
 1. Make sure we have both the Windows and OSX packages on there first
 2. Add the new release info to the README.md file in both the master and version branches.  Releases section
+3. Update the version numbers in the [issue reporting template](https://github.com/sqlitebrowser/sqlitebrowser/blob/master/.github/ISSUE_TEMPLATE.md)
 
 ## Update website
 
