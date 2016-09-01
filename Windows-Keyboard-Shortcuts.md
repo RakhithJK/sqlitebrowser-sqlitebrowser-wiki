@@ -18,3 +18,5 @@ Refresh data (Browse Data tab) - <kbd>Ctrl</kbd>+<kbd>R</kbd>
 
 Execute SQL - <kbd>F5</kbd> / <kbd>Ctrl</kbd>+<kbd>Return</kbd>  
 Execute SQL (Current line) - <kbd>Shift</kbd>+<kbd>F5</kbd>
+
+**Note**: macOS uses <kbd>cmd</kbd> instead of <kbd>Ctrl</kbd>
