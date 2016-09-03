@@ -26,6 +26,7 @@ all of the `3.9` series code will go into this same branch.  eg 3.9.0, 3.9.1, et
 
 ## Build the application
 
+* Remember to include FTS support on OSX with the `-with-fts` option to Homebrew's SQLCipher install
 * Build the application package files, and add them to the draft Release
 * We really need to investigate making our own PortableApp version, instead of loading the work onto John Haller
 
