@@ -35,3 +35,11 @@ under your home directory.
 The `-j1` on the `make install` line is important.  The Qt4 docs mention a race
 condition in the install logic, making any use of a higher -j number there a bad
 idea.
+
+## Compiling DB Browser for SQLite for 3.10.0 (including development versions)
+
+Compiling DB4S with Qt4 now seems to require this qmake line in `Build Settings` → `Build Steps` → `qmake` → `Additional arguments`:
+
+    QMAKE_CXXFLAGS="-std=c++11 -stdlib=libc++ -mmacosx-version-min=10.10" \
+      QMAKE_LFLAGS="-std=c++11 -stdlib=libc++ -mmacosx-version-min=10.10" \
+      CONFIG+=sqlcipher
