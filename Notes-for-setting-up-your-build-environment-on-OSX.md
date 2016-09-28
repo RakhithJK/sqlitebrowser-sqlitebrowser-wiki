@@ -40,6 +40,4 @@ idea.
 
 Compiling DB4S with Qt4 now seems to require this qmake line in `Build Settings` → `Build Steps` → `qmake` → `Additional arguments`:
 
-    QMAKE_CXXFLAGS="-std=c++11 -stdlib=libc++ -mmacosx-version-min=10.10" \
-      QMAKE_LFLAGS="-std=c++11 -stdlib=libc++ -mmacosx-version-min=10.10" \
-      CONFIG+=sqlcipher
+    QMAKE_CXXFLAGS="-std=c++11 -stdlib=libc++ -mmacosx-version-min=10.10" QMAKE_LFLAGS="-std=c++11 -stdlib=libc++ -mmacosx-version-min=10.10" CONFIG+=sqlcipher
