@@ -11,14 +11,12 @@ all of the `3.9` series code will go into this same branch.  eg 3.9.0, 3.9.1, et
 
 1. Update the "CFBundleShortVersionString", "CFBundleGetInfoString", and "CFBundleVersion" strings in `src/app.plist`.  Use the full version for these.  eg `3.9.0`
 2. In `CMakeLists.txt`, update the CPACK_PACKAGE_VERSION_MAJOR, CPACK_PACKAGE_VERSION_MINOR, and CPACK_PACKAGE_VERSION_PATCH place holder strings with the new release numbers.
-3. Update the version numbers in src/gen_version.h.
 
 
 ### In the master branch
 
 1. Update the "CFBundleShortVersionString" and "CFBundleVersion" version strings in src/app.plist.  The new version string needs to be the latest release number + .99 on the end.  eg if the new release is for version 3.9, then the master branch version of this string will be `3.9.99`.
 2. In `CMakeLists.txt`, update the CPACK_PACKAGE_VERSION_MAJOR, CPACK_PACKAGE_VERSION_MINOR, and CPACK_PACKAGE_VERSION_PATCH place holder strings with the new development version numbers. eg `3.9.99`
-3. Update the version numbers in src/gen_version.h to reflect the new development version. eg `3.9.99`
 
 ## Translation strings?
 
