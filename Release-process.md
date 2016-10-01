@@ -1,3 +1,17 @@
+## Update translation strings
+
+**Try to do this step a few days before the release, so translators have time!**
+
+* Update the .ts files under src/translations, then commit them to the release branch:
+
+    $ lupdate src/src.pro
+    $ git add src/translations/*.ts
+    $ git commit
+
+* Notify the translators of the new strings + the tentative release date.
+
+
+
 ## Update application version numbers (and commit + push the changes)
 
 Create a new branch in git, based upon the new release version:
@@ -17,10 +31,6 @@ all of the `3.9` series code will go into this same branch.  eg 3.9.0, 3.9.1, et
 
 1. Update the "CFBundleShortVersionString" and "CFBundleVersion" version strings in src/app.plist.  The new version string needs to be the latest release number + .99 on the end.  eg if the new release is for version 3.9, then the master branch version of this string will be `3.9.99`.
 2. In `CMakeLists.txt`, update the CPACK_PACKAGE_VERSION_MAJOR, CPACK_PACKAGE_VERSION_MINOR, and CPACK_PACKAGE_VERSION_PATCH place holder strings with the new development version numbers. eg `3.9.99`
-
-## Translation strings?
-
-* Is there anything we need to do for the translated strings?
 
 ## Build the application
 
