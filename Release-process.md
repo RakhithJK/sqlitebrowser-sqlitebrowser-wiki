@@ -4,12 +4,13 @@
 
 * Update the .ts files under src/translations, then commit them to the release branch:
 
-    $ lupdate src/src.pro
-    $ git add src/translations/*.ts
-    $ git commit
+```
+$ lupdate src/src.pro
+$ git add src/translations/*.ts
+$ git commit
+```
 
 * Notify the translators of the new strings + the tentative release date.
-
 
 
 ## Update application version numbers (and commit + push the changes)
