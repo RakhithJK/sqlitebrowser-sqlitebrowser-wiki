@@ -1,3 +1,5 @@
+## Silent installation on Windows
+
 DB Browser for SQLite can be installed in "silent mode" on Windows, for easier deployment to multiple PC's.
 
 This is done by passing `/S` to the installer on the command line:
