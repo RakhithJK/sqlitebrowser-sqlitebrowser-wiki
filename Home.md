@@ -14,6 +14,7 @@ Pages so far:
 * [Using Regular Expressions](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Regular-Expressions) - How to use Regular Expressions for powerful queries
 * [Windows File Associations](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Windows-File-Associations) - Making Windows file associations
 * [Encrypted Databases](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Encrypted-Databases) - working with Encrypted Databases
+* [Silent mode installation on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Silent-Mode-installation-on-Windows) - How to install DB4S silently on Windows.  Useful for easy deployment
 
 ### For Developers
 * [Our Release Process](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Release-process) - Checklist / steps to follow when creating new DB Browser for SQLite releases
