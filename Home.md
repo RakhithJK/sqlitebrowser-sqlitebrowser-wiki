@@ -23,6 +23,7 @@ Pages so far:
 * [Compiling SQLCipher on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Compiling-SQLCipher) - How to compile SQLCipher on Windows
 * [Notes for compiling on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-compiling-on-Windows) - Presently being developed.  Assistance is very welcome.
 * [Notes for compiling on OSX](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-setting-up-your-build-environment-on-OSX) - Presently being developed too.  Assistance is very welcome. :grinning:
+* [Source code highlights](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Source-code-highlights) - Work in progress. Overview of parts of the codebase.
 
 ### Other
 
