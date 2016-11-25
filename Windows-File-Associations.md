@@ -2,13 +2,13 @@ When installing the Windows 64-bit version on top of a previous 32 bit version, 
 associations may not work.
 The registry key
 
-'''
- HKEY_CLASSES_ROOT\Applications\sqlitebrowser3.exe\shell\open\command
-'''
+`HKEY_CLASSES_ROOT\Applications\sqlitebrowser3.exe\shell\open\command`
 
-needs to be changed from "C:\Program Files (x86)..." to "C:\Program Files..."
+needs to be changed from `"C:\Program Files (x86)..."` to `"C:\Program Files..."`
 
 You can then set up file associations as usual.
+
+Note: On Windows 10 the registry key is located in `HKEY_CLASSES_ROOT\Applications\sqlite_auto_file\shell\open\command` instead.
 
 ---
 
@@ -18,7 +18,10 @@ file associations, or remove + recreate them.
 
 @chrisjlocke made a screencast showing how.  Download it [here](http://chrisjlocke.co.uk/wp-content/uploads/2016/08/31_0750.mp4).  (It should play fine in any video player - eg VLC).
 
+---
+
 Issues referencing this:
 
 * https://github.com/sqlitebrowser/sqlitebrowser/issues/279
 * https://github.com/sqlitebrowser/sqlitebrowser/issues/745
+* https://github.com/sqlitebrowser/sqlitebrowser/issues/882
