@@ -2,7 +2,7 @@ These are some rough notes, prior to making a full document.
 
 ## Qt
 
-We removed support for Qt4 after our vesrion 3.9.1 release.  We now require Qt5
+We removed support for Qt4 after our version 3.9.1 release.  We now require Qt5
 instead.
 
 An easy way to install it is through Homebrew:
@@ -30,6 +30,6 @@ with `-debug-and-release` so debugging information gets kept.
 
 It's also useful to use more than one thread when compiling.  Do that by adding a
 `-j` option to the `make` command line.  eg `make -j6` to compile with 6 threads in
-parallel.  This speeds up Qt compile time significantly.  6 threads is fine for a
-quad core cpu, use more threads (or less) depending on how many cores you have in
+parallel.  This speeds up Qt compile time significantly.  6 threads are fine for a
+quad core CPU, use more threads (or less) depending on how many cores you have in
 your system.
