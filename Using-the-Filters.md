@@ -33,7 +33,7 @@ Operator | Description         | Notes
 <        | Less than           | 
 >=       | Equal to or greater | 
 <=       | Equal to or less    | 
-=        | Equal to            | Unlike the default behaviour this performs an 100% exact search, i.e. not case-independent and '%' characters not treated as wild cards but as normal characters.
+=        | Equal to            | Unlike the default behaviour this performs an 100% exact search, i.e. case-dependent and '%' characters not treated as wild cards but as normal characters.
 <>       | Unequal             | This is the opposite of the '=' operator, that is no wild cards allowed and case-dependent search.
 
 ## A look behind the scenes
