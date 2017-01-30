@@ -14,7 +14,7 @@ Say, you want to search for those records where Field2 contains 'b'. In this cas
 
 To search for 'b' exactly, type '=b'.
 
-![](http://www.chrisjlocke.co.uk/wp-content/uploads/2017/01/30_0937.jpg)
+![](http://www.chrisjlocke.co.uk/wp-content/uploads/2017/01/30_1024.jpg)
 
 Typing '%' can be used as a wild card. 'b%' searches for records starting with 'b', '%b' searches for records ending in 'b' and '%b%' searches for records containing a 'b' at any position. You are free to use as many '%' wild cards as you wish and in any combination. Here's an example:
 
