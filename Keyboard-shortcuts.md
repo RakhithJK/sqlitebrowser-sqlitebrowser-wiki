@@ -1,5 +1,5 @@
 ## Abstract
-This Wiki page aims at listing the more 'hidden' keyboard shortcuts. By this I mean those shortcuts that aren't obviously visible in the menus (e.g. ```Ctrl+N``` for a new database), that aren't ```Alt``` shortcuts (e.g. ```Alt+E``` for clicking the button with the underlined E), and that aren't typical for all GUI application (e.g. ```Tab``` for changing focus).
+This Wiki page aims at listing the more 'hidden' keyboard shortcuts. By this I mean those shortcuts that aren't obviously visible in the menus (e.g. ```Ctrl+N``` for a new database), that aren't simply ```Alt``` accelerators (e.g. ```Alt+E``` for clicking the button with the underlined E), and that aren't typical for all GUI application (e.g. ```Tab``` for changing focus).
 
 ## Main window
 
