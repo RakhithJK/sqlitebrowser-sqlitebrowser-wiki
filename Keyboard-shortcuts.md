@@ -25,6 +25,7 @@ This Wiki page aims at listing the more 'hidden' keyboard shortcuts. By this I m
 #### Execute SQL tab
 * ```Ctrl + Return``` executes the SQL commands.
 * ```Ctrl + R``` and ```F5``` execute the SQL commands.
+* ```Shift + F5``` executes the SQL commands on the current line only.
 
 ## Edit dialog and edit pane
 * ```Ctrl + Return``` clicks the Apply button.
