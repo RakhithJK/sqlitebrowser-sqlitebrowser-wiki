@@ -1,8 +1,8 @@
 Welcome to the DB Browser for SQLite wiki!
 
-See <http://sqlitebrowser.org/> for the full history, background and an overview.
+See <http://sqlitebrowser.org> for the full history, background and an overview.
 
-There is information on SQLite itself at <http://www.sqlite.org/>, which includes the official language overview.
+There is information on SQLite itself at <http://www.sqlite.org>, which includes the official language overview.
 
 Please feel welcome to create or update anything (related to the project) here. :smile:
 
