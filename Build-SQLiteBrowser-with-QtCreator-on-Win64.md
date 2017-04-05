@@ -1,21 +1,43 @@
-Tools :   Windows10 64bit, Visual C++ Build Tools 2015,Qt 5.6 with Qt Creator    
+## Tools
 
-0 Note for folder structure:    
-      /dev/SQLite    
-     /git_repos/sqlitebrowser/    
-     /git_repos/sqlitebrowser/src   
-     /git_repos/sqlitebrowser/libs    
-     .....
+* Windows 8.1/10 64bit
+* Visual C++ Build Tools 2015
+* Qt 5.6 with Qt Creator
+
+### 0. Note for folder structure
+
+```
+/dev/SQLite    
+/git_repos/sqlitebrowser/    
+/git_repos/sqlitebrowser/src   
+/git_repos/sqlitebrowser/libs    
+...
+```
    
-1 Download the source package with git client or by "download zip"
-  * The "download zip" is a good idea.  Do you reckon we should add a note for that to the MSVC2013 page?
+### 1. Download the source package
 
-2 Download and install SQLite as https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-%E2%80%94-Step-8-%E2%80%94-Install-SQLite    
+Use either a git client or by "download zip" on the GitHub project page
 
-3 Open the src/src.pro file first, run lupdate, then lrelease    
+### 2. Download and install SQLite
 
-4 After doing the above, close the src/src.pro file, then open the sqlitebrowser.pro one   
+As per https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-8-—-Install-SQLite
+
+### 3. Update the translations
+
+Open the src/src.pro file first, run lupdate, then lrelease    
+
+### 4. Open the project file
+
+After doing the above, close the src/src.pro file, then open the sqlitebrowser.pro one   
 Choose the msvc 2013 64-bit kit for the project (it will ask when you open the .pro file)   
 Compile/debug as per normal
 
+## Debugging
 
+Qt on Windows doesn't provide its own debugger, so you'll need to install one yourself.
+
+One option is to install the "Windows SDK" for your version of windows, and ensure the ***Debugging Tools for Windows*** option is enabled when you're installing it.
+
+For Windows 8.1, this is the correct download URL:
+
+&nbsp; &nbsp; https://developer.microsoft.com/en-us/windows/downloads/windows-8-1-sdk
