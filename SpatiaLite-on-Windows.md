@@ -9,7 +9,7 @@ Because the `mod_spatialite` library was built as multiple DLLs, you have to mak
 
 There are 2 different ways to get it to work:
 
-1.) Add the directory containing the .dll files to your %PATH%. Windows searches %PATH% for dll files so it will be able to locate all of them. This has the side-effect of any program being able to use them.
+1.) Add the directory containing the .dll files to your `%PATH%`. Windows searches `%PATH%` for dll files so it will be able to locate all of them. This has the side-effect of any program being able to use them.
 2.) Copy the .dll files to the same directory containing `DB Browser for SQLite.exe`. e.g. `C:\Program Files\DB Browser for SQLite` or `C:\Program Files (x86)\DB Browser for SQLite` whichever version you have installed (32bit or 64bit).
 
 You will also want to make sure you use the correct x86 or x64 dll files that correspond to the version of DB4S you have.
