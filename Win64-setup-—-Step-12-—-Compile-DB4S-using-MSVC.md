@@ -18,7 +18,7 @@ Once it's started, choose "FILE" → "Open" → "Project/Solution" from the top 
 
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/12-compile_db4s/085.png)
 
-Select the `sqlitebrowser.sln` file in `C:\git_repos\sqlitebrowser`:
+Select the `DB Browser for SQLite.sln` file in `C:\git_repos\sqlitebrowser`.  Note the screenshot below is a bit old, and still shows the old name - `sqlitebrowser.sln`.  The concept is still the same through:
 
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/12-compile_db4s/086.png)
 
