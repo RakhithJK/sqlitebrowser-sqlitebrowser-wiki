@@ -5,7 +5,8 @@ $ sudo zypper install antlr3c-devel git libqscintilla-devel patterns-openSUSE-de
 $ git clone https://github.com/sqlitebrowser/sqlitebrowser
 $ cd sqlitebrowser
 $ cmake -Wno-dev .
-$ sudo cmake install
+$ make
+$ sudo make install
 ...
 Install the project...
 -- Install configuration: "Release"
@@ -15,11 +16,19 @@ Install the project...
 -- Up-to-date: /usr/local/share/appdata/sqlitebrowser.desktop.appdata.xml
 ```
 
-The resulting binary is non-functional though.  It segfaults when run:
+The resulting executable is non-functional though.  It segfaults when run:
 
 ```
 $ /usr/local/bin/sqlitebrowser
 Segmentation fault (core dumped)
 ```
 
-It's caused by one of the system provided ANTLR or QScintilla libs, as no core-dump happens when using the ones we provide.  More investigation needed.
+It's caused by the system provided QScintilla, as no core-dump happens when using the QScintilla we bundle.  Doing the compile like this leads to a working executable:
+
+```
+$ cmake -Wno-dev  -DFORCE_INTERNAL_ANTLR=OFF -DFORCE_INTERNAL_QSCINTILLA=ON
+$ make
+$ sudo make install
+```
+
+It's probably a good idea to investigate if the OpenSuSE provided "sqlitebrowser" works, and if so take a look at the build script used.
