@@ -18,7 +18,7 @@ Install the project...
 The resulting binary is non-functional though.  It segfaults when run:
 
 ```
-/usr/local/bin/sqlitebrowser
+$ /usr/local/bin/sqlitebrowser
 Segmentation fault (core dumped)
 ```
 
