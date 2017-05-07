@@ -19,6 +19,7 @@ Pages so far:
 * [Windows File Associations](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Windows-File-Associations) - Making Windows file associations
 
 ### For Developers
+* [Compiling on OpenSuSE Leap 42.2](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-compiling-on-OpenSuSE-Leap) - Simple step by step instructions to compile on Leap 42.2
 * [Compiling SQLCipher on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Compiling-SQLCipher) - How to compile SQLCipher on Windows
 * [Dev environment setup on Windows using MSVC 2013](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Setting-up-a-Win64-development-environment-for-DB4S) - How to set up a development environment for DB4S on 64-bit Windows, based on using MSVC.  Lots of screenshots.
 * [Merging Commits](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Merging-Commits) - How to merge the commits on your fork into one commit for a pull request
