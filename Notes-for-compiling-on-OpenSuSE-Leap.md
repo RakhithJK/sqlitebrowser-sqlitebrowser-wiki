@@ -32,3 +32,12 @@ $ sudo make install
 ```
 
 It's probably a good idea to investigate if the OpenSuSE provided "sqlitebrowser" works, and if so take a look at the build script used.
+
+---
+
+Looking at [frispete's build](https://build.opensuse.org/package/show/home:frispete:PyQt5/sqlitebrowser), it's using qmake instead:
+
+* https://build.opensuse.org/request/show/451660
+* https://build.opensuse.org/package/view_file/server:database/sqlitebrowser/sqlitebrowser.spec?rev=268c5483f2c9b53f835f55dc9e3be443
+
+Will investigate if that makes a difference.  (at a first guess though, it seems like frispete's build is using our bundled libs)
