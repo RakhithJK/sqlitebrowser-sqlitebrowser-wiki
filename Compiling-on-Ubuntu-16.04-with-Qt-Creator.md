@@ -31,6 +31,10 @@ $ chmod 755 qt-unified-linux-x64-2.0.5-2-online.run
 $ ./qt-unified-linux-x64-2.0.5-2-online.run
 ```
 
+Screenshots here need renaming, and turned into a useful step-by-step instruction guide:
+
+&nbsp; &nbsp; https://github.com/sqlitebrowser/db4s-screenshots/tree/master/wiki/ubuntu_16.04
+
 ### Build DB4S
 
 
