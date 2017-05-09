@@ -12,18 +12,18 @@ If you're using a different version of windows, then some things may look slight
 * [GitHub Desktop for Windows](https://desktop.github.com)
   * GitHub Desktop for Windows 7 or later
 * [Microsoft Visual Studio Community 2013 Edition Update 5](https://www.visualstudio.com/downloads/download-visual-studio-vs)
- * Click the "Visual Studio 2013" option 1/2 way down the left side → "Community 2013" → ISO
+  * Click the "Visual Studio 2013" option 1/2 way down the left side → "Community 2013" → ISO
 * [Microsoft Visual C++ Redistributable Packages for Visual Studio 2013 (x64)](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
- * Choose the "vcredist_x64.exe" option
+  * Choose the "vcredist_x64.exe" option
 * [Nullsoft Scriptable Install System](http://nsis.sourceforge.net/Download)
- * Version 3.0rc1 or later
+  * Version 3.0rc1 or later
 * [OpenSSL](https://wiki.openssl.org/index.php/Binaries)
- * From the first link (Shining Light Productions) → Win64 OpenSSL (use latest version)
+  * From the first link (Shining Light Productions) → Win64 OpenSSL (use latest version)
 * [Qt](https://www.qt.io/download-open-source)
- * Choose the Qt Online Installer for Windows
+  * Choose the Qt Online Installer for Windows
 * [SQLite](https://www.sqlite.org/download.html)
- * Under the "Source Code" heading, download the "sqlite-amalgamation" .zip file
- * Version 3.12.2 was used for this guide, but other versions will probably work without issue too
+  * Under the "Source Code" heading, download the "sqlite-amalgamation" .zip file
+  * Version 3.12.2 was used for this guide, but other versions will probably work without issue too
 
 ## Steps
 
