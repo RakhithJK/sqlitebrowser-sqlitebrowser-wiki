@@ -26,7 +26,7 @@ Clone the sqlitebrowser/sqlitebrowser git repo:
 Grab the Qt installer then run it:
 
 ```
-$ curl -OL http://www.mirrorservice.org/sites/download.qt-project.org/archive/online_installers/2.0/qt-unified-linux-x64-2.0.5-2-online.run
+$ wget http://www.mirrorservice.org/sites/download.qt-project.org/archive/online_installers/2.0/qt-unified-linux-x64-2.0.5-2-online.run
 $ chmod 755 qt-unified-linux-x64-2.0.5-2-online.run
 $ ./qt-unified-linux-x64-2.0.5-2-online.run
 ```
