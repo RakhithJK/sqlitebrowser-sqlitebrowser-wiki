@@ -1,9 +1,9 @@
 ## How to compile DB4S on Ubuntu 16.04
 
-Ubuntu 16.04.x comes with an old version of Qt (5.5), that causes some bad issues for DB Browser for SQLite:
+Ubuntu 16.04.x comes with an old version of Qt (5.5), causing some bad issues for DB Browser for SQLite:
 
-* #920
-* #1001
+* https://github.com/sqlitebrowser/sqlitebrowser/issues/920
+* https://github.com/sqlitebrowser/sqlitebrowser/issues/1001
 
 Not everyone's database experience will have these problems, but if it happens to you there is a solution.
 
