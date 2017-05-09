@@ -13,6 +13,14 @@ If you compile DB4S yourself using the steps shown below, you'll have a working 
 
     $ sudo apt install build-essential git cmake libsqlite3-dev qt5-default qttools5-dev-tools
 
+
+### Get the latest DB4S source code
+
+Clone the sqlitebrowser/sqlitebrowser git repo:
+
+    $ git clone https://github.com/sqlitebrowser/sqlitebrowser
+
+
 ### Download and install Qt 5.7 or above
 
 Grab the Qt installer then run it:
@@ -22,14 +30,6 @@ $ curl -OL http://www.mirrorservice.org/sites/download.qt-project.org/archive/on
 $ chmod 755 qt-unified-linux-x64-2.0.5-2-online.run
 $ ./qt-unified-linux-x64-2.0.5-2-online.run
 ```
-
-
-### Get the latest DB4S source code
-
-Clone the sqlitebrowser/sqlitebrowser git repo:
-
-    $ git clone https://github.com/sqlitebrowser/sqlitebrowser
-
 
 ### Build DB4S
 
