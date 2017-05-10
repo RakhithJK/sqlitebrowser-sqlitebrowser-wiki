@@ -11,7 +11,8 @@ If you compile DB4S yourself using the steps shown below, you'll have a working 
 
 ### Install the Ubuntu software needed for compiling DB4S
 
-    $ sudo apt install build-essential git cmake libsqlite3-dev qt5-default qttools5-dev-tools
+    $ sudo apt install build-essential git cmake libsqlite3-dev qt5-default \
+           qttools5-dev-tools
 
 
 ### Get the latest DB4S source code
