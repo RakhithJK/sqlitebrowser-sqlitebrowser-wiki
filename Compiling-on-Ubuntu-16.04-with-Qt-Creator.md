@@ -107,7 +107,7 @@ If all goes well, the build should finish without errors, looking somewhat like 
 
 ![Qt Creator build finished](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/ubuntu_16.04/20_qt_creator_build_complete.png)
 
-If the build process finishes with an error though, sometimes running ***Build*** → ***Build All*** again (as per the previous step) fixes the problem, and is worth trying.
+If the build process finishes with any errors though, sometimes running ***Build*** → ***Build All*** again (as per the previous step) fixes the problem, and is worth trying.
 
 ### Install DB Browser for SQLite
 
