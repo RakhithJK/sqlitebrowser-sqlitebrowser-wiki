@@ -5,9 +5,9 @@ Ubuntu 16.04.x comes with an old version of Qt (5.5), causing some bad issues fo
 * https://github.com/sqlitebrowser/sqlitebrowser/issues/920
 * https://github.com/sqlitebrowser/sqlitebrowser/issues/1001
 
-Not everyone's database experience will have these problems, but if it happens to you there is a solution.
+Not everyone will hit those problems, but if it happens to you there is a solution. :smile:
 
-If you compile DB4S yourself using the steps shown below, you'll have a working DB4S without the above known issues.
+If you compile DB4S yourself using the steps shown below, you'll have a working DB4S without the above issues.
 
 ### Install the Ubuntu software needed for compiling DB4S
 
@@ -79,11 +79,11 @@ A screen called "Configure Project" will appear.  There are three main checkboxe
 
 ![Qt Creator only enable the release build](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/ubuntu_16.04/13_qt_creator_select_release_build.png)
 
-This drops you into the "Edit" layout, with no documents open.  Click the "Projects" button in the left side to switch to the projects menu so we can made further changes:
+This drops you into the "Edit" layout, with no documents open.  Click the "Projects" tab on the left to switch to the projects layout so we can made further changes:
 
 ![Qt Creator back on edit layout](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/ubuntu_16.04/14_qt_creator_edit_layout.png)
 
-You're now in the Project layout, showing the "Build Settings".  By default, "Shadow build" is enabled.  We don't want that, so disable it:
+You're now in the Projects layout, which shows the "Build Settings" by default.  "Shadow build" will be enabled.  We don't want that, so disable it:
 
 ![Qt Creator shadow build enabled](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/ubuntu_16.04/15_qt_creator_shadow_build_enabled.png)
 
