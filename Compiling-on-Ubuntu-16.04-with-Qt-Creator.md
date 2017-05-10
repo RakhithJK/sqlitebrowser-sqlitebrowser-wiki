@@ -69,7 +69,7 @@ Qt is now installed.  Leave the "Launch Qt Creator" option enabled so it gets la
 
 ### Build DB Browser for SQLite
 
-The welcome screen for Qt Creator appears.  Click the "Open Project" button near the middle top, then browse into the "sqlitebrowser" folder, select the `sqlitebrowser.pro` file, and open it:
+The welcome screen for Qt Creator appears.  Click the "Open Project" button near the middle top, browse into the "sqlitebrowser" folder, then select the `sqlitebrowser.pro` file, and open it:
 
 ![Qt Creator welcome screen](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/ubuntu_16.04/10_qt_creator_welcome_screen.png)
 ![Qt Creator browse to sqlitebrowser folder](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/ubuntu_16.04/11_qt_creator_open_sqlitebrowser_dir.png)
