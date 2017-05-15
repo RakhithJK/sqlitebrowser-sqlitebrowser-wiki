@@ -18,8 +18,7 @@ Click the Edit button and you should see the following where you first select "U
 
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/13-install_db4s/094.png)
 
-Inside the source code git repository for DB4S, you also need to create a `deps` subdirectory,
-then copy the MSVC 2013 redistributable file (vcredist_x64.exe) in there:
+Create a 'C:\dev\dependencies' directory, and copy the MSVC 2013 redistributable file (vcredist_x64.exe) in there:
 
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/13-install_db4s/095.png)
 
@@ -27,9 +26,9 @@ then copy the MSVC 2013 redistributable file (vcredist_x64.exe) in there:
 
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/13-install_db4s/097.png)
 
-![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/13-install_db4s/098.png)
+![xyz](http://i.imgur.com/xbDlRZ7.png)
 
-![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/13-install_db4s/099.png)
+![xyz](http://i.imgur.com/plJZ6Mt.png)
 
 Select "INSTALL" in the solution explorer pane on the right:
 
