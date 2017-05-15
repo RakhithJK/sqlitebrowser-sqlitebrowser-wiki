@@ -4,11 +4,11 @@
 
 In this step, we create a directory structure to hold the SQLite source code and libraries.
 
-Create `C:\dev\SQLite`:
+Create `C:\dev\SQLite-Win64`:
 
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/08-install_sqlite/050.png)
 
-![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/08-install_sqlite/051.png)
+![SQLite-Win64](http://i.imgur.com/wgwqfk7.png)
 
 Next, copy the contents of the sqlite-amalgamation .zip file (from the SQLite website) into it:
 
