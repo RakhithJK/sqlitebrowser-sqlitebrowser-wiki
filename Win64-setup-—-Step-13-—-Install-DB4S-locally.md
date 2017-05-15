@@ -20,9 +20,7 @@ Click the Edit button and you should see the following where you first select "U
 
 Create a 'C:\dev\dependencies' directory, and copy the MSVC 2013 redistributable file (vcredist_x64.exe) in there:
 
-![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/13-install_db4s/095.png)
-
-![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/13-install_db4s/096.png)
+![xyz](http://i.imgur.com/1fW5VBd.png)
 
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/13-install_db4s/097.png)
 
