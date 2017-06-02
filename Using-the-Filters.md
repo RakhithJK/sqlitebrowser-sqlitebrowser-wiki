@@ -31,14 +31,14 @@ For a full list of supported operators see the table below. You can also combine
 ## Supported operators
 There are no default comparison operators used.  When filtering for both numbers and text, wild cards ('%') are allowed. The supported operators are:
 
-Operator | Description         | Notes
----------|---------------------|------
->        | Greater than        | 
-<        | Less than           | 
->=       | Equal to or greater | 
-<=       | Equal to or less    | 
-=        | Equal to            | Unlike the default behaviour this performs an 100% exact search, i.e. case-dependent and '%' characters not treated as wild cards but as normal characters.
-<>       | Unequal             | This is the opposite of the '=' operator, that is no wild cards allowed and case-dependent search.
+|Operator | Description         | Notes
+|---------|---------------------|------
+|>        | Greater than        | 
+|<        | Less than           | 
+|>=       | Equal to or greater | 
+|<=       | Equal to or less    | 
+|=        | Equal to            | Unlike the default behaviour this performs an 100% exact search, i.e. case-dependent and |'%' characters not treated as wild cards but as normal characters.
+|<>       | Unequal             | This is the opposite of the '=' operator, that is no wild cards allowed and case-dependent search.
 
 ## Range Operators
 When filtering for numbers, a range operator can be specified by using the ~ operator, for example, if filtering for 1 to 5, type '1~5':
