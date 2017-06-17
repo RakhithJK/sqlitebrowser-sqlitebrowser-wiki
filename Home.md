@@ -19,6 +19,7 @@ Pages so far:
 * [Using Filters](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Using-the-Filters) - How to use the Filters in the Browse Data tab
 * [Using Regular Expressions](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Regular-Expressions) - How to use Regular Expressions for powerful queries
 * [Windows File Associations](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Windows-File-Associations) - Making Windows file associations
+* [Providing debug information](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Debugging-a-crash-on-Windows) - Providing debug information for application crashes
 
 ### For Developers
 * [Compiling on OpenSuSE](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-compiling-on-OpenSuSE) - Simple instructions for compiling on OpenSuSE Leap 42.2 and Tumbleweed
