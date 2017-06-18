@@ -13,13 +13,13 @@ Pages so far:
 * [Encrypted Databases](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Encrypted-Databases) - How to use Encrypted Databases
 * [Keyboard shortcuts](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Keyboard-shortcuts) - The keyboard shortcuts present in DB4S
 * [Licensing](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Licensing) - How our licenses work
+* [Providing debug information](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Debugging-a-crash-on-Windows) - How to gather useful debugging information for reporting DB4S crashes
 * [Resizing Columns](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Resizing-Columns) - How to resize all of the columns in a table at the same time
 * [Silent mode installation on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Silent-Mode-installation-on-Windows) - How to install DB4S silently on Windows.  Useful for easy deployment
 * [[SpatiaLite on Windows]] - The steps needed for installing the SpatiaLite extension to SQLite, on Windows
 * [Using Filters](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Using-the-Filters) - How to use the Filters in the Browse Data tab
 * [Using Regular Expressions](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Regular-Expressions) - How to use Regular Expressions for powerful queries
 * [Windows File Associations](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Windows-File-Associations) - Making Windows file associations
-* [Providing debug information](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Debugging-a-crash-on-Windows) - Providing debug information for application crashes
 
 ### For Developers
 * [Compiling on OpenSuSE](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-compiling-on-OpenSuSE) - Simple instructions for compiling on OpenSuSE Leap 42.2 and Tumbleweed
