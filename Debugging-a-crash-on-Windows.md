@@ -16,7 +16,9 @@ As soon as the installation has finished you should have a new item in your Star
 
 ### Debugging DB4S
 
-If you want to debug DB4S you'll need to start it through WinDbg. In order to do this, start WinDbg by clicking the new Start menu item. Now open the ```File``` menu and click ```Open executable```. In the dialog navigate to the DB4S application directory and open the ```DB Browser for SQLite.exe``` file. Now DB4S should start and run.
+If you want to debug DB4S you'll need to start it through WinDbg. In order to do this, start WinDbg by clicking the new Start menu item. Now open the ```File``` menu and click ```Open executable```. In the dialog navigate to the DB4S application directory and open the ```DB Browser for SQLite.exe``` file.
+
+A couple of messages should appear in the window. As soon as it has stopped the application has been loaded and is ready for debugging. If this is the case open the ```Debug``` menu and click ```Go```. Now DB4S should start and run.
 
 Use the DB4S instance as normal and try to reproduce the crash. This should work as before. As soon as DB4S crashes, WinDbg should print some messages.
 
