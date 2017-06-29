@@ -41,6 +41,9 @@ There are no default comparison operators used.  When filtering for both numbers
 |<>       | Unequal             | This is the opposite of the '=' operator, that is no wild cards allowed and case-dependent search.
 
 ## Range Operators
+
+**NOTE** - Range operators were added to DB4S on the [27th Jan 2017](https://github.com/sqlitebrowser/sqlitebrowser/commit/a75f2dac1100c98b387ee5378bcd460b159a02c7), so aren't in the releases prior to that (for exampe not in 3.9.1).  You'll need to grab either a release or [nightly build](nightlies.sqlitebrowser.org/latest) after that.
+
 When filtering for numbers, a range operator can be specified by using the ~ operator, for example, if filtering for 1 to 5, type '1~5':
 
 ![](http://www.chrisjlocke.co.uk/wp-content/uploads/2017/01/30_1002.jpg)
