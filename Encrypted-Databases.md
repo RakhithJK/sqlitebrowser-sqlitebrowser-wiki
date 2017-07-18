@@ -22,7 +22,8 @@ SQLCipher has broad platform support for with C/C++, Obj-C, QT, Win32/.NET, Java
 
 As a rule of thumb, most users will probably use a normal passphrase.
 
-    e.g. if they want to encrypt a database that keeps track of their weight, exercising times or whatever
+    e.g. if they want to encrypt a database that keeps track of their weight, exercise
+         times or whatever
 
 Applications and libraries might prefer using raw keys for their data.
 
