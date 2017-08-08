@@ -13,7 +13,7 @@ If you're using a different version of windows, then some things may look slight
   * GitHub Desktop for Windows 7 or later
 * [Microsoft Visual Studio Community 2013 Edition Update 5](https://www.visualstudio.com/downloads/download-visual-studio-vs)
   * Click the "Visual Studio 2013" option 1/2 way down the left side → "Community 2013" → ISO
-* [Microsoft Visual C++ Redistributable Packages for Visual Studio 2013 (x64)](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
+* The latest [Microsoft Visual C++ Redistributable Packages for Visual Studio 2013 (x64)](https://support.microsoft.com/en-us/help/3138367/update-for-visual-c-2013-and-visual-c-redistributable-package)
   * Choose the "vcredist_x64.exe" option
 * [Nullsoft Scriptable Install System](http://nsis.sourceforge.net/Download)
   * Version 3.0rc1 or later
