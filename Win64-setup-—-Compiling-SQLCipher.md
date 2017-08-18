@@ -3,13 +3,13 @@
 ### Requirements
 
 * [ActiveState ActiveTcl 8.5 Community Edition](https://www.activestate.com/activetcl/downloads)
- * Windows (64-bit, x64)
+  * Windows (64-bit, x64)
 * [GitHub Desktop for Windows](https://desktop.github.com)
   * GitHub Desktop for Windows 7 or later
 * [Microsoft Visual Studio Community 2013 Edition Update 5](https://www.visualstudio.com/downloads/download-visual-studio-vs)
- * Click the "Visual Studio 2013" option 1/2 way down the left side → "Community 2013" → ISO
+  * Click the "Visual Studio 2013" option 1/2 way down the left side → "Community 2013" → ISO
 * [OpenSSL](https://wiki.openssl.org/index.php/Binaries)
- * From the first link (Shining Light Productions) → Win64 OpenSSL (use latest version)
+  * From the first link (Shining Light Productions) → Win64 OpenSSL (use latest version)
 
 ### 1. Install Visual Studio 2013
 
