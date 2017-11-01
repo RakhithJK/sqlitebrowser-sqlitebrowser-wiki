@@ -13,3 +13,7 @@ There are 2 different ways to get it to work:
 2. Copy the .dll files to the same directory containing `DB Browser for SQLite.exe`. e.g. `C:\Program Files\DB Browser for SQLite` or `C:\Program Files (x86)\DB Browser for SQLite` whichever version you have installed (32bit or 64bit).
 
 You will also want to make sure you use the correct x86 or x64 dll files that correspond to the version of DB4S you have.
+
+### Alternative instructions, with screenshots
+
+* [Working with Geospatial Data](http://www.fulcrumapp.com/blog/working-with-geodata/#tools-for-working-with-sqlite) - This guide by @bmcbride has a set of step-by-step instructions + screenshots showing how to install SpatiaLite.
