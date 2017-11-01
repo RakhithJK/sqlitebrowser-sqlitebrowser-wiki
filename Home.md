@@ -21,6 +21,10 @@ Pages so far:
 * [Using Regular Expressions](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Regular-Expressions) - How to use Regular Expressions for powerful queries
 * [Windows File Associations](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Windows-File-Associations) - Making Windows file associations
 
+### Videos for Users
+* [How to add JPEG images as BLOB](https://www.youtube.com/watch?v=CW739mop1Nc) - YouTube video showing how to insert JPEG/JPEG images into a data
+  * Note that this requires using a nightly build from 1st November 2017 (or later)
+
 ### For Developers
 * [Compiling on OpenSuSE](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-compiling-on-OpenSuSE) - Simple instructions for compiling on OpenSuSE Leap 42.2 and Tumbleweed
 * [Compiling on Ubuntu 16.04](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Compiling-on-Ubuntu-16.04-with-Qt-Creator) - Simple instructions for compiling on Ubuntu 16.04 using Qt Creator and the latest Qt Version
