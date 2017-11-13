@@ -17,6 +17,11 @@ View toolbar - <kbd>Ctrl</kbd>+<kbd>T</kbd>
 Refresh data (Browse Data tab) - <kbd>Ctrl</kbd>+<kbd>R</kbd>
 
 Execute SQL - <kbd>F5</kbd> / <kbd>Ctrl</kbd>+<kbd>Return</kbd>  
-Execute SQL (Current line) - <kbd>Shift</kbd>+<kbd>F5</kbd>
+Execute SQL (Current line) - <kbd>Shift</kbd>+<kbd>F5</kbd>  
+Find in SQL editor - <kbd>Ctrl</kbd>+<kbd>F</kbd>  
+Find next - <kbd>Return</kbd> / <kbd>F3</kbd>  
+Find previous - <kbd>Shift</kbd>+<kbd>F3</kbd>  
+Zoom in - <kbd>Ctrl</kbd>+<kbd>KP +</kbd>  
+Zoom out - <kbd>Ctrl</kbd>+<kbd>KP -</kbd>  
 
 **Note**: macOS uses <kbd>cmd</kbd> instead of <kbd>Ctrl</kbd>
