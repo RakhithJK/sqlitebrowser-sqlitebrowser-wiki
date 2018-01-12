@@ -39,4 +39,9 @@ Pages so far:
 
 ### Other
 
+* Our nightly build scripts
+  * [MacOS X / OSX](https://gist.github.com/justinclift/59e2c975100c5cd647d773bc797312f0)
+  * [Ubuntu](https://github.com/deepsidhu1313/db4s-build-ppa-packages)
+  * [Windows](https://gist.github.com/justinclift/11cc926f214e882c8162f97c53929c07)
+
 * [Wiki History](https://github.com/sqlitebrowser/sqlitebrowser/wiki/_history) - See change history for the full wiki
