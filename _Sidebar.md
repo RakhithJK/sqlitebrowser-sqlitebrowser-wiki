@@ -1,4 +1,4 @@
-[[images/db4s.ico]]
+[[images/db4s.ico|align=center]]
 
 **Getting Started**
 - [[Release process]]
