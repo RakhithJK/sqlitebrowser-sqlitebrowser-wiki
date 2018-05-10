@@ -6,7 +6,7 @@ This section provides some examples for people not familiar with SQL.
 
 Consider the following table:
 
-![](filter1.png)
+[[images/filter1.png]]
 
 Say, you want to filter for those records where Field2 contains 'b'. In this case all you need to do is type 'b' in the column's filter:
 
@@ -18,15 +18,15 @@ To filter for 'b' exactly, type '=b'.
 
 Typing '%' can be used as a wild card. 'b%' filters for records starting with 'b', '%b' filters for records ending in 'b' and '%b%' filters for records containing a 'b' at any position (this is the default filter option). You are free to use as many '%' wild cards as you wish and in any combination. Here's an example:
 
-![](filter3.png)
+[[images/filter3.png]]
 
 By default, we perform a 'containing' filter for numbers and a 'containing' (but non case sensitive) filter for text. You can override this behaviour by specifying a comparison operator. You can do so by adding one of the supported operators at the beginning of your query. Have a look at this example where we filter for those records with a value greater than one in Field3:
 
-![](filter4.png)
+[[images/filter4.png]]
 
 For a full list of supported operators see the table below. You can also combine multiple filters by just using two or more input fields. By doing so a record must meet all criteria to be still shown:
 
-![](filter5.png)
+[[images/filter5.png]]
 
 ## Supported operators
 There are no default comparison operators used.  When filtering for both numbers and text, wild cards ('%') are allowed. The supported operators are:
