@@ -1,3 +1,5 @@
+![Database Browser for SQLite](https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/src/iconwin.ico)
+
 **Getting Started**
 - [[Release process]]
 - [[Licensing]]
