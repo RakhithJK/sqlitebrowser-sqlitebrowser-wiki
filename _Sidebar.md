@@ -1,4 +1,4 @@
-![Database Browser for SQLite](https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/src/iconwin.ico)
+[[images/db4s.ico]]
 
 **Getting Started**
 - [[Release process]]
