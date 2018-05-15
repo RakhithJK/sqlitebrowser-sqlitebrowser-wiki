@@ -1,5 +1,7 @@
 ### Previous step [here](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-4-—-Install-OpenSSL).
 
+> NOTE: CMake 3.11 and higher will not work. (see [#1361](https://github.com/sqlitebrowser/sqlitebrowser/issues/1361))
+
 ## 5. Install CMake
 
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/05-install_cmake/022.png)
