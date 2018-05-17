@@ -1,7 +1,6 @@
-[[images/db4s.ico|align=center]]
+[[images/db4s.ico]]
 
 **Getting Started**
-- [[Release process]]
 - [[Licensing]]
 
 **For Users**
@@ -17,6 +16,7 @@
   - [[SpatiaLite| SpatiaLite on Windows]]
 
 **For Developers**
+- [[Release process]]
 - [[Source code highlights]]
 - [[Merging Commits]]
 - Building on
