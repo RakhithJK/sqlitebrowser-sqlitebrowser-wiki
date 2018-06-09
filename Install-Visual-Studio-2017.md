@@ -1,3 +1,5 @@
+> Note: For Visual Studio 2013 installation instructions click [here](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-%E2%80%94-Step-2-%E2%80%94-Install-MSVC2013).
+
 # Install Visual Studio 2017
 
 Starting with Visual Studio 2017 Microsoft [no longer provides .iso images](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio) for Visual Studio. Instead, they offer a web installer that can be used to install Visual Studio or create a [local cache](https://docs.microsoft.com/en-us/visualstudio/install/install-vs-inconsistent-quality-network) (called layout) of the installation for later use.
