@@ -30,7 +30,7 @@ Pages so far:
 * [Compiling on Ubuntu 16.04](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Compiling-on-Ubuntu-16.04-with-Qt-Creator) - Simple instructions for compiling on Ubuntu 16.04 using Qt Creator and the latest Qt Version
 * [Compiling on Ubuntu to use a pre-installed version of SQLite](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Compiling-DB4S-on-Ubuntu-To-Use-A-Pre-Installed-Version-of-SQLite)
 * [Compiling SQLCipher on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Compiling-SQLCipher) - How to compile SQLCipher on Windows
-* [Dev environment setup on Windows using MSVC 2013](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Setting-up-a-Win64-development-environment-for-DB4S) - How to set up a development environment for DB4S on 64-bit Windows, based on using MSVC.  Lots of screenshots.
+* [Dev environment setup on Windows using MSVC 2013 or 2017](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Setting-up-a-Win64-development-environment-for-DB4S) - How to set up a development environment for DB4S on 64-bit Windows, based on using MSVC.  Lots of screenshots.
 * [Merging Commits](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Merging-Commits) - How to merge the commits on your fork into one commit for a pull request
 * [Notes for compiling on OSX](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-setting-up-your-build-environment-on-OSX) - Presently being developed too.  Assistance is very welcome. :grinning:
 * [Notes for compiling on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-compiling-on-Windows) - Presently being developed.  Assistance is very welcome.
