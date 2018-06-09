@@ -33,7 +33,7 @@ As a first step, download all of the files listed in the Requirements section (a
 
 ![Gather the requirements](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/01-install_requirements/000-installation_requirements.png)
 
-**2.** [Install Microsoft Visual Studio 2013](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-2-—-Install-MSVC2013)
+**2.** Install Microsoft [Visual Studio 2013](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-2-—-Install-MSVC2013) or [[Visual Studio 2017|Install Visual Studio 2017]]
 
 **3.** [Create dev & git_repos directories](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-3-—-Create-dev-&-git_repos-directories)
 
