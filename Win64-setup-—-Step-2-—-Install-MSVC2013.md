@@ -1,5 +1,7 @@
 ### Previous step [here](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Setting-up-a-Win64-development-environment-for-DB4S#1-gather-the-required-files).
 
+> Note: For Visual Studio 2017 installation instructions click [[here|Install Visual Studio 2017]]
+
 ## 2. Install Microsoft Visual Studio 2013
 
 To install Microsoft Visual Studio 2013, mount the .iso image.
