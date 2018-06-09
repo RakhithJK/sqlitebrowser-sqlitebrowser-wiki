@@ -6,6 +6,10 @@ Launch the VS2013 x64 Native Tool window again, change to the `C:\git_repos\sqli
 
     cmake -G "Visual Studio 12 2013 Win64" -Wno-dev
 
+If you have Visual Studio 2017 then:
+
+    cmake -G "Visual Studio 15 2017 Win64" -Wno-dev
+
 ![xyz](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/11-run_cmake/082.png)
 
 Microsoft Visual Studio 2013 will now be able to build the project.
