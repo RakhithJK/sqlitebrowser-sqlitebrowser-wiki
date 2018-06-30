@@ -48,5 +48,8 @@ When filtering for numbers, a range operator can be specified by using the ~ ope
 
 [[images/30_1002.jpg]]
 
+## "Use as filter" helper option
+For quick selection of the 'equal to' filter, you can click on any cell with the secondary mouse button and select the "Use as filter" option in order to get all the rows whose value in that column is the same as the chosen cell. Then you can modify the filter as you want.
+
 ## A look behind the scenes
 For those familiar with the SQL syntax the filters are very easy to understand. The filters are translated into the WHERE part of the SELECT statement, joined by AND operators. The default comparison operator is LIKE but can be overridden as described in the table above. We automatically detect a numeric search and omit the quote characters around the filter term in this case while adding them when filtering for text. Single quote characters are automatically escaped and can therefore safely be used in a filter query. In case of any doubt you might want to check the generated SQL statement using the SQL Log panel - just make sure it is set to showing SQL submitted by the 'Application'.
