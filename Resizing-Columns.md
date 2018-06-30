@@ -7,3 +7,5 @@ You can highlight multiple columns (they have to be adjacent, not non-adjacent c
 You can highlight all columns by clicking the square to the left of the first column.
 
 ![Resizing](http://i.imgur.com/cObTIxM.png)
+
+Once all your columns have the desired width, you can use the "Save Project" feature for saving this setting for later loading.
