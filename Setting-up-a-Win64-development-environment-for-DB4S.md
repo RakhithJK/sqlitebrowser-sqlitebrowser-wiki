@@ -2,7 +2,7 @@ These instructions are for setting up a MS Visual Studio 2013 based development 
 
 The steps and screenshots were all done in a freshly installed Windows 8.1 x64 system.
 
-If you're using a different version of windows, then some things may look slightly different, but the general approach should be the same.  Hopefully. :D
+If you're using a different version of windows, then some things may look slightly different, but the general approach should be the same.  Hopefully. :grin:
 
 ## Requirements
 
@@ -59,4 +59,4 @@ As a first step, download all of the files listed in the Requirements section (a
 
 **14.** [Create a redistributable DB4S package](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-14-—-Create-DB4S-package)
 
-When you've finished step 14, you'll have DB4S fully compiled, installed locally, and also a package for it you can distribute. :)
+When you've finished step 14, you'll have DB4S fully compiled, installed locally, and also a package for it you can distribute. :smile:
