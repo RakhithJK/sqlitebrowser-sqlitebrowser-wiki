@@ -14,6 +14,7 @@ This Wiki page aims at listing the more 'hidden' keyboard shortcuts. By this I m
 #### Browse Data tab
 * <kbd>Ctrl</kbd> + <kbd>R</kbd> and <kbd>F5</kbd> refresh the currently browsed table.
 * <kbd>Ctrl</kbd> + <kbd>"</kbd> duplicates the currently selected record.
+* <kbd>Ctrl</kbd> + <kbd>'</kbd> copies the data from the cell above the current (future version 3.11).
 * <kbd>Ctrl</kbd> + <kbd>PageUp</kbd> and <kbd>Ctrl</kbd> + <kbd>PageDown</kbd> switch the currently browsed table to the previous or the next table.
 * <kbd>Delete</kbd> and <kbd>Backspace</kbd> delete the content of the current cell(s), setting it to an empty string.
 * <kbd>Alt</kbd> + <kbd>Delete</kbd> and <kbd>Alt</kbd> + <kbd>Backspace</kbd> delete the content of the current cell(s), setting them to NULL.
