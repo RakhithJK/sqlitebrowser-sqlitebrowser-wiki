@@ -11,6 +11,7 @@ Pages so far:
 ### For Users
 
 * [Encrypted Databases](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Encrypted-Databases) - How to use Encrypted Databases
+* [[Extracting Installer Contents]] - How to extract the contents of .msi installers.  Useful for installing without Admin rights.
 * [Keyboard shortcuts](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Keyboard-shortcuts) - The keyboard shortcuts present in DB4S
 * [Licensing](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Licensing) - How our licenses work
 * [Providing debug information](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Debugging-a-crash-on-Windows) - How to gather useful debugging information for reporting DB4S crashes
