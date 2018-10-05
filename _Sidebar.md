@@ -9,7 +9,7 @@
 - [[Resizing Columns]]
 - [[Filters | Using the Filters]]
 - [[Regular Expressions]]
-- [[Display formats]]
+- [[Display Formats]]
 - Windows Users
   - [[Debugging a crash| Debugging a crash on Windows]]
   - [[File Associations| Windows File Associations]]
