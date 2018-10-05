@@ -4,11 +4,24 @@ the data is stored in format X in the database it can be shown in format
 Y in the browser. This should be useful in cases where the original
 format X is hard to read or just not useful in a particular case.
 
+
 For activating the display format you have to right-click on the header
-of a column to open a new dialog for setting the display format which
+of a column.
+
+[[images/Display-formats-step-1.png]]
+
+Select "Edit display format" to open a dialog which
 offers a (limited) list of pre-defined formats.
 
-The selected format is then applied to the display of the column.
+[[images/Display-formats-step-2.png]]
+
+Select the desired isplay format from the list.
+
+[[images/Display-formats-step-3.png]]
+
+Click OK and the selected format is then applied to the display of the column.
+
+[[images/Display-formats-step-4.png]]
 
 Some considerations have to be taken into account when using display formats:
 * Data not editable (or only via the Edit Dialog) because it isn't
