@@ -31,20 +31,17 @@ You can use the following action to interact with the plot:
 [[images/Plot-dock-5.1.png]]
 
 - Use mouse-wheel for zooming and mouse drag for changing the axis range.
-
 [[images/Plot-dock-5.png]]
 
 - Select the axes or axes labels to drag and zoom only in that orientation.
-
 [[images/Plot-dock-6.png]]
 
-Use the button with arrows in the lowest part to reload all data and reset the plot to zoom 0.
-
+- Use the button with arrows in the lowest part to reload all data and reset the plot to zoom 0.
 [[images/Plot-dock-7.png]]
 
 ## Bar charts
 
-If you select an X column of Label type you will get a bar chart using that column values as labels.
+If you select an X column of Label type you will get a bar chart using those values as labels for the bars.
 
 [[images/Plot-dock-10.png]]
 
@@ -60,7 +57,7 @@ Using the context menu you can toggle between stacked and grouped bars and activ
 You can export the plot in different image formats using the "Save current plot..." button ![Save current plot...](https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/src/icons/picture_save.png).
 
 Using the context menu you can:
-- print the plot or export it to PDF, selecting the Print option ![Print](https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/src/icons/printer.png). 
-- copy the plot as image to the system clipboard, selecting the Copy option ![Copy](https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/src/icons/page_copy.png).
+- print the plot or export it to PDF, selecting the "Print..." option ![Print](https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/src/icons/printer.png). 
+- copy the plot as image to the system clipboard, selecting the "Copy" option ![Copy](https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/src/icons/page_copy.png).
 
 [[images/Plot-dock-12.png]]
