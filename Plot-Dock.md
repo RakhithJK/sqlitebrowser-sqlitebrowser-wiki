@@ -28,20 +28,39 @@ You can select different line type and point shapes using the lists in the lowes
 You can use the following action to interact with the plot:
 
 - Click on points to select them in the plot and in the table. Ctrl+Click for selecting a range of points.
+[[images/Plot-dock-5.1.png]]
+
 - Use mouse-wheel for zooming and mouse drag for changing the axis range.
-- Select the axes or axes labels to drag and zoom only in that orientation.
 
 [[images/Plot-dock-5.png]]
 
-[[images/Plot-dock-6.png]]
-
-
-[[images/Plot-dock-6.png]]
+- Select the axes or axes labels to drag and zoom only in that orientation.
 
 [[images/Plot-dock-6.png]]
 
-[[images/Plot-dock-6.png]]
+Use the button with arrows in the lowest part to reload all data and reset the plot to zoom 0.
 
-[[images/Plot-dock-6.png]]
+[[images/Plot-dock-7.png]]
 
-[[images/Plot-dock-6.png]]
+## Bar charts
+
+If you select an X column of Label type you will get a bar chart using that column values as labels.
+
+[[images/Plot-dock-10.png]]
+
+Using the context menu you can toggle between stacked and grouped bars and activate the legend.
+
+[[images/Plot-dock-8.png]]
+
+[[images/Plot-dock-9.png]]
+
+[[images/Plot-dock-11.png]]
+
+## Export options
+You can export the plot in different image formats using the "Save current plot..." button ![Save current plot...](https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/src/icons/picture_save.png).
+
+Using the context menu you can:
+- print the plot or export it to PDF, selecting the Print option ![Print](https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/src/icons/printer.png). 
+- copy the plot as image to the system clipboard, selecting the Copy option ![Copy](https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/src/icons/page_copy.png).
+
+[[images/Plot-dock-12.png]]
