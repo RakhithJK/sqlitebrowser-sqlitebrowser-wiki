@@ -10,17 +10,22 @@ Pages so far:
 
 ### For Users
 
-* [Encrypted Databases](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Encrypted-Databases) - How to use Encrypted Databases
-* [[Extracting Installer Contents]] - How to extract the contents of .msi installers.  Useful for installing without Admin rights.
+Basic usage:
 * [Keyboard shortcuts](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Keyboard-shortcuts) - The keyboard shortcuts present in DB4S
-* [Licensing](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Licensing) - How our licenses work
-* [Providing debug information](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Debugging-a-crash-on-Windows) - How to gather useful debugging information for reporting DB4S crashes
 * [Resizing Columns](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Resizing-Columns) - How to resize all of the columns in a table at the same time
-* [Silent mode installation on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Silent-Mode-installation-on-Windows) - How to install DB4S silently on Windows.  Useful for easy deployment
-* [[SpatiaLite on Windows]] - The steps needed for installing the SpatiaLite extension to SQLite, on Windows
 * [Using Filters](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Using-the-Filters) - How to use the Filters in the Browse Data tab
 * [Using Regular Expressions](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Regular-Expressions) - How to use Regular Expressions for powerful queries
+* [[Display Formats]] - How to configure how data is displayed
+* [[Plot Dock]] - How to plot graphs using table or query data
+
+Advanced topics:
+* [Licensing](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Licensing) - How our licenses work
 * [Windows File Associations](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Windows-File-Associations) - Making Windows file associations
+* [Encrypted Databases](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Encrypted-Databases) - How to use Encrypted Databases
+* [[Extracting Installer Contents]] - How to extract the contents of .msi installers.  Useful for installing without Admin rights.
+* [Silent mode installation on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Silent-Mode-installation-on-Windows) - How to install DB4S silently on Windows.  Useful for easy deployment
+* [Providing debug information](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Debugging-a-crash-on-Windows) - How to gather useful debugging information for reporting DB4S crashes
+* [[SpatiaLite on Windows]] - The steps needed for installing the SpatiaLite extension to SQLite, on Windows
 
 ### Videos for Users
 * [How to add JPEG images as BLOB](https://www.youtube.com/watch?v=CW739mop1Nc) - YouTube video showing how to insert JPEG/JPEG images into a data
