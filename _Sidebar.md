@@ -10,6 +10,7 @@
 - [[Filters | Using the Filters]]
 - [[Regular Expressions]]
 - [[Display Formats]]
+- [[Plot Dock]]
 - Windows Users
   - [[Debugging a crash| Debugging a crash on Windows]]
   - [[File Associations| Windows File Associations]]
