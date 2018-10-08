@@ -2,7 +2,7 @@
 
 **Try to do this step a few days before the release, so translators have time!**
 
-* Update the .ts files under src/translations, then commit them to the release branch:
+* Update the .ts files under src/translations, then commit them to the master branch:
 
 ```
 $ lupdate src/src.pro
