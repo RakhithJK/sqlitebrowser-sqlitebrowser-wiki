@@ -8,7 +8,7 @@ You can get more information on SQLCipher from [https://www.zetetic.net/sqlciphe
 
 You can only encrypt an existing database, so if you want a new encrypted database you first need to create a new database file and then encrypt it.
 
-Providing you have a SQLCipher version of DB Browser for SQLite you simply need to select "Set Encryption" from the "File" menu and enter your chosen password.
+Providing you have a SQLCipher version of DB Browser for SQLite you simply need to select "Set Encryption" from the "Tools" menu and enter your chosen password.
 
 # Third Party Support
 
