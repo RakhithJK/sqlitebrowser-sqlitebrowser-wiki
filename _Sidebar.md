@@ -11,6 +11,8 @@
 - [[Regular Expressions]]
 - [[Display Formats]]
 - [[Plot Dock]]
+- [[Views]]
+- [[Projects]]
 - Windows Users
   - [[Debugging a crash| Debugging a crash on Windows]]
   - [[File Associations| Windows File Associations]]
