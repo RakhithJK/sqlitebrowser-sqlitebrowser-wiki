@@ -17,6 +17,7 @@ Basic usage:
 * [Using Regular Expressions](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Regular-Expressions) - How to use Regular Expressions for powerful queries
 * [[Display Formats]] - How to configure how data is displayed
 * [[Plot Dock]] - How to plot graphs using table or query data
+* [[Views]] - How to create them, and what they're for
 
 Advanced topics:
 * [Licensing](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Licensing) - How our licenses work
@@ -26,6 +27,7 @@ Advanced topics:
 * [Silent mode installation on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Silent-Mode-installation-on-Windows) - How to install DB4S silently on Windows.  Useful for easy deployment
 * [Providing debug information](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Debugging-a-crash-on-Windows) - How to gather useful debugging information for reporting DB4S crashes
 * [[SpatiaLite on Windows]] - The steps needed for installing the SpatiaLite extension to SQLite, on Windows
+* [[Project Files]] - Save your frequently used SQL scripts with the database ... and other options
 
 ### Videos for Users
 * [How to add JPEG images as BLOB](https://www.youtube.com/watch?v=CW739mop1Nc) - YouTube video showing how to insert JPEG/JPEG images into a data
