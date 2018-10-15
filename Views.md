@@ -15,13 +15,16 @@ The primary advantage of a view is that it always shows live data.  When you que
 
 You can create a view from the 'Execute SQL' tab, either by entering a 'CREATE VIEW' SQL statement as above, or by entering the necessary 'SELECT' statements, and clicking the 'Save as View' button in the toolbar.
 
+
 ![Save as View](https://snag.gy/gYAC5O.jpg)
 
 This doesn't save the actual results, but the SQL entered to obtain those results.  If you add additional records this will be shown in the view when it is re-queried.
 
+
 ![Save View](https://snag.gy/mU6u90.jpg)
 
 You will be asked to provide a name for the view.  This can be any descriptive name, but cannot be the same name as an existing view, table or index.
+
 
 ![Database Structure](https://snag.gy/ujEcMl.jpg)
 
@@ -46,6 +49,7 @@ Traditionally, the data in a view is 'read only', as the data can potentially be
 ![Unlocking View](https://snag.gy/3fHiN6.jpg)
 
 From the 'Browse Data' tab, and when browsing a view, right click on the column headings and select 'Unlock view editing'.
+
 
 ![Provide NAme](https://snag.gy/NPXWeG.jpg)
 
