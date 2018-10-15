@@ -14,8 +14,8 @@ The primary advantage of a view is that it always shows live data.  When you que
 # Creating A View
 
 You can create a view from the 'Execute SQL' tab, either by entering a 'CREATE VIEW' SQL statement as above, or by entering the necessary 'SELECT' statements, and clicking the 'Save as View' button in the toolbar.
- 
- 
+ ` `
+ ` `
 ![Save as View](https://snag.gy/gYAC5O.jpg)
 
 This doesn't save the actual results, but the SQL entered to obtain those results.  If you add additional records this will be shown in the view when it is re-queried.
