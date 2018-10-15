@@ -12,7 +12,7 @@
 - [[Display Formats]]
 - [[Plot Dock]]
 - [[Views]]
-- [[Projects]]
+- [[Project Files]]
 - Windows Users
   - [[Debugging a crash| Debugging a crash on Windows]]
   - [[File Associations| Windows File Associations]]
