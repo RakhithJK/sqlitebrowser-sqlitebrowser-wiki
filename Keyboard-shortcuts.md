@@ -1,6 +1,7 @@
 ## Abstract
 This Wiki page aims at listing the more 'hidden' keyboard shortcuts. By this I mean those shortcuts that aren't obviously visible in the menus (e.g. <kbd>Ctrl</kbd> + <kbd>N</kbd> for a new database), that aren't simply <kbd>Alt</kbd> accelerators (e.g. <kbd>Alt</kbd> + <kbd>E</kbd> for clicking the button with the underlined E), and that aren't typical for all GUI application (e.g. <kbd>Tab</kbd> for changing focus).
 
+Mac users have to press <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd>
 ## Main window
 
 * <kbd>Alt</kbd> + <kbd>1</kbd> switches to the Database Structure tab.
