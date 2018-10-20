@@ -28,12 +28,12 @@ The complete list of settings saved in a project file are the following (version
 * "Database Structure" tab: column widths and expanded items 
 * "Browse Data" tab:
   * Currently browsed table
-  * For each table: sort column and sort direction, Show Row Id option, encoding, X Axis in [[Plot Dock]], [[Unlock View Primary Key option|Views]].
+  * For each table: sort column and sort direction, Show Row Id option, encoding, column for X axis in [[Plot Dock]], [[Unlock View Primary Key option|Views]].
     * [[Column widths|Resizing Columns]]
     * Applied [[Filters|Using the Filters]]
     * [[Display Formats]]
     * Hidden columns
-    * Selected Y axes for [[Plot Dock]]
+    * Selected columns for Y axis for [[Plot Dock]]
 * "Execute SQL" tab: name and content of editor tabs and currently selected editor tab.
 
 The project files are written in XML and you can write them yourself, provided that you follow the same format as written by DB4S. This is a formatted example for the version 3.11:
