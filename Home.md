@@ -10,7 +10,7 @@ Pages so far:
 
 ### For Users
 
-Basic usage:
+#### Basic usage
 * [Keyboard shortcuts](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Keyboard-shortcuts) - The keyboard shortcuts present in DB4S
 * [Resizing Columns](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Resizing-Columns) - How to resize all of the columns in a table at the same time
 * [Using Filters](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Using-the-Filters) - How to use the Filters in the Browse Data tab
@@ -19,7 +19,7 @@ Basic usage:
 * [[Plot Dock]] - How to plot graphs using table or query data
 * [[Views]] - How to create them, and what they're for
 
-Advanced topics:
+#### Advanced topics
 * [Licensing](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Licensing) - How our licenses work
 * [Windows File Associations](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Windows-File-Associations) - Making Windows file associations
 * [Encrypted Databases](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Encrypted-Databases) - How to use Encrypted Databases
