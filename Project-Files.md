@@ -28,7 +28,8 @@ The complete list of settings saved in a project file are the following (version
 * "Database Structure" tab: column widths and expanded items 
 * "Browse Data" tab:
   * Currently browsed table
-  * For each table: sort columns and sort directions, Show Row Id option, encoding, column for X axis in [[Plot Dock]], [[Unlock View Primary Key option|Views]].
+  * For each table, the following attributes: Show Row Id option, encoding, column for X axis in [[Plot Dock]], [[Unlock View Primary Key option|Views]]; and the following lists of column properties:
+    * Sort columns and sort directions 
     * [[Column widths|Resizing Columns]]
     * Applied [[Filters|Using the Filters]]
     * [[Display Formats]]
