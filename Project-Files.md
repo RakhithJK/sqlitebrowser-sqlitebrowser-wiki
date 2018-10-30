@@ -28,7 +28,7 @@ The complete list of settings saved in a project file are the following (version
 * "Database Structure" tab: column widths and expanded items 
 * "Browse Data" tab:
   * Currently browsed table
-  * For each table: sort column and sort direction, Show Row Id option, encoding, column for X axis in [[Plot Dock]], [[Unlock View Primary Key option|Views]].
+  * For each table: sort columns and sort directions, Show Row Id option, encoding, column for X axis in [[Plot Dock]], [[Unlock View Primary Key option|Views]].
     * [[Column widths|Resizing Columns]]
     * Applied [[Filters|Using the Filters]]
     * [[Display Formats]]
@@ -61,7 +61,10 @@ The project files are written in XML and you can write them yourself, provided t
     <current_table name="reviews"/>
     <default_encoding codec=""/>
     <browse_table_settings>
-      <table schema="main" name="artists" sort_order_index="2" sort_order_mode="0" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="">
+      <table schema="main" name="artists" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="">
+        <sort>
+          <column index="2" mode="0"/>
+        </sort>
         <column_widths>
           <column index="2" value="243"/>
         </column_widths>
@@ -70,7 +73,10 @@ The project files are written in XML and you can write them yourself, provided t
         <hidden_columns/>
         <plot_y_axes/>
       </table>
-      <table schema="main" name="content" sort_order_index="0" sort_order_mode="0" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="">
+      <table schema="main" name="content" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="">
+        <sort>
+          <column index="0" mode="0"/>
+        </sort>
         <column_widths>
           <column index="2" value="626"/>
         </column_widths>
@@ -79,7 +85,10 @@ The project files are written in XML and you can write them yourself, provided t
         <hidden_columns/>
         <plot_y_axes/>
       </table>
-      <table schema="main" name="genres" sort_order_index="0" sort_order_mode="0" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="">
+      <table schema="main" name="genres" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="">
+        <sort>
+          <column index="0" mode="0"/>
+        </sort>
         <column_widths/>
         <filter_values>
           <column index="2" value="&lt;&gt;NULL"/>
@@ -88,7 +97,10 @@ The project files are written in XML and you can write them yourself, provided t
         <hidden_columns/>
         <plot_y_axes/>
       </table>
-      <table schema="main" name="labels" sort_order_index="0" sort_order_mode="0" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="">
+      <table schema="main" name="labels" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="">
+        <sort>
+          <column index="0" mode="0"/>
+        </sort>
         <column_widths/>
         <filter_values>
           <column index="2" value="=self-released"/>
@@ -97,7 +109,10 @@ The project files are written in XML and you can write them yourself, provided t
         <hidden_columns/>
         <plot_y_axes/>
       </table>
-      <table schema="main" name="reviews" sort_order_index="13" sort_order_mode="0" show_row_id="0" encoding="" plot_x_axis="pub_year" unlock_view_pk="">
+      <table schema="main" name="reviews" show_row_id="0" encoding="" plot_x_axis="pub_year" unlock_view_pk="">
+        <sort>
+          <column index="13" mode="0"/>
+        </sort>
         <column_widths>
           <column index="1" value="75"/>
           <column index="2" value="190"/>
@@ -118,7 +133,10 @@ The project files are written in XML and you can write them yourself, provided t
           <y_axis name="score" line_style="0" point_shape="5" colour="#004586" active="1"/>
         </plot_y_axes>
       </table>
-      <table schema="main" name="years" sort_order_index="0" sort_order_mode="0" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="">
+      <table schema="main" name="years" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="">
+        <sort>
+          <column index="0" mode="0"/>
+        </sort>
         <column_widths/>
         <filter_values/>
         <display_formats/>
