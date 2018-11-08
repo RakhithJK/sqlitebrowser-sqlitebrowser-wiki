@@ -42,7 +42,7 @@ The project files are written in XML and you can write them yourself, provided t
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <sqlb_project>
-  <db path="/home/mgr/sqlitebrowser/pitchfork.db" foreign_keys="1" case_sensitive_like="1" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/>
+  <db path="/home/mgr/sqlitebrowser/pitchfork.db" readonly="0" foreign_keys="1" case_sensitive_like="1" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/>
   <attached/>
   <window>
     <current_tab id="1"/>
