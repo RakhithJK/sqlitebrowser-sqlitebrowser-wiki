@@ -27,7 +27,7 @@ Open the Library DB read-only and browse the table loans:
 
 Open the Aquariums DB, execute the Aquariums_preload.sql file and quit:
 
-`sqlitebrowser -R -s Aquariums_preload.sql -q Aquariums.db`
+`sqlitebrowser -s Aquariums_preload.sql -q Aquariums.db`
 
 ## Settings option
 
