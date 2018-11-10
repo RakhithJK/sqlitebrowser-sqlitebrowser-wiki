@@ -28,6 +28,7 @@ Pages so far:
 * [Providing debug information](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Debugging-a-crash-on-Windows) - How to gather useful debugging information for reporting DB4S crashes
 * [[SpatiaLite on Windows]] - The steps needed for installing the SpatiaLite extension to SQLite, on Windows
 * [[Project Files]] - Save your frequently used SQL scripts with the database ... and other options
+* [[Command Line Interface]] - You can start DB4S passing some useful parameters
 
 ### Videos for Users
 * [How to add JPEG images as BLOB](https://www.youtube.com/watch?v=CW739mop1Nc) - YouTube video showing how to insert JPEG/JPEG images into a data
