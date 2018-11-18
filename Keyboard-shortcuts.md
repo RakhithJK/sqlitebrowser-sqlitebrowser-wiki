@@ -35,3 +35,75 @@ Mac users have to press <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd>
 
 ## Edit Table dialog
 * <kbd>Ctrl</kbd> + <kbd>Return</kbd> clicks the OK button.
+
+## SQL, JSON and XML editors
+Key | Command
+----|----
+Down	|	Move down one line
+Shift+Down	|	Extend selection down one line
+Alt+Shift+Down	|	Extend rectangular selection down one line
+Ctrl+Down	|	Scroll view down one line
+Up	|	Move up one line
+Shift+Up	|	Extend selection up one line
+Alt+Shift+Up	|	Extend rectangular selection up one line
+Ctrl+Up	|	Scroll view up one line
+Ctrl+]	|	Move down one paragraph
+Ctrl+Shift+]	|	Extend selection down one paragraph
+Ctrl+[	|	Move up one paragraph
+Ctrl+Shift+[	|	Extend selection up one paragraph
+Left	|	Move left one character
+Shift+Left	|	Extend selection left one character
+Alt+Shift+Left	|	Extend rectangular selection left one character
+Right	|	Move right one character
+Shift+Right	|	Extend selection right one character
+Alt+Shift+Right	|	Extend rectangular selection right one character
+Ctrl+Left	|	Move left one word
+Ctrl+Shift+Left	|	Extend selection left one word
+Ctrl+Right	|	Move right one word
+Ctrl+Shift+Right	|	Extend selection right one word
+Ctrl+\	|	Move right one word part
+Ctrl+Shift+\	|	Extend selection right one word part
+Alt+Home	|	Move to start of display line
+Home	|	Move to first visible character in document line
+Shift+Home	|	Extend selection to first visible character in document line
+Alt+Shift+Home	|	Extend rectangular selection to first visible character in document line
+End	|	Move to end of document line
+Shift+End	|	Extend selection to end of document line
+Alt+Shift+End	|	Extend rectangular selection to end of document line
+Alt+End	|	Move to end of display line
+Ctrl+Home	|	Move to start of document
+Ctrl+Shift+Home	|	Extend selection to start of document
+Ctrl+End	|	Move to end of document
+Ctrl+Shift+End	|	Extend selection to end of document
+PgUp	|	Move up one page
+Shift+PgUp	|	Extend selection up one page
+Alt+Shift+PgUp	|	Extend rectangular selection up one page
+PgDown	|	Move down one page
+Shift+PgDown	|	Extend selection down one page
+Alt+Shift+PgDown	|	Extend rectangular selection down one page
+Del	|	Delete current character
+Backspace	|	Delete previous character
+Ctrl+Backspace	|	Delete word to left
+Ctrl+Del	|	Delete word to right
+Ctrl+Shift+Backspace	|	Delete line to left
+Ctrl+Shift+Del	|	Delete line to right
+Ctrl+Shift+L	|	Delete current line
+Ctrl+L	|	Cut current line
+Ctrl+Shift+T	|	Copy current line
+Ctrl+T	|	Transpose current and previous lines
+Ctrl+A	|	Select all
+Ctrl+D	|	Duplicate selection
+Ctrl+U	|	Convert selection to lower case
+Ctrl+Shift+U	|	Convert selection to upper case
+Ctrl+X	|	Cut selection
+Ctrl+C	|	Copy selection
+Ctrl+V	|	Paste
+Ins	|	Toggle insert/overtype
+Return	|	Insert newline
+Tab	|	Indent one level
+Shift+Tab	|	De-indent one level
+Esc	|	Cancel
+Ctrl+Z	|	Undo last command
+Ctrl+Y	|	Redo last command
+Ctrl++	|	Zoom in
+Ctrl+-	|	Zoom out
