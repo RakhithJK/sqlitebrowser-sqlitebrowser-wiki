@@ -39,71 +39,71 @@ Mac users have to press <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd>
 ## SQL, JSON and XML editors
 Key | Command
 ----|----
-Down	|	Move down one line
-Shift+Down	|	Extend selection down one line
-Alt+Shift+Down	|	Extend rectangular selection down one line
-Ctrl+Down	|	Scroll view down one line
-Up	|	Move up one line
-Shift+Up	|	Extend selection up one line
-Alt+Shift+Up	|	Extend rectangular selection up one line
-Ctrl+Up	|	Scroll view up one line
-Ctrl+]	|	Move down one paragraph
-Ctrl+Shift+]	|	Extend selection down one paragraph
-Ctrl+[	|	Move up one paragraph
-Ctrl+Shift+[	|	Extend selection up one paragraph
-Left	|	Move left one character
-Shift+Left	|	Extend selection left one character
-Alt+Shift+Left	|	Extend rectangular selection left one character
-Right	|	Move right one character
-Shift+Right	|	Extend selection right one character
-Alt+Shift+Right	|	Extend rectangular selection right one character
-Ctrl+Left	|	Move left one word
-Ctrl+Shift+Left	|	Extend selection left one word
-Ctrl+Right	|	Move right one word
-Ctrl+Shift+Right	|	Extend selection right one word
-Ctrl+\	|	Move right one word part
-Ctrl+Shift+\	|	Extend selection right one word part
-Alt+Home	|	Move to start of display line
-Home	|	Move to first visible character in document line
-Shift+Home	|	Extend selection to first visible character in document line
-Alt+Shift+Home	|	Extend rectangular selection to first visible character in document line
-End	|	Move to end of document line
-Shift+End	|	Extend selection to end of document line
-Alt+Shift+End	|	Extend rectangular selection to end of document line
-Alt+End	|	Move to end of display line
-Ctrl+Home	|	Move to start of document
-Ctrl+Shift+Home	|	Extend selection to start of document
-Ctrl+End	|	Move to end of document
-Ctrl+Shift+End	|	Extend selection to end of document
-PgUp	|	Move up one page
-Shift+PgUp	|	Extend selection up one page
-Alt+Shift+PgUp	|	Extend rectangular selection up one page
-PgDown	|	Move down one page
-Shift+PgDown	|	Extend selection down one page
-Alt+Shift+PgDown	|	Extend rectangular selection down one page
-Del	|	Delete current character
-Backspace	|	Delete previous character
-Ctrl+Backspace	|	Delete word to left
-Ctrl+Del	|	Delete word to right
-Ctrl+Shift+Backspace	|	Delete line to left
-Ctrl+Shift+Del	|	Delete line to right
-Ctrl+Shift+L	|	Delete current line
-Ctrl+L	|	Cut current line
-Ctrl+Shift+T	|	Copy current line
-Ctrl+T	|	Transpose current and previous lines
-Ctrl+A	|	Select all
-Ctrl+D	|	Duplicate selection
-Ctrl+U	|	Convert selection to lower case
-Ctrl+Shift+U	|	Convert selection to upper case
-Ctrl+X	|	Cut selection
-Ctrl+C	|	Copy selection
-Ctrl+V	|	Paste
-Ins	|	Toggle insert/overtype
-Return	|	Insert newline
-Tab	|	Indent one level
-Shift+Tab	|	De-indent one level
-Esc	|	Cancel
-Ctrl+Z	|	Undo last command
-Ctrl+Y	|	Redo last command
-Ctrl++	|	Zoom in
-Ctrl+-	|	Zoom out
+<kbd>Down</kbd>	|	Move down one line
+<kbd>Shift</kbd>+<kbd>Down</kbd>	|	Extend selection down one line
+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Down</kbd>	|	Extend rectangular selection down one line
+<kbd>Ctrl</kbd>+<kbd>Down</kbd>	|	Scroll view down one line
+<kbd>Up</kbd>	|	Move up one line
+<kbd>Shift</kbd>+<kbd>Up</kbd>	|	Extend selection up one line
+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Up</kbd>	|	Extend rectangular selection up one line
+<kbd>Ctrl</kbd>+<kbd>Up</kbd>	|	Scroll view up one line
+<kbd>Ctrl</kbd>+<kbd>]</kbd>	|	Move down one paragraph
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>]</kbd>	|	Extend selection down one paragraph
+<kbd>Ctrl</kbd>+<kbd>[</kbd>	|	Move up one paragraph
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>[</kbd>	|	Extend selection up one paragraph
+<kbd>Left</kbd>	|	Move left one character
+<kbd>Shift</kbd>+<kbd>Left</kbd>	|	Extend selection left one character
+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Left</kbd>	|	Extend rectangular selection left one character
+<kbd>Right</kbd>	|	Move right one character
+<kbd>Shift</kbd>+<kbd>Right</kbd>	|	Extend selection right one character
+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Right</kbd>	|	Extend rectangular selection right one character
+<kbd>Ctrl</kbd>+<kbd>Left</kbd>	|	Move left one word
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Left</kbd>	|	Extend selection left one word
+<kbd>Ctrl</kbd>+<kbd>Right</kbd>	|	Move right one word
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Right</kbd>	|	Extend selection right one word
+<kbd>Ctrl</kbd>+<kbd>\\</kbd>		|	Move right one word part
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>\\</kbd>	|	Extend selection right one word part
+<kbd>Alt</kbd>+<kbd>Home</kbd>	|	Move to start of display line
+<kbd>Home</kbd>	|	Move to first visible character in document line
+<kbd>Shift</kbd>+<kbd>Home</kbd>	|	Extend selection to first visible character in document line
+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Home</kbd>	|	Extend rectangular selection to first visible character in document line
+<kbd>End</kbd>	|	Move to end of document line
+<kbd>Shift</kbd>+<kbd>End</kbd>	|	Extend selection to end of document line
+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>End</kbd>	|	Extend rectangular selection to end of document line
+<kbd>Alt</kbd>+<kbd>End</kbd>	|	Move to end of display line
+<kbd>Ctrl</kbd>+<kbd>Home</kbd>	|	Move to start of document
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Home</kbd>	|	Extend selection to start of document
+<kbd>Ctrl</kbd>+<kbd>End</kbd>	|	Move to end of document
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>End</kbd>	|	Extend selection to end of document
+<kbd>PgUp</kbd>	|	Move up one page
+<kbd>Shift</kbd>+<kbd>PgUp</kbd>	|	Extend selection up one page
+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>PgUp</kbd>	|	Extend rectangular selection up one page
+<kbd>PgDown</kbd>	|	Move down one page
+<kbd>Shift</kbd>+<kbd>PgDown</kbd>	|	Extend selection down one page
+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>PgDown</kbd>	|	Extend rectangular selection down one page
+<kbd>Del</kbd>	|	Delete current character
+<kbd>Backspace</kbd>	|	Delete previous character
+<kbd>Ctrl</kbd>+<kbd>Backspace</kbd>	|	Delete word to left
+<kbd>Ctrl</kbd>+<kbd>Del</kbd>	|	Delete word to right
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Backspace</kbd>	|	Delete line to left
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Del</kbd>	|	Delete line to right
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>	|	Delete current line
+<kbd>Ctrl</kbd>+<kbd>L</kbd>	|	Cut current line
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd>	|	Copy current line
+<kbd>Ctrl</kbd>+<kbd>T</kbd>	|	Transpose current and previous lines
+<kbd>Ctrl</kbd>+<kbd>A</kbd>	|	Select all
+<kbd>Ctrl</kbd>+<kbd>D</kbd>	|	Duplicate selection
+<kbd>Ctrl</kbd>+<kbd>U</kbd>	|	Convert selection to lower case
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>U</kbd>	|	Convert selection to upper case
+<kbd>Ctrl</kbd>+<kbd>X</kbd>	|	Cut selection
+<kbd>Ctrl</kbd>+<kbd>C</kbd>	|	Copy selection
+<kbd>Ctrl</kbd>+<kbd>V</kbd>	|	Paste
+<kbd>Ins</kbd>	|	Toggle insert/overtype
+<kbd>Return</kbd>	|	Insert newline
+<kbd>Tab</kbd>	|	Indent one level
+<kbd>Shift</kbd>+<kbd>Tab</kbd>	|	De-indent one level
+<kbd>Esc</kbd>	|	Cancel
+<kbd>Ctrl</kbd>+<kbd>Z</kbd>	|	Undo last command
+<kbd>Ctrl</kbd>+<kbd>Y</kbd>	|	Redo last command
+<kbd>Ctrl</kbd>+<kbd>+</kbd>	|	Zoom in
+<kbd>Ctrl</kbd>+<kbd>-</kbd>	|	Zoom out
