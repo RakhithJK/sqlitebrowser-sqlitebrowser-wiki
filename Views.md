@@ -44,7 +44,17 @@ There is no GUI currently to amend a view.  However, you can copy the create sta
 
 # Editing Data In A View
 
-Traditionally, the data in a view is 'read only', as the data can potentially be pulled from multiple tables.  As you can use one or more fields from one or more tables, when you edit a record, DB4S has no way of knowing which field in which table you are editing.  However, its possible to edit one particular table if the view contains a unique field in that table (usually the record number) to identify that record.
+Traditionally, the data in a view is 'read only', as the data can potentially be pulled from multiple tables.  As you can use one or more fields from one or more tables, when you edit a record, DB4S has no way of knowing which field in which table you are editing.  However, its possible to edit a view if you provide triggers to instruct SQLite how the insertion/deletion or update in the referenced tables must be done.
+
+Quoting from the SQLite.org page:
+
+https://www.sqlite.org/lang_createview.html
+> You cannot DELETE, INSERT, or UPDATE a view. Views are read-only in SQLite. However, in many cases you can use an INSTEAD OF trigger on the view to accomplish the same thing. 
+
+https://www.sqlite.org/lang_createtrigger.html#instead_of_trigger
+> Triggers may be created on views, as well as ordinary tables, by specifying INSTEAD OF in the CREATE TRIGGER statement. If one or more ON INSERT, ON DELETE or ON UPDATE triggers are defined on a view, then it is not an error to execute an INSERT, DELETE or UPDATE statement on the view, respectively. Instead, executing an INSERT, DELETE or UPDATE on the view causes the associated triggers to fire. The real tables underlying the view are not modified (except possibly explicitly, by a trigger program).
+
+Once you have defined the "INSTEAD OF" triggers you have to indicate DB4S which field would be used as a unique field to identify the records being edited.
 
 ![Unlocking View](https://snag.gy/3fHiN6.jpg)
 
