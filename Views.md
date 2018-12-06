@@ -3,12 +3,12 @@
 A view is a virtual table based on the result-set of an SQL query.  A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database.  You can add SQL functions, WHERE, and JOIN statements to a view and present the data as if the data were coming from one single table.
 
 ## Example VIEW Statement
-
+```sql
     CREATE VIEW view_name AS
     SELECT column1, column2, ...
     FROM table_name
     WHERE condition; 
-
+```
 The primary advantage of a view is that it always shows live data.  When you query a view, it recreates the necessary data, pulling in the data as required.  The main use of a view is incorporating data from numerous tables and viewing it as one table.  This aids debugging data enormously.
 
 # Creating A View
