@@ -13,6 +13,7 @@
 - [[Plot Dock]]
 - [[Views]]
 - [[Project Files]]
+- [[Command Line Interface]]
 - Windows Users
   - [[Debugging a crash| Debugging a crash on Windows]]
   - [[File Associations| Windows File Associations]]
