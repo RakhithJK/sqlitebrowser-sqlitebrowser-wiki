@@ -8,4 +8,4 @@ You can highlight all columns by clicking the square to the left of the first co
 
 ![Resizing](http://i.imgur.com/cObTIxM.png)
 
-Once all your columns have the desired width, you can use the "Save Project" feature for saving this setting for later loading.
+Once all your columns have the desired width, you can use the "[[Save Project|Project-Files]]" feature for saving this setting for later loading.
