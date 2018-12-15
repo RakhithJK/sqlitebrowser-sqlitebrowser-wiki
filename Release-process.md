@@ -44,6 +44,10 @@ all of the `3.9` series code will go into this same branch.  eg 3.9.0, 3.9.1, et
 
 * Install the new OSX .app from the .dmg, start it, and check the SQLite version in the About dialog.  If this isn't at least 3.8.6 then something has gone wrong and needs to be fixed.
 
+## Build an AppImage version of the release
+
+* Verify it works with a new (minimal) install on (say) CentOS 7 x64
+
 ## Add a good changelog
 
 1. Use the Milestone "closed issues" thing for the initial text
