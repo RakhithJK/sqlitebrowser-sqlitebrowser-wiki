@@ -1,5 +1,5 @@
-If a translation has been partially issued and a developer thinks that it's wrong, the following procedure should be tempted for merging:
+If a translation has been partially submitted and a developer thinks that it's wrong, the following procedure should be followed for resolving the problem:
+
 1. Contact the former translation releaser to agree on new strings.
-2.
-    - If the translator agrees, merge the two translations and commit.
-    - If the former translator doesn't answer in 15 days, proceed with the new translation and merge the two.
+  * If the former translation releaser agrees, merge the two translations and commit.
+  * If the former  translation releaser doesn't answer within 15 days, proceed with the new translation and merge the two.
