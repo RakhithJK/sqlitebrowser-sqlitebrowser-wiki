@@ -62,10 +62,11 @@ all of the `3.9` series code will go into this same branch.  eg 3.9.0, 3.9.1, et
 
 ## Update website
 
-* It's the gh-pages branch in git
-1. Update the button links for the downloadable files
-2. Add a line to the News piece (keep max of 3 lines?)
-3. Add the new release to the Releases list
+* It's the [sqlitebrowser/website](https://github.com/sqlitebrowser/website/) repo.
+  * Uses Hugo and blogdown
+1. Update the download links
+2. Add a blog entry
+3. Add the new release to the releases section on the About page
 
 ## Updates stats counters
 
