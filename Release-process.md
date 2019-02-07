@@ -37,7 +37,8 @@ all of the `3.9` series code will go into this same branch.  eg 3.9.0, 3.9.1, et
 ## Build the application
 
 * Build the application package files, and add them to the draft Release
-* Remember to sign them on both OSX and Windows
+* The .dmg file can also be signed, so do that too:
+    $ codesign --sign "${DEV_ID}" --verbose --deep --keychain "/Library/Keychains/System.keychain" DB*.dmg
 * We really need to investigate making our own PortableApp version, instead of loading the work onto John Haller
 
 ## Verify the version of SQLite being bundled
