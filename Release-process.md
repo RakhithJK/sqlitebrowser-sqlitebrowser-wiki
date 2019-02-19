@@ -68,6 +68,16 @@ all of the `3.9` series code will go into this same branch.  eg 3.9.0, 3.9.1, et
 2. Add a blog entry
 3. Add the new release to the releases section on the About page
 
+## Update packagers
+
+Email, or ping via GitHub, our packagers to let them know about the new release:
+
+* deepsidhu1313 (Ubuntu)
+* @lbartoletti (FreeBSD)
+* Arch?
+* Gentoo?
+* RHEL/Fedora?
+
 ## Updates stats counters
 
 1. Create cronjob scripts to get the daily download count for the new release binaries
