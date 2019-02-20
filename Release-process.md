@@ -68,7 +68,7 @@ all of the `3.9` series code will go into this same branch.  eg 3.9.0, 3.9.1, et
 2. Add a blog entry
 3. Add the new release to the releases section on the About page
 
-## Update packagers
+## Notify packagers
 
 Email, or ping via GitHub, our packagers to let them know about the new release:
 
