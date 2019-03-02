@@ -84,7 +84,9 @@ Email, or ping via GitHub, our packagers to let them know about the new release:
 
 ## Notify people
 
-1. Update currentrelease file in master branch
+1. Update currentrelease file
+   * In the [master branch of our GitHub repo](https://github.com/sqlitebrowser/sqlitebrowser/blob/master/currentrelease)
+   * On our [download server cluster](https://github.com/sqlitebrowser/db4s_cluster_downloader/blob/cef5ae7ffa65c1be448a55a619ff5df7a569c72f/main.go#L364)
 2. Email John Haller to let him know
 3. Send a tweet about it (retweet that from our personal accounts)
 4. Email SQLite Users &lt;sqlite-users@mailinglists.sqlite.org&gt; mailing list about the new release
