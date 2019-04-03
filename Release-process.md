@@ -93,4 +93,4 @@ Email, or ping via GitHub, our packagers to let them know about the new release:
 5. Update the MacOS X Homebrew formula, and the Homebrew Cask, for the new version
 6. Add a mention of the new release on the [SQLCipher forums](https://discuss.zetetic.net/c/sqlcipher)
 7. Do a "News" item release on our SourceForge page (but don't upload the files there)
-8. Let the maintainers of the [Chocolatey package](https://chocolatey.org/packages/sqlitebrowser) know
+8. Let the maintainers of the [Chocolatey package](https://chocolatey.org/packages/sqlitebrowser/ContactOwners) know
