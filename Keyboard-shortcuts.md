@@ -32,6 +32,8 @@ Mac users have to press <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd>
 ## Edit dialog and edit pane
 * <kbd>Ctrl</kbd> + <kbd>Return</kbd> clicks the Apply button.
 * <kbd>Insert</kbd> toggles overwrite mode in both text editor and hex editor.
+* <kbd>Ctrl</kbd> + <kbd>F</kbd> Opens the Find dialog (future version 3.12).
+* <kbd>Ctrl</kbd> + <kbd>H</kbd> Opens the Find/Replace dialog (future version 3.12).
 
 ## Edit Table dialog
 * <kbd>Ctrl</kbd> + <kbd>Return</kbd> clicks the OK button.
@@ -107,3 +109,5 @@ Key | Command
 <kbd>Ctrl</kbd>+<kbd>Y</kbd>	|	Redo last command
 <kbd>Ctrl</kbd>+<kbd>+</kbd>	|	Zoom in
 <kbd>Ctrl</kbd>+<kbd>-</kbd>	|	Zoom out
+<kbd>Ctrl</kbd> + <kbd>F</kbd>	|	Open the Find dialog (future version 3.12) or the search bar in the Execute SQL editors
+<kbd>Ctrl</kbd> + <kbd>H</kbd>	|	Open the Find/Replace dialog
