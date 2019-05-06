@@ -16,7 +16,7 @@ You will also want to make sure you use the correct x86 or x64 dll files that co
 
 ### Alternative instructions, with screenshots
 
-* [Working with Geospatial Data](http://www.fulcrumapp.com/blog/working-with-geodata/#tools-for-working-with-sqlite) - This guide by @bmcbride has a set of step-by-step instructions + screenshots showing how to install SpatiaLite.
+* [Working with Geospatial Data](http://www.fulcrumapp.com/blog/working-with-geodata/#tools-for-working-with-sqlite) - This guide by [@bmcbride](https://github.com/bmcbride) has a set of step-by-step instructions + screenshots showing how to install SpatiaLite.
 
 ### Workaround for Windows 10 failure
 
