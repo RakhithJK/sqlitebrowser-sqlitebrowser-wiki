@@ -18,6 +18,7 @@ Pages so far:
 * [[Display Formats]] - How to configure how data is displayed
 * [[Plot Dock]] - How to plot graphs using table or query data
 * [[Views]] - How to create them, and what they're for
+* [[Transactions]] - How to commit or revert database changes
 
 #### Advanced topics
 * [Licensing](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Licensing) - How our licenses work
