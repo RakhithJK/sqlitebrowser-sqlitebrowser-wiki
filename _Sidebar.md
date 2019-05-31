@@ -14,6 +14,7 @@
 - [[Views]]
 - [[Project Files]]
 - [[Command Line Interface]]
+- [[Transactions]]
 - Windows Users
   - [[Debugging a crash| Debugging a crash on Windows]]
   - [[File Associations| Windows File Associations]]
