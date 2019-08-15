@@ -12,6 +12,7 @@ Short option | Long option | Argument | Description
   -t| --table	| [table]	|Browse this table after opening the DB
   -R| --read-only	|	|Open database in read-only mode
   -o| --option	|[group/setting=value]	|Run application with this setting temporarily set to value
+  -O| --save-option	|[group/setting=value]	|Permanently change setting to specified value before starting the application
   -v| --version	|	|Display the current version
 &nbsp;|  	| [file] |Open this SQLite database or project file
 
