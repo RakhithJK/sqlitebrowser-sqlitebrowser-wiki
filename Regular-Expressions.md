@@ -14,6 +14,16 @@ You can extend this to more complex possibilities, this is just a simple example
 
 It should be noted that the regular expression implementation used is the standard Qt regular expression engine, which is a "rich Perl-like pattern matching syntax".
 
+Unlike in other contexts where you might have used regular expressions it is not possible to pass any additional flags for case-independence, greediness etc. via the SQL statement nor via some checkboxes in the UI. Starting with DB Browser for SQLite 3.12 you can however use this modifier syntax: ```(?modifiers)pattern```, example:
+```sql
+SELECT * FROM test WHERE something REGEXP '(?i)el';
+```
+Allowed modifiers are:
+* ```i``` case insensitive
+* ```m``` multi-line mode
+* ```s``` . matches \n
+* ```U``` swap meaning of greediness modifiers
+
 Useful references:
 
 * <https://www.sqlite.org/lang_expr.html#regexp> - Official SQLite documentation
