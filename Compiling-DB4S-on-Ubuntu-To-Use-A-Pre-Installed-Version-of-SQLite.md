@@ -3,7 +3,7 @@ The following instructions are for Ubuntu.  Please also read [these build instru
 
 Recompile DB4S and configure the build to search for the manually installed SQLite version. How exactly this works depends on how you've built SQLite, but the general idea is as follows.
 
-Edit the src/src.pro file. Around line 196 you should find these lines:
+Edit the src/src.pro file. Around line 256 you should find these lines:
 
 ```
 INCLUDEPATH += $$PWD/../libs/antlr-2.7.7 $$PWD/../libs/qhexedit $$PWD/../libs/qcustomplot-source $$PWD/../libs/qscintilla/Qt4Qt5 $$PWD/..
