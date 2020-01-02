@@ -6,7 +6,7 @@ Some third-party video tutorials regarding DB Browser for SQLite.
   * [3.11 Release](#311-release)
 - [Español](#espa-ol)
   * [3.10 Release](#310-release)
-- [العربية](#-------)
+- [العربية](#العربية)
 
 ## English
 ### 3.10 release
