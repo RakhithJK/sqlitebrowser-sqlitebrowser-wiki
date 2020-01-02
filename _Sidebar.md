@@ -15,6 +15,7 @@
 - [[Project Files]]
 - [[Command Line Interface]]
 - [[Transactions]]
+- [[Tutorials]]
 - [[Video tutorials]]
 - Windows Users
   - [[Debugging a crash| Debugging a crash on Windows]]
