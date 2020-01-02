@@ -19,7 +19,8 @@ Pages so far:
 * [[Plot Dock]] - How to plot graphs using table or query data
 * [[Views]] - How to create them, and what they're for
 * [[Transactions]] - How to commit or revert database changes
-* [[Video tutorials]] - Some third-party video tutorials that might be helpful
+* [[Tutorials]] - Some third-party text tutorials that might be helpful
+* [[Video tutorials]] - Some third-party video tutorials that also might be helpful
 
 #### Advanced topics
 * [Licensing](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Licensing) - How our licenses work
