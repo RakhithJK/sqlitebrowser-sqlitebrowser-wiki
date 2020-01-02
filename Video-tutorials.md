@@ -12,6 +12,11 @@ Some third-party video tutorials regarding DB Browser for SQLite.
 
 [![DB BROWSER FOR SQLITE: ADD JPEG-BLOB IMAGES](http://img.youtube.com/vi/CW739mop1Nc/0.jpg)](http://www.youtube.com/watch?v=CW739mop1Nc&t=30s "DB BROWSER FOR SQLITE: ADD JPEG-BLOB IMAGES")
 
+[![DB BROWSER FOR SQLITE: Import math extension (Windows 10 - 64 bit)
+](http://img.youtube.com/vi/UDqowNoFJIo/0.jpg)](http://www.youtube.com/watch?v=UDqowNoFJIo "DB BROWSER FOR SQLITE: Import math extension (Windows 10 - 64 bit)")
+
+[![DB BROWSER FOR SQLITE: FILTER EMPTY RECORDS](http://img.youtube.com/vi/UtP0Qg0wNpw/0.jpg)](http://www.youtube.com/watch?v=UtP0Qg0wNpw "DB BROWSER FOR SQLITE: FILTER EMPTY RECORDS")
+
 ### 3.9 release
 [![Point and Click | Manage Sqlite Databases Graphically | DB BROWSER](http://img.youtube.com/vi/HneWIDGX35g/0.jpg)](https://www.youtube.com/watch?v=HneWIDGX35g "Point and Click | Manage Sqlite Databases Graphically | DB BROWSER")
 
@@ -24,7 +29,9 @@ Some third-party video tutorials regarding DB Browser for SQLite.
 
 ## Español
 ### 3.10 Release
-[![SQLite, como se crea una tabla en DB Browser](http://img.youtube.com/vi/wyP5Qy4s1Pk/0.jpg)](https://www.youtube.com/watch?v=wyP5Qy4s1Pk "SQLite, como se crea una tabla en DB Browser")
+[![SQLite, como se crea una tabla en DB Browser](http://img.youtube.com/vi/wyP5Qy4s1Pk/0.jpg)](https://www.youtube.com/watch?v=wyP5Qy4s1Pk "SQLite, cómo se crea una tabla en DB Browser")
+
+[![SQLite, creación de tablas, relaciones, exportar a SQL](http://img.youtube.com/vi/cwDV958SGRI/0.jpg)](https://www.youtube.com/watch?v=cwDV958SGRI "SQLite, creación de tablas, relaciones, exportar a SQL")https://www.youtube.com/watch?v=
 
 ## العربية
 [![شرح اداة Sqlite Database Browser](http://img.youtube.com/vi/_OTQ7wSUoOM/0.jpg)](https://www.youtube.com/watch?v=_OTQ7wSUoOM "شرح اداة Sqlite Database Browser")
