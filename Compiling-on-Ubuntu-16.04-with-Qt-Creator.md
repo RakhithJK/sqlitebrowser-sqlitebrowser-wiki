@@ -109,10 +109,6 @@ If all goes well, the build should finish without errors, looking somewhat like 
 
 If the build process finishes with any errors though, sometimes running ***Build*** → ***Build All*** again (as per the previous step) fixes the problem, and is worth trying.
 
-On macOS, you also have to uncheck the `Add build library search path to DYLD_LIBRARY_PATH and DYLD_FRAMEWORK_PATH` option from the `Run` section in the `Projects` tab:
-
-![qtcreator](https://user-images.githubusercontent.com/5748627/40748162-2a8f4e50-6468-11e8-8de9-17a005557fe6.jpg)
-
 ### Install DB Browser for SQLite
 
 *Still needs writing*
