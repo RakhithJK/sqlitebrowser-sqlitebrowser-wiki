@@ -33,3 +33,11 @@ It's also useful to use more than one thread when compiling.  Do that by adding 
 parallel.  This speeds up Qt compile time significantly.  6 threads are fine for a
 quad core CPU, use more threads (or less) depending on how many cores you have in
 your system.
+
+## Build DB Browser for SQLite
+
+Follow the [steps for Ubuntu](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Compiling-on-Ubuntu-16.04-with-Qt-Creator#build-db-browser-for-sqlite).
+
+Then, uncheck the `Add build library search path to DYLD_LIBRARY_PATH and DYLD_FRAMEWORK_PATH` option from the `Run` section in the `Projects` tab:
+
+![qtcreator](https://user-images.githubusercontent.com/5748627/40748162-2a8f4e50-6468-11e8-8de9-17a005557fe6.jpg)
