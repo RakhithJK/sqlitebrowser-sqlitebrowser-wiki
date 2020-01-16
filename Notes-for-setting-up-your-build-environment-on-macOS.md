@@ -45,3 +45,5 @@ It should also work without disabling the "Shadow build" option:
 Then, uncheck the `Add build library search path to DYLD_LIBRARY_PATH and DYLD_FRAMEWORK_PATH` option from the `Run` section in the `Projects` tab:
 
 ![qtcreator](https://user-images.githubusercontent.com/5748627/40748162-2a8f4e50-6468-11e8-8de9-17a005557fe6.jpg)
+
+If you want SQLCipher support, follow [this step](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Compiling-SQLCipher#7-compile-sqlcipher-into-db4s).
