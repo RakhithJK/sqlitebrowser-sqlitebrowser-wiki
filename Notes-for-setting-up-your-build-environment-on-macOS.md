@@ -38,6 +38,10 @@ your system.
 
 Follow the [steps for Ubuntu](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Compiling-on-Ubuntu-16.04-with-Qt-Creator#build-db-browser-for-sqlite).
 
+It should also work without disabling the "Shadow build" option:
+
+![Qt Creator shadow build enabled](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/ubuntu_16.04/15_qt_creator_shadow_build_enabled.png)
+
 Then, uncheck the `Add build library search path to DYLD_LIBRARY_PATH and DYLD_FRAMEWORK_PATH` option from the `Run` section in the `Projects` tab:
 
 ![qtcreator](https://user-images.githubusercontent.com/5748627/40748162-2a8f4e50-6468-11e8-8de9-17a005557fe6.jpg)
