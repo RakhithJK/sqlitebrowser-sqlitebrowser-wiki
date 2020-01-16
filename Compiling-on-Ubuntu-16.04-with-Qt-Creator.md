@@ -109,6 +109,8 @@ If all goes well, the build should finish without errors, looking somewhat like 
 
 If the build process finishes with any errors though, sometimes running ***Build*** → ***Build All*** again (as per the previous step) fixes the problem, and is worth trying.
 
+If you want SQLCipher support, follow [this step](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Compiling-SQLCipher#7-compile-sqlcipher-into-db4s).
+
 ### Install DB Browser for SQLite
 
 *Still needs writing*
