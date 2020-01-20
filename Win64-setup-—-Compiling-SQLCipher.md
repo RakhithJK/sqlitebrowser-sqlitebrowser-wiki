@@ -91,7 +91,7 @@ Edit the file `C:\git_repos\sqlcipher\Makefile.msc` using a text editor:
 ![Edit Makefile.msc](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/clone_sqlcipher_repo/editmakefile09.png)
 
 * `/LIBPATH:C:\dev\OpenSSL-Win64\lib /LIBPATH:C:\dev\OpenSSL-Win64\lib\VC` - Add to the `LTLIBPATHS` variable
-* `4758cca.lib aep.lib atalla.lib capi.lib chil.lib cswift.lib gmp.lib gost.lib libeay32.lib nuron.lib padlock.lib ssleay32.lib sureware.lib ubsec.lib` - Add to the `LTLIBS` variable
+* `capi.lib padlock.lib libcrypto.lib libssl.lib` - Add to the `LTLIBS` variable
  * Note - These filenames are just the list of files from C:\dev\OpenSSL-Win64\lib.  If you have different files in your directory, use your filenames instead.
 
 ![Edit Makefile.msc](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/clone_sqlcipher_repo/editmakefile10.png)
