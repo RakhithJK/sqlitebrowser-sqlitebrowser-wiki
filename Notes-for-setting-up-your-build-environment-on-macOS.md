@@ -46,4 +46,6 @@ Then, uncheck the `Add build library search path to DYLD_LIBRARY_PATH and DYLD_F
 
 ![qtcreator](https://user-images.githubusercontent.com/5748627/40748162-2a8f4e50-6468-11e8-8de9-17a005557fe6.jpg)
 
-If you want SQLCipher support, follow [this step](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Compiling-SQLCipher#7-compile-sqlcipher-into-db4s).
+If you want SQLCipher support, follow [this step](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Compiling-SQLCipher#7-compile-sqlcipher-into-db4s):
+
+![Add sqlcipher qmake option](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/win64_install/clone_sqlcipher_repo/compilesqlcipher05.png)
