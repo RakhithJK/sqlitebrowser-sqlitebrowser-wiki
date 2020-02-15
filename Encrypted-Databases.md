@@ -44,3 +44,63 @@ But of course this translation doesn't yield the encryption key for the database
 By setting the `raw key` mode this translation step is deactivated.
 
 This means the key you enter is used as-is to decrypt the database, so SQLCipher won't interfere by making a key of your key, instead of using it directly.
+
+# Bypass the password prompt using a dotenv file
+
+You can make DB4S automatically open an encrypted database file by creating a file named `.env` right next to the database file, specifying the password and optional settings.
+
+---
+
+**Be aware that this means having the password in plaintext right next to the database! Use this optional feature at your own risk.**
+
+---
+
+The required format of the contents of the file is:
+
+```
+<database_file_name> = <password>
+[<database_file_name>_<setting> = <value>]
+```
+
+where:
+- `<database_file_name>` is the exact name of the database file, including the extension,
+- `<password>` is the password of the database,
+- `<setting>` is the name of the setting, which can be one of:
+    + `keyFormat`:
+        * `0` for passphrase
+        * `1` for raw key
+    + `pageSize`
+    + `kdfIter`
+    + `hmacAlgorithm`
+    + `kdfAlgorithm`
+    + `plaintextHeaderSize`
+- `<value>` is the value of the respective setting and
+- all the setting lines are optional.
+
+So a file for an SQLCipher 4 encrypted database with default settings would look like:
+
+```
+myDatabase.sqlite = AStr0ngPaßw0rd
+```
+
+and for one with custom settings would look like:
+
+```
+anotherDatabase.sqlite = AStr0ng3rPaßw0rd
+anotherDatabase.sqlite_pageSize = 2048
+anotherDatabase.sqlite_kdfIter = 128000
+```
+
+For your convenience, here are the current defaults:
+- SQLCipher 3:
+    + `pageSize` = `1024`
+    + `kdfIter` = `64000`
+    + `hmacAlgorithm` = `SHA1`
+    + `kdfAlgorithm` = `SHA1`
+    + `plaintextHeaderSize` = `0`
+- SQLCipher 4:
+    + `pageSize` = `4096`
+    + `kdfIter` = `256000`
+    + `hmacAlgorithm` = `SHA512`
+    + `kdfAlgorithm` = `SHA512`
+    + `plaintextHeaderSize` = `0`
