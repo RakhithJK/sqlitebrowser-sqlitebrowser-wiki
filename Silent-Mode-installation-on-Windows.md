@@ -8,6 +8,19 @@ This is done by passing `/quiet` to the installer on the command line:
 
 DB Browser for SQLite will then install using default values.
 
+Passing options to the MSI installer can be done using `PROPERTY=value`.
+
+The following are supported:
+
+* `SHORTCUT_SQLITE_DESKTOP`
+* `SHORTCUT_SQLCIPHER_DESKTOP`
+* `SHORTCUT_SQLITE_PROGRAMMENU`
+* `SHORTCUT_SQLCIPHER_PROGRAMMENU`
+
+To enable desktop shortcuts for both SQLite and SQLCipher you can do this:
+
+`msiexec /i DB4S.msi SHORTCUT_SQLITE_DESKTOP=1 SHORTCUT_SQLCIPHER_DESKTOP=1`
+
 ---
 
 ### Implementation details
