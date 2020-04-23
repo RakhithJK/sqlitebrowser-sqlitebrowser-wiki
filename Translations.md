@@ -29,6 +29,7 @@ This list is work-in-progress in will be changed if needed. It should be conside
 | Row || Zeile *oder* Datenbankzeile ||
 | Statement || Anweisung ||
 | stop || abbrechen ||
+| String || Zeichenkette ||
 | SQL |sql statement| SQL (feminin) | e.g. "Komplette SQL ausführen" instead of "Komplettes SQL ausführen" as it stands for "SQL-Anweisung".|
 | Tab | windowelement | Tab|entgegen https://community.kde.org/KDE_Localization/de/StandardUebersetzungen, die vorschlagen: 'Karteikarte' sondern analog Mozilla Firefox Browser - 74.0.1. (64-Bit) - die zum Beispiel übersetzen: 'Strg+T: Neuen Tab öffnen'
 | Toolbar || Werkzeugleiste | siehe https://community.kde.org/KDE_Localization/de/StandardUebersetzungen |
