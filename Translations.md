@@ -21,7 +21,7 @@ This list is work-in-progress in will be changed if needed. It should be conside
 | Constraint || Beschränkung | siehe https://github.com/sqlitebrowser/sqlitebrowser/pull/2193 |
 | Log || Protokoll | siehe https://community.kde.org/KDE_Localization/de/StandardUebersetzungen |
 | Message from database [engine]<br>DB says || DB meldet ||
-| Pane | windowelement | Fensterelement ||
+| Pane | windowelement | Fensterbereich ||
 | Panel | windowelement | Fenster ||
 | Pattern | regular expression | Suchmuster ||
 | Query || Abfrage ||
