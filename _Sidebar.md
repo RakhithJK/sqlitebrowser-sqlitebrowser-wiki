@@ -27,6 +27,7 @@
 - [[Release process]]
 - [[Source code highlights]]
 - [[Merging Commits]]
+- [[Translations]]
 - Building on
   - [[Windows| Setting up a Win64 development environment for DB4S]]
     - [[Compiling SQLCipher | Win64 setup — Compiling SQLCipher]]
