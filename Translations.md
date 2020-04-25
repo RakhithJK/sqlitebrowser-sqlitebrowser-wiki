@@ -11,7 +11,7 @@ There is a tool included in the Qt framework for doing the translations: [Qt Lin
 
 ### Default translations for the German language
 
-This list is work-in-progress in will be changed if needed. It should be considered as a support document for German-language translators to achieve a consistent translation throughout the whole application.
+This list is work-in-progress and will be changed if needed. It should be considered as a support document for German-language translators to achieve a consistent translation throughout the whole application.
 
 | Source | Context | Translation | Notes |
 |--------|---------|-------------|-------|
