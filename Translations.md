@@ -2,6 +2,9 @@
 
 There is a tool included in the Qt framework for doing the translations: [Qt Linguist](http://doc.qt.io/qt-5/qtlinguist-index.html). The basic translation process is to add a new entry to the [TRANSLATIONS part in the src/src.pro file](https://github.com/sqlitebrowser/sqlitebrowser/blob/988f200e12bf56b1a008677d3da1570c9518c2d4/src/src.pro#L170), then re-build the project. Now, the build system will collect all the strings to translate in the entire application and put them in the file you just added. This newly created ts file can then be opened in Qt Linguist and using this program you can translate all the strings. After saving and rebuilding the translation should be in the application.
 
+## Troubleshooting
+[[Translation merge conflicts|Translation conflicts]] - How to proceed with translation conflicts
+
 # Notes regarding languages
 
 ## German
