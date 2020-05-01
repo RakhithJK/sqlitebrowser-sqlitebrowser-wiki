@@ -30,7 +30,7 @@ This list is work-in-progress and will be changed if needed. It should be consid
 | Modifier || Modifizierer ||
 | Pane | windowelement | Fensterbereich ||
 | Panel | windowelement | Fenster ||
-| Passphrase || Passphrase, die | siehe https://www.duden.de/suchen/dudenonline/paraphrase?ls=passphrase&s=paraphrase |
+| Passphrase || Passphrase, die | siehe https://www.welivesecurity.com/deutsch/2016/05/06/warum-die-passphrase-besser-als-das-passwort-ist |
 | Pattern | regular expression | Suchmuster ||
 | Push | dbhub.io | übertragen | Sometimes better don't translate, as in 'Push erzwingen'. But never use denglisch 'pushen'. |
 | Commit | dbhub.io | commit ||
