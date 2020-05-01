@@ -17,19 +17,27 @@ This list is work-in-progress and will be changed if needed. It should be consid
 |--------|---------|-------------|-------|
 | bar | plots| Säulen | Säulendiagramme ordnen die Werte von oben nach unten, Balkendiagramme von rechts nach links |
 | bar | Toolbar | Werkzeugleiste | siehe https://community.kde.org/KDE_Localization/de/StandardUebersetzungen |
+| bar | Toolbar | Werkzeugleiste | siehe https://community.kde.org/KDE_Localization/de/StandardUebersetzungen |
+| certificate file || Zertifikatdatei ||
 | Check-Constraint || CHECK-Beschränkung | siehe https://github.com/sqlitebrowser/sqlitebrowser/pull/2193 |
 | clause | SQL | Anweisung ||
 | Collation || Sortierung ||
 | commit || abschließen ||
 | Constraint || Beschränkung | siehe https://github.com/sqlitebrowser/sqlitebrowser/pull/2193 |
+| DB Browser for SQLite || DB-Browser für SQLite ||
 | Log || Protokoll | siehe https://community.kde.org/KDE_Localization/de/StandardUebersetzungen |
 | Message from database [engine]<br>DB says || DB meldet ||
 | Modifier || Modifizierer ||
 | Pane | windowelement | Fensterbereich ||
 | Panel | windowelement | Fenster ||
+| Passphrase || Passphrase, die | siehe https://www.duden.de/suchen/dudenonline/paraphrase?ls=passphrase&s=paraphrase |
 | Pattern | regular expression | Suchmuster ||
+| Push | dbhub.io | übertragen | Sometimes better don't translate, as in 'Push erzwingen'. But never use denglisch 'pushen'. |
+| Commit | dbhub.io | commit ||
+| Branch | dbhub.io | Branch | as there is no German translation on dbhub.io it's probably better not to translate branch |
 | Query || Abfrage ||
 | Record || Datensatz ||
+| Remote | dbhub.io | Entfernt ||
 | Row || Zeile *oder* Datenbankzeile ||
 | Statement || Anweisung ||
 | stop || abbrechen ||
