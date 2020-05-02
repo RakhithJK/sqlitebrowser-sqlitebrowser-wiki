@@ -15,14 +15,15 @@ This list is work-in-progress and will be changed if needed. It should be consid
 
 | Source | Context | Translation | Notes |
 |--------|---------|-------------|-------|
-| bar | plots| Säulen | Säulendiagramme ordnen die Werte von oben nach unten, Balkendiagramme von rechts nach links |
-| bar | Toolbar | Werkzeugleiste | siehe https://community.kde.org/KDE_Localization/de/StandardUebersetzungen |
-| bar | Toolbar | Werkzeugleiste | siehe https://community.kde.org/KDE_Localization/de/StandardUebersetzungen |
-| certificate file || Zertifikatdatei ||
+| Bar | plots| Säulen | Säulendiagramme ordnen die Werte von oben nach unten, Balkendiagramme von rechts nach links |
+| Bar | Toolbar | Werkzeugleiste | siehe https://community.kde.org/KDE_Localization/de/StandardUebersetzungen |
+| Branch | dbhub.io | Branch | as there is no German translation on dbhub.io it's probably better not to translate branch |
+| Certificate file || Zertifikatdatei ||
 | Check-Constraint || CHECK-Beschränkung | siehe https://github.com/sqlitebrowser/sqlitebrowser/pull/2193 |
-| clause | SQL | Anweisung ||
+| Clause | SQL | Anweisung ||
 | Collation || Sortierung ||
-| commit || abschließen ||
+| Commit | dbhub.io | commit | as there is no German translation on dbhub.io it's probably better not to translate commit |
+| Commit | SQL | abschließen ||
 | Constraint || Beschränkung | siehe https://github.com/sqlitebrowser/sqlitebrowser/pull/2193 |
 | DB Browser for SQLite || DB-Browser für SQLite ||
 | Log || Protokoll | siehe https://community.kde.org/KDE_Localization/de/StandardUebersetzungen |
@@ -30,20 +31,18 @@ This list is work-in-progress and will be changed if needed. It should be consid
 | Modifier || Modifizierer ||
 | Pane | windowelement | Fensterbereich ||
 | Panel | windowelement | Fenster ||
-| Passphrase || Passphrase, die | siehe https://www.welivesecurity.com/deutsch/2016/05/06/warum-die-passphrase-besser-als-das-passwort-ist |
+| Passphrase || Passphrase (feminin) | siehe https://www.welivesecurity.com/deutsch/2016/05/06/warum-die-passphrase-besser-als-das-passwort-ist |
 | Pattern | regular expression | Suchmuster ||
-| Push | dbhub.io | übertragen | Sometimes better don't translate, as in 'Push erzwingen'. But never use denglisch 'pushen'. |
-| Commit | dbhub.io | commit ||
-| Branch | dbhub.io | Branch | as there is no German translation on dbhub.io it's probably better not to translate branch |
+| Push | dbhub.io | übertragen | It might be better, not to translate always, e.g. 'Push erzwingen'. But never use denglisch like: 'pushen'. |
 | Query || Abfrage ||
 | Record || Datensatz ||
 | Remote | dbhub.io | Entfernt ||
 | Row || Zeile *oder* Datenbankzeile ||
 | Statement || Anweisung ||
-| stop || abbrechen ||
+| Stop || abbrechen ||
 | String || Zeichenkette ||
 | SQL |sql statement| SQL (feminin) | e.g. "Komplette SQL ausführen" instead of "Komplettes SQL ausführen" as it stands for "SQL-Anweisung".|
-| Tab | windowelement | Tab|entgegen https://community.kde.org/KDE_Localization/de/StandardUebersetzungen, die vorschlagen: 'Karteikarte' sondern analog Mozilla Firefox Browser - 74.0.1. (64-Bit) - die zum Beispiel übersetzen: 'Strg+T: Neuen Tab öffnen'
+| Tab | windowelement | Tab| entgegen https://community.kde.org/KDE_Localization/de/StandardUebersetzungen, die vorschlagen: 'Karteikarte' sondern analog Mozilla Firefox Browser - 74.0.1. (64-Bit) - die zum Beispiel übersetzen: 'Strg+T: Neuen Tab öffnen'
 | Timestring || Zeit-Zeichenkette||
 | Toolbar || Werkzeugleiste | siehe https://community.kde.org/KDE_Localization/de/StandardUebersetzungen |
 | Unique-Constraint || UNIQUE-Beschränkung | siehe https://github.com/sqlitebrowser/sqlitebrowser/pull/2193 |
