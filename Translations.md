@@ -4,7 +4,7 @@ There is a tool included in the Qt framework for doing the translations: [Qt Lin
 
 ## Don't translate key names in shortcuts
 
-Keyboard shortcuts get automatically localized by Qt, and translating key names may indeed break them. They show up on the translation file only for the rare occasions that one has to redirect a shortcut to another one in a specific language. But even then, you should use the English key names to get this working. Theoretically, one could follow Qt conventions for translated key names, and they should work, but the risk to stumble upon Qt bugs or moving conventions is high, so it is better not to translate keys, only remap the shortcut. If you want to preserve the original key sequence (recommended), just leave the translation empty and finished.
+Keyboard shortcuts get automatically localized by Qt, and translating key names may indeed break them. They show up on the translation file only for the rare occasions that one has to redirect a shortcut to another one in a specific language. But even then, you should use the English key names to get this working. Theoretically, one could follow Qt conventions for translated key names, and they should work, but the risk to stumble upon Qt bugs or moving conventions is high, so it is better to not translate keys and only remap the shortcut. If you want to preserve the original key sequence (recommended), just leave the translation empty and finished.
 
 ## Troubleshooting
 [[Translation merge conflicts|Translation conflicts]] - How to proceed with translation conflicts
