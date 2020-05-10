@@ -2,6 +2,10 @@
 
 There is a tool included in the Qt framework for doing the translations: [Qt Linguist](http://doc.qt.io/qt-5/qtlinguist-index.html). The basic translation process is to add a new entry to the [TRANSLATIONS part in the src/src.pro file](https://github.com/sqlitebrowser/sqlitebrowser/blob/988f200e12bf56b1a008677d3da1570c9518c2d4/src/src.pro#L170), then re-build the project. Now, the build system will collect all the strings to translate in the entire application and put them in the file you just added. This newly created ts file can then be opened in Qt Linguist and using this program you can translate all the strings. After saving and rebuilding the translation should be in the application.
 
+## Don't translate keyboard shortcuts
+
+Keyboard shortcuts get localized by Qt. Translating keyboard shortcuts breaks them. They show up on the translation file only for the rare occacions that one have to redirect a shortcut to another one in a specific language. But even then, you have to use the english words to get this working. 
+
 ## Troubleshooting
 [[Translation merge conflicts|Translation conflicts]] - How to proceed with translation conflicts
 
