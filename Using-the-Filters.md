@@ -53,5 +53,20 @@ For quick selection of the 'equal to' filter, you can click on any cell with the
 
 **NOTE** - Release 3.11
 
+## Regular-expression filter
+You can filter the column using a [regular expression](https://en.wikipedia.org/wiki/Regular_expression). You only have to enclose the regular expression in '/' characters, like /regexp/. Examples:
+
+|Example | Description         
+|---------|---------------------
+|`/[a-zA-Z]/` | Contains any letter   
+|`/^[a-zA-Z]*$/` | Contains only letters or is empty
+|`/Sat\|Sun/`        | Contains the word `Sat` or the word `Sun`
+|`/^Sat/`        | Begins with `Sat`
+|`/Sun$/`        | Ends with `Sun`
+
+If you want to use a "Containing" filter which has to include `/something/`, just use `\/something\/` to escape the character / and avoid the regular-expression interpretation.
+
+**NOTE** - Only available in our future release 3.12
+
 ## A look behind the scenes
 For those familiar with the SQL syntax the filters are very easy to understand. The filters are translated into the WHERE part of the SELECT statement, joined by AND operators. The default comparison operator is LIKE but can be overridden as described in the table above. We automatically detect a numeric search and omit the quote characters around the filter term in this case while adding them when filtering for text. Single quote characters are automatically escaped and can therefore safely be used in a filter query. In case of any doubt you might want to check the generated SQL statement using the SQL Log panel - just make sure it is set to showing SQL submitted by the 'Application'.
