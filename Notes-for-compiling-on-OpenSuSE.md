@@ -31,4 +31,4 @@ The finished result is installed as `/usr/local/bin/sqlitebrowser`, with a menu 
 
 The above instructions also work for OpenSuSE Tumbleweed, with one exception.
 
-On Tumbleweed, the shortcut in the "Developmnet" Category doesn't appear in the UI.  The program itself works fine though when launched manually from the command line.
+On Tumbleweed, the shortcut in the "Development" Category doesn't appear in the UI.  The program itself works fine though when launched manually from the command line.
