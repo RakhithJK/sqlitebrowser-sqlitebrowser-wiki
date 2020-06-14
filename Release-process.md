@@ -80,7 +80,7 @@ Email, or ping via GitHub, our packagers to let them know about the new release:
 * Gentoo?
 * RHEL/Fedora?
 
-## Updates stats counters
+## Update stats counters
 
 1. Create cronjob scripts to get the daily download count for the new release binaries
 
