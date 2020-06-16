@@ -6,13 +6,13 @@ Recompile DB4S and configure the build to search for the manually installed SQLi
 Edit the src/src.pro file. Around line 256 you should find these lines:
 
 ```
-INCLUDEPATH += $$PWD/../libs/antlr-2.7.7 $$PWD/../libs/qhexedit $$PWD/../libs/qcustomplot-source $$PWD/../libs/qscintilla/Qt4Qt5 $$PWD/..
-LIBS += -L$$LIBPATH_QHEXEDIT -L$$LIBPATH_ANTLR -L$$LIBPATH_QCUSTOMPLOT -L$$LIBPATH_QSCINTILLA -lantlr -lqhexedit -lqcustomplot -lqscintilla2
+INCLUDEPATH += $$PWD/../libs/qhexedit $$PWD/../libs/qcustomplot-source $$PWD/../libs/qscintilla/Qt4Qt5 $$PWD/..
+LIBS += -L$$LIBPATH_QHEXEDIT -L$$LIBPATH_QCUSTOMPLOT -L$$LIBPATH_QSCINTILLA -lqhexedit -lqcustomplot -lqscintilla2
 ```
 Change them to
 ```
-INCLUDEPATH += /path/to/your/sqlite/lib/header/files $$PWD/../libs/antlr-2.7.7 $$PWD/../libs/qhexedit $$PWD/../libs/qcustomplot-source $$PWD/../libs/qscintilla/Qt4Qt5 $$PWD/..
-LIBS += -L/path/to/your/sqlite/lib/a/file -L$$LIBPATH_QHEXEDIT -L$$LIBPATH_ANTLR -L$$LIBPATH_QCUSTOMPLOT -L$$LIBPATH_QSCINTILLA -lantlr -lqhexedit -lqcustomplot -lqscintilla2
+INCLUDEPATH += /path/to/your/sqlite/lib/header/files $$PWD/../libs/qhexedit $$PWD/../libs/qcustomplot-source $$PWD/../libs/qscintilla/Qt4Qt5 $$PWD/..
+LIBS += -L/path/to/your/sqlite/lib/a/file -L$$LIBPATH_QHEXEDIT -L$$LIBPATH_QCUSTOMPLOT -L$$LIBPATH_QSCINTILLA -lqhexedit -lqcustomplot -lqscintilla2
 ```
 Where the first path points to the directory that contains the ```sqlite3.h``` file and the second path points to the directory that contains the ```libsqlite3.a``` file.
 
