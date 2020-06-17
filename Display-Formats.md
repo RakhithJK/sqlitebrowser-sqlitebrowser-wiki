@@ -25,5 +25,5 @@ Click OK and the selected format is then applied to the display of the column.
 Some considerations have to be taken into account when using display formats:
 * Data is not editable (or only via the Edit Dialog) because it isn't
   transformed back yet.
-* You cannot currently customize the list of display formats (issue #573).
+* Display format customization is supported starting version 3.12.0 (issue [#573](https://github.com/sqlitebrowser/sqlitebrowser/issues/573)).
 * There is no indication in the UI for which columns a format has been set.
