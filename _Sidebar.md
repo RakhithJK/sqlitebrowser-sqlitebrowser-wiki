@@ -10,6 +10,7 @@
 - [[Filters | Using the Filters]]
 - [[Regular Expressions]]
 - [[Display Formats]]
+- [[Conditional Formats]]
 - [[Plot Dock]]
 - [[Views]]
 - [[Project Files]]
