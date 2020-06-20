@@ -16,6 +16,7 @@ Pages so far:
 * [Using Filters](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Using-the-Filters) - How to use the Filters in the Browse Data tab
 * [Using Regular Expressions](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Regular-Expressions) - How to use Regular Expressions for powerful queries
 * [[Display Formats]] - How to configure how data is displayed
+* [[Conditional Formats]] - How to apply text formatting to cell data
 * [[Plot Dock]] - How to plot graphs using table or query data
 * [[Views]] - How to create them, and what they're for
 * [[Transactions]] - How to commit or revert database changes
