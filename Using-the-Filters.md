@@ -68,5 +68,12 @@ If you want to use a "Containing" filter which has to include `/something/`, jus
 
 **NOTE** - Only available in our future release 3.12
 
+### Filter in any column
+Finally, there is a new field: 'Filter in any column'. Type any number of words here to limit the view to only those rows which contain all these words, no matter in which column. This is super useful when looking for a certain value in a table without knowing in which column it could be.
+
+![find_in_table](https://user-images.githubusercontent.com/3153504/76461862-f99f1d00-63e0-11ea-860b-6cc7dd26e783.png)
+
+**NOTE** - Only available in our future release 3.12
+
 ## A look behind the scenes
 For those familiar with the SQL syntax the filters are very easy to understand. The filters are translated into the WHERE part of the SELECT statement, joined by AND operators. The default comparison operator is LIKE but can be overridden as described in the table above. We automatically detect a numeric search and omit the quote characters around the filter term in this case while adding them when filtering for text. Single quote characters are automatically escaped and can therefore safely be used in a filter query. In case of any doubt you might want to check the generated SQL statement using the SQL Log panel - just make sure it is set to showing SQL submitted by the 'Application'.
