@@ -68,7 +68,7 @@ If you want to use a "Containing" filter which has to include `/something/`, jus
 
 **NOTE** - Only available in our future release 3.12
 
-### Filter in any column
+## Filter in any column
 Finally, there is a new field: 'Filter in any column'. Type any number of words here to limit the view to only those rows which contain all these words, no matter in which column. This is super useful when looking for a certain value in a table without knowing in which column it could be.
 
 ![find_in_table](https://user-images.githubusercontent.com/3153504/76461862-f99f1d00-63e0-11ea-860b-6cc7dd26e783.png)
