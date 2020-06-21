@@ -12,7 +12,7 @@ Pages so far:
 
 #### Basic usage
 * [Keyboard shortcuts](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Keyboard-shortcuts) - The keyboard shortcuts present in DB4S
-* [Resizing Columns](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Resizing-Columns) - How to resize all of the columns in a table at the same time
+* [[Browse Data]] - How to use the "Browse Data" tab
 * [Using Filters](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Using-the-Filters) - How to use the Filters in the Browse Data tab
 * [Using Regular Expressions](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Regular-Expressions) - How to use Regular Expressions for powerful queries
 * [[Display Formats]] - How to configure how data is displayed
