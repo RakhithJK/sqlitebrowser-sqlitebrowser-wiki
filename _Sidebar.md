@@ -6,7 +6,7 @@
 **For Users**
 - [[Encrypted Databases]]
 - [[Keyboard shortcuts]]
-- [[Resizing Columns]]
+- [[Browse Data]]
 - [[Filters | Using the Filters]]
 - [[Regular Expressions]]
 - [[Display Formats]]
