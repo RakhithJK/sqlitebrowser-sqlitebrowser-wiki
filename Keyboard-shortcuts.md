@@ -15,11 +15,12 @@ Mac users have to press <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd>
 #### Browse Data tab
 * <kbd>Ctrl</kbd> + <kbd>R</kbd> and <kbd>F5</kbd> refresh the currently browsed table.
 * <kbd>Ctrl</kbd> + <kbd>"</kbd> duplicates the currently selected record.
-* <kbd>Ctrl</kbd> + <kbd>'</kbd> copies the data from the cell above the current (future version 3.11).
+* <kbd>Ctrl</kbd> + <kbd>'</kbd> copies the data from the cell above the current (version 3.11).
 * <kbd>Ctrl</kbd> + <kbd>PageUp</kbd> and <kbd>Ctrl</kbd> + <kbd>PageDown</kbd> switch the currently browsed table to the previous or the next table.
 * <kbd>Delete</kbd> and <kbd>Backspace</kbd> delete the content of the current cell(s), setting it to an empty string.
 * <kbd>Alt</kbd> + <kbd>Delete</kbd> and <kbd>Alt</kbd> + <kbd>Backspace</kbd> delete the content of the current cell(s), setting them to NULL.
 * <kbd>Tab</kbd> moves to the next cell when the table browser is focused. When being on the last cell, a new row is inserted automatically.
+* <kbd>F2</kbd> enters the cell editor mode.
 
 #### Edit Pragmas tab
 * <kbd>Ctrl</kbd> + <kbd>R</kbd> and <kbd>F5</kbd> refresh the pragma list.
@@ -32,8 +33,8 @@ Mac users have to press <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd>
 ## Edit dialog and edit pane
 * <kbd>Ctrl</kbd> + <kbd>Return</kbd> clicks the Apply button.
 * <kbd>Insert</kbd> toggles overwrite mode in both text editor and hex editor.
-* <kbd>Ctrl</kbd> + <kbd>F</kbd> Opens the Find dialog (future version 3.12).
-* <kbd>Ctrl</kbd> + <kbd>H</kbd> Opens the Find/Replace dialog (future version 3.12).
+* <kbd>Ctrl</kbd> + <kbd>F</kbd> Opens the Find dialog (version 3.12).
+* <kbd>Ctrl</kbd> + <kbd>H</kbd> Opens the Find/Replace dialog (version 3.12).
 
 ## Edit Table dialog
 * <kbd>Ctrl</kbd> + <kbd>Return</kbd> clicks the OK button.
@@ -109,5 +110,5 @@ Key | Command
 <kbd>Ctrl</kbd>+<kbd>Y</kbd>	|	Redo last command
 <kbd>Ctrl</kbd>+<kbd>+</kbd>	|	Zoom in
 <kbd>Ctrl</kbd>+<kbd>-</kbd>	|	Zoom out
-<kbd>Ctrl</kbd> + <kbd>F</kbd>	|	Open the Find dialog (future version 3.12) or the search bar in the Execute SQL editors
+<kbd>Ctrl</kbd> + <kbd>F</kbd>	|	Open the Find dialog (version 3.12) or the search bar in the Execute SQL editors
 <kbd>Ctrl</kbd> + <kbd>H</kbd>	|	Open the Find/Replace dialog
