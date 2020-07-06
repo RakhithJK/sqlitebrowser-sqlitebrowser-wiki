@@ -4,10 +4,13 @@ This Wiki page aims at listing the more 'hidden' keyboard shortcuts. By this I m
 Mac users have to press <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd>
 ## Main window
 
+* <kbd>Ctrl</kbd> + <kbd>N</kbd> creates a new database.
+
 * <kbd>Alt</kbd> + <kbd>1</kbd> switches to the Database Structure tab.
 * <kbd>Alt</kbd> + <kbd>2</kbd> switches to the Browse Data tab.
 * <kbd>Alt</kbd> + <kbd>3</kbd> switches to the Edit Pragmas tab.
 * <kbd>Alt</kbd> + <kbd>4</kbd> switches to the Execute SQL tab.
+
 
 #### Database Structure tab
 * <kbd>Ctrl</kbd> + <kbd>R</kbd> and <kbd>F5</kbd> refresh the database structure.
