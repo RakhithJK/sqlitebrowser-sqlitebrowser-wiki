@@ -36,20 +36,26 @@ all of the `3.9` series code will go into this same branch.  eg 3.9.0, 3.9.1, et
 
 ## Build the application
 
+### !!! Build an AppImage version of the release !!!
+
+* Verify it works with a new (minimal) install on (say) CentOS 7 x64
+
+### macOS
+
 * The .dmg file should be automatically signed by our build script.  If that doesn't work for some reason, it can be done manually with:
     $ codesign --sign "${DEV_ID}" --verbose --deep --keychain "/Library/Keychains/System.keychain" DB*.dmg
+
+### Windows
+
 * The windows binaries need to be manually signed with our certificate.  Martin does that, so upload the binaries to our nightly server and let him know:
   * https://nightlies.sqlitebrowser.org/win32-prerelease/
   * https://nightlies.sqlitebrowser.org/win64-prerelease/
-* We really need to investigate making our own PortableApp version, instead of loading the work onto John Haller
+
+* @chrisjlocke has been working on making our own PortableApp version, too
 
 ## Verify the versions of SQLCipher being bundled
 
 * Install the new OSX .app from the .dmg, start it, and check the SQLCipher version in the About dialog.  If this isn't at least 3.28.0 then something has gone wrong and needs to be fixed.
-
-## (TODO?) Build an AppImage version of the release
-
-* Verify it works with a new (minimal) install on (say) CentOS 7 x64
 
 ## Add a good changelog
 
