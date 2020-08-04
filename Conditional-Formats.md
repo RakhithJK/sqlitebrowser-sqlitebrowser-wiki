@@ -7,7 +7,7 @@
 
 * Your configured conditional formats are saved to your [[project files|Project Files]] as well.
 
-* Additionally there is a new format toolbar which allows you to set formats arbitrarily without giving any condition. This allows you to format the table contents just like a table in your favourite spreadsheet application, e.g. for presentations or printing.
+* Additionally there is a new format toolbar which allows you to set formats arbitrarily without giving any condition. This allows you to format the table contents just like a table in your favourite spreadsheet application, e.g. for presentations or printing. The formatting toolbar is shown when pressing this button: ![image](https://user-images.githubusercontent.com/13812910/89307009-e121ee80-d670-11ea-8c9b-4ed776915f2b.png)
 ![formatting](https://user-images.githubusercontent.com/3153504/76461572-6ebe2280-63e0-11ea-9f84-af37f97a89a2.png)
 
 Notes: Conditional formats are only available from version 3.12 onwards. See pull request [#1503](https://github.com/sqlitebrowser/sqlitebrowser/pull/1503) and issues [#1815](https://github.com/sqlitebrowser/sqlitebrowser/issues/1815) and [#1976](https://github.com/sqlitebrowser/sqlitebrowser/issues/1976) for background information about this feature.
