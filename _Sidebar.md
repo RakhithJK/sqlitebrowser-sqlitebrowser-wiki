@@ -1,4 +1,4 @@
-[[images/db4s.ico]]
+[![Home](https://raw.githubusercontent.com/wiki/sqlitebrowser/sqlitebrowser/images/db4s.ico)](https://github.com/sqlitebrowser/sqlitebrowser/wiki "Home")
 
 **Getting Started**
 - [[Licensing]]
