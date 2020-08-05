@@ -43,3 +43,6 @@ Some third-party video tutorials regarding DB Browser for SQLite.
 
 ## العربية
 [![شرح اداة Sqlite Database Browser](http://img.youtube.com/vi/_OTQ7wSUoOM/0.jpg)](https://www.youtube.com/watch?v=_OTQ7wSUoOM "شرح اداة Sqlite Database Browser")
+
+## Ελληνική γλώσσα
+[![ HY2 JAVA](http://img.youtube.com/vi/plpLzZKID6s/0.jpg)](https://www.youtube.com/watch?v=plpLzZKID6s&t=5m0s "HY2 JAVA")
