@@ -10,4 +10,10 @@
 * Additionally there is a new format toolbar which allows you to set formats arbitrarily without giving any condition. This allows you to format the table contents just like a table in your favourite spreadsheet application, e.g. for presentations or printing. The formatting toolbar is shown when pressing this button: ![image](https://user-images.githubusercontent.com/13812910/89307009-e121ee80-d670-11ea-8c9b-4ed776915f2b.png)
 ![formatting](https://user-images.githubusercontent.com/3153504/76461572-6ebe2280-63e0-11ea-9f84-af37f97a89a2.png)
 
+- When using the toolbar, three types of formats can be applied, depending on the selection made before pressing one of the buttons:
+  * If the selection covers individual cells (even entire rows) the format is applied only to those cells.
+  * If the selection covers entire columns:
+    - If the filter is empty, the format applies to all current and future values of the column (a conditional format with an empty condition is added).
+    - If the filter is applied, the format applies conditionally to the current and future values passing the filter (a conditional format is added using the filter).
+
 Notes: Conditional formats are only available from version 3.12 onwards. See pull request [#1503](https://github.com/sqlitebrowser/sqlitebrowser/pull/1503) and issues [#1815](https://github.com/sqlitebrowser/sqlitebrowser/issues/1815) and [#1976](https://github.com/sqlitebrowser/sqlitebrowser/issues/1976) for background information about this feature.
