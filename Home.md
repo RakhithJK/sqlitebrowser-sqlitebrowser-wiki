@@ -33,7 +33,7 @@ Pages so far:
 * [[SpatiaLite on Windows]] - The steps needed for installing the SpatiaLite extension to SQLite, on Windows
 * [[Project Files]] - Save your frequently used SQL scripts with the database ... and other options
 * [[Command Line Interface]] - You can start DB4S passing some useful parameters
-* [[Frequently Asked Question]]
+* [[Frequently Asked Questions]]
 
 ### For Developers
 * [Compiling on OpenSuSE](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-compiling-on-OpenSuSE) - Simple instructions for compiling on OpenSuSE Leap 42.2 and Tumbleweed
