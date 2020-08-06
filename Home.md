@@ -24,9 +24,9 @@ Pages so far:
 * [[Video tutorials]] - Some third-party video tutorials that also might be helpful
 
 #### Advanced topics
-* [Licensing](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Licensing) - How our licenses work
-* [Windows File Associations](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Windows-File-Associations) - Making Windows file associations
-* [Encrypted Databases](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Encrypted-Databases) - How to use Encrypted Databases
+* [[Licensing]] - How our licenses work
+* [[Windows File Associations]] - Making Windows file associations
+* [[Encrypted Databases]] - How to use Encrypted Databases
 * [[Extracting Installer Contents]] - How to extract the contents of .msi installers.  Useful for installing without Admin rights.
 * [Silent mode installation on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Silent-Mode-installation-on-Windows) - How to install DB4S silently on Windows.  Useful for easy deployment
 * [Providing debug information](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Debugging-a-crash-on-Windows) - How to gather useful debugging information for reporting DB4S crashes
@@ -42,12 +42,12 @@ Pages so far:
 * [[Compiling on Debian Stretch with SQLCipher support|SQLCipher:-Build-from-Source-on-Debian-Stretch---Newbie-Instructions]]
 * [Compiling SQLCipher on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Compiling-SQLCipher) - How to compile SQLCipher on Windows
 * [Dev environment setup on Windows using MSVC 2013 or 2017](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Setting-up-a-Win64-development-environment-for-DB4S) - How to set up a development environment for DB4S on 64-bit Windows, based on using MSVC.  Lots of screenshots.
-* [Merging Commits](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Merging-Commits) - How to merge the commits on your fork into one commit for a pull request
-* [Translations](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Translations) - How to add a new translation or update an existing one.
+* [[Merging Commits]] - How to merge the commits on your fork into one commit for a pull request
+* [[Translations]] - How to add a new translation or update an existing one.
 * [Notes for compiling on OSX](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-setting-up-your-build-environment-on-OSX) - Presently being developed too.  Assistance is very welcome. :grinning:
-* [Notes for compiling on Windows](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-compiling-on-Windows) - Presently being developed.  Assistance is very welcome.
+* [[Notes for compiling on Windows]] - Presently being developed.  Assistance is very welcome.
 * [Our Release Process](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Release-process) - Checklist / steps to follow when creating new DB Browser for SQLite releases
-* [Source code highlights](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Source-code-highlights) - Work in progress. Overview of parts of the codebase.
+* [[Source code highlights]] - Work in progress. Overview of parts of the codebase.
 
 ### Other
 
