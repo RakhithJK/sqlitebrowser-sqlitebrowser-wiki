@@ -4,7 +4,7 @@ This Wiki page aims at listing the more 'hidden' keyboard shortcuts. By this I m
 ## Notes
 Mac users have to press <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd>
 
-Note that for some key combinations where a symbol is used, you might need to add the <kbd>Shift</kbd> key to the combination if your keyboard layout requires it to enter the symbol.
+Note that for some key combinations where a symbol is used, you might need to add the <kbd>Shift</kbd> or the <kbd>AltGr</kbd> key to the combination if your keyboard layout requires it to enter the symbol.
 
 For example, <kbd>Ctrl</kbd>+<kbd>"</kbd> is the shortcut for duplicating a row. However, some keyboard layouts need the <kbd>Shift</kbd> key pressed in order to trigger a <kbd>"</kbd>. For example in the Spanish (Spain) and British keyboard layouts, you'll need to actually press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>2</kbd>.
 
@@ -13,6 +13,7 @@ For example, <kbd>Ctrl</kbd>+<kbd>"</kbd> is the shortcut for duplicating a row.
 
 * <kbd>Ctrl</kbd> + <kbd>N</kbd> creates a new database.
 
+* <kbd>Alt</kbd> + <kbd>0</kbd> restores the window layout used by the application by default (version 3.12).
 * <kbd>Alt</kbd> + <kbd>1</kbd> switches to the Database Structure tab.
 * <kbd>Alt</kbd> + <kbd>2</kbd> switches to the Browse Data tab.
 * <kbd>Alt</kbd> + <kbd>3</kbd> switches to the Edit Pragmas tab.
