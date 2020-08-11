@@ -1,7 +1,14 @@
 ## Abstract
 This Wiki page aims at listing the more 'hidden' keyboard shortcuts. By this I mean those shortcuts that aren't obviously visible in the menus (e.g. <kbd>Ctrl</kbd> + <kbd>N</kbd> for a new database), that aren't simply <kbd>Alt</kbd> accelerators (e.g. <kbd>Alt</kbd> + <kbd>E</kbd> for clicking the button with the underlined E), and that aren't typical for all GUI application (e.g. <kbd>Tab</kbd> for changing focus).
 
+## Notes
 Mac users have to press <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd>
+
+Note that for some key combinations where a symbol is used, you might need to add the <kbd>Shift</kbd> key to the combination if your keyboard layout requires it to enter the symbol.
+
+For example, <kbd>Ctrl</kbd>+<kbd>"</kbd> is the shortcut for duplicating a row. However, some keyboard layouts need the <kbd>Shift</kbd> key pressed in order to trigger a <kbd>"</kbd>. For example in the Spanish (Spain) and British keyboard layouts, you'll need to actually press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>2</kbd>.
+
+---
 ## Main window
 
 * <kbd>Ctrl</kbd> + <kbd>N</kbd> creates a new database.
@@ -11,6 +18,7 @@ Mac users have to press <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd>
 * <kbd>Alt</kbd> + <kbd>3</kbd> switches to the Edit Pragmas tab.
 * <kbd>Alt</kbd> + <kbd>4</kbd> switches to the Execute SQL tab.
 
+* <kbd>Ctrl</kbd> + <kbd>1</kbd>, * <kbd>Ctrl</kbd> + <kbd>2</kbd>, etc. opens the recent file whose position in the list is the number entered in the shorcut.
 
 #### Database Structure tab
 * <kbd>Ctrl</kbd> + <kbd>R</kbd> and <kbd>F5</kbd> refresh the database structure.
