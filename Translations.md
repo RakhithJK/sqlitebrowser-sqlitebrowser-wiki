@@ -51,3 +51,6 @@ This list is work-in-progress and will be changed if needed. It should be consid
 | Toolbar || Werkzeugleiste | siehe https://community.kde.org/KDE_Localization/de/StandardUebersetzungen |
 | Unique-Constraint || UNIQUE-Beschränkung | siehe https://github.com/sqlitebrowser/sqlitebrowser/pull/2193 |
 | Vacuum || Komprimierung ||
+
+## Spanish
+A good resource to aid in the translation is the homepage of the [KDE translation team to Spanish](https://es.l10n.kde.org/normas_generales.php). There is a [glossary](https://es.l10n.kde.org/glosario.php) that we can follow. In Spanish, it's better to avoid the "Title Case" in buttons and labels and use "Normal casing".
