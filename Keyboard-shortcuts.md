@@ -12,7 +12,7 @@ For example, <kbd>Ctrl</kbd>+<kbd>"</kbd> is the shortcut for duplicating a row.
 ## Main window
 
 * <kbd>Ctrl</kbd> + <kbd>N</kbd> creates a new database.
-
+* <kbd>Ctrl</kbd> + <kbd>Tab</kbd> go to next tab.
 * <kbd>Alt</kbd> + <kbd>0</kbd> restores the window layout used by the application by default (version 3.12).
 * <kbd>Alt</kbd> + <kbd>1</kbd> switches to the Database Structure tab.
 * <kbd>Alt</kbd> + <kbd>2</kbd> switches to the Browse Data tab.
