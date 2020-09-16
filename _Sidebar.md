@@ -23,6 +23,8 @@
   - [[File Associations| Windows File Associations]]
   - [[Silent Installation| Silent Mode installation on Windows]]
   - [[SpatiaLite| SpatiaLite on Windows]]
+- macOS Users
+  - [[macOS warn 'DB4S' is malicious software?| macOS warn 'DB4S' is malicious software?]]
 
 **For Developers**
 - [[Release process]]
