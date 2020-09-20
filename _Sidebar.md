@@ -41,6 +41,6 @@
     - [[Qt Creator | Compiling on Ubuntu 16.04 with Qt Creator]]
     - [[The pre-installed version of SQLite | Compiling DB4S on Ubuntu To Use A Pre Installed Version of SQLite]]
 - Nightly build script for
-  - [MacOS X / OSX](https://gist.github.com/justinclift/59e2c975100c5cd647d773bc797312f0)
+  - [macOS](https://github.com/sqlitebrowser/sqlitebrowser/blob/master/installer/macos/build_sqlitebrowser_nightly.sh)
   - [Ubuntu](https://github.com/deepsidhu1313/db4s-build-ppa-packages)
-  - [Windows](https://gist.github.com/justinclift/11cc926f214e882c8162f97c53929c07)
+  - [Windows](https://github.com/sqlitebrowser/sqlitebrowser/tree/master/installer/windows/nightly_build_scripts)
