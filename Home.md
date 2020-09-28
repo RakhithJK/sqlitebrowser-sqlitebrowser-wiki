@@ -53,7 +53,7 @@ Pages so far:
 ### Other
 
 * Our nightly build scripts
-  * [MacOS X / OSX](https://github.com/sqlitebrowser/sqlitebrowser/tree/master/installer/macos)
+  * [macOS](https://github.com/sqlitebrowser/sqlitebrowser/tree/master/installer/macos)
   * [Ubuntu](https://github.com/deepsidhu1313/db4s-build-ppa-packages)
   * [Windows](https://github.com/sqlitebrowser/sqlitebrowser/tree/master/installer/windows/nightly_build_scripts)
 
