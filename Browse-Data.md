@@ -19,3 +19,8 @@ You can highlight all columns by clicking the square to the left of the first co
 ![Resizing](http://i.imgur.com/cObTIxM.png)
 
 Once all your columns have the desired width, you can use the "[[Save Project|Project-Files]]" feature for saving this setting for later loading.
+
+### Highlighting multiple columns
+To highlight a group of adjacent columns you can use the context menu that appears when you right-click on a column header. Put the cursor on the header of the first column and choose "Select column" from the context menu. Then move to the last column, hold down <kbd>Shift</kbd> and do the same. 
+
+Another way to highlight multiple columns is to use the shortcut <kbd>Ctrl</kbd>+<kbd>Space</kbd>. Start by highlighting a group of cells in the data area that span the columns required. Then type <kbd>Ctrl</kbd>+<kbd>Space</kbd>. The highlight changes to whole columns. 
