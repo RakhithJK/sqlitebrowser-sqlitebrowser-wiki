@@ -1,5 +1,5 @@
 ## Introduction
-When browsing a table a filter row consisting of one input field per column is shown between the table header and the actual table data. These filters allow you to perform quick filters in the currently selected table. The filter is performed as soon as you start typing (you can configure the delay time in **Preferences**).
+When browsing a table a filter row consisting of one input field per column is shown between the table header and the actual table data. These fields allow you to perform quick filters in the currently selected table. The filter is performed as soon as you start typing (you can configure the delay time in **Preferences**).
 
 ## Visual example
 This section provides some examples for people not familiar with SQL.
@@ -37,7 +37,7 @@ There are no default comparison operators used.  When filtering for both numbers
 |<        | Less than           | 
 |>=       | Equal to or greater | 
 |<=       | Equal to or less    | 
-|=        | Equal to            | Unlike the default behaviour this performs an 100% exact search, i.e. case-dependent and |'%' characters not treated as wild cards but as normal characters.
+|=        | Equal to            | Unlike the default behaviour this performs an 100% exact search, i.e. case-dependent and '%' characters not treated as wild cards but as normal characters.
 |<>       | Unequal             | This is the opposite of the '=' operator, that is no wild cards allowed and case-dependent search.
 
 ## Range Operators
@@ -54,26 +54,26 @@ For quick selection of the 'equal to' filter, you can click on any cell with the
 **NOTE** - Release 3.11
 
 ## Regular-expression filter
-You can filter the column using a [regular expression](https://en.wikipedia.org/wiki/Regular_expression). You only have to enclose the regular expression in '/' characters, like /regexp/. Examples:
+You can filter the column using a [regular expression](https://en.wikipedia.org/wiki/Regular_expression). You only have to enclose the regular expression in '/' characters, like in `/regexp/`. Examples:
 
-|Example | Description         
-|---------|---------------------
-|`/[a-zA-Z]/` | Contains any letter   
+| Example        | Description         
+|----------------|---------------------
+|`/[a-zA-Z]/`    | Contains any letter   
 |`/^[a-zA-Z]*$/` | Contains only letters or is empty
-|`/Sat\|Sun/`        | Contains the word `Sat` or the word `Sun`
+|`/Sat\|Sun/`    | Contains the word `Sat` or the word `Sun`
 |`/^Sat/`        | Begins with `Sat`
 |`/Sun$/`        | Ends with `Sun`
 
-If you want to use a "Containing" filter which has to include `/something/`, just use `\/something\/` to escape the character / and avoid the regular-expression interpretation.
+If you want to use a "Containing" filter which has to include `/something/`, just use `\/something\/` to escape the character `/` and avoid the regular-expression interpretation.
 
-**NOTE** - Only available in our future release 3.12
+**NOTE** - Release 3.12
 
 ## Filter in any column
 Finally, there is a new field: 'Filter in any column'. Type any number of words here to limit the view to only those rows which contain all these words, no matter in which column. This is super useful when looking for a certain value in a table without knowing in which column it could be.
 
 ![find_in_table](https://user-images.githubusercontent.com/3153504/76461862-f99f1d00-63e0-11ea-860b-6cc7dd26e783.png)
 
-**NOTE** - Only available in our future release 3.12
+**NOTE** - Release 3.12
 
 ## A look behind the scenes
 For those familiar with the SQL syntax the filters are very easy to understand. The filters are translated into the WHERE part of the SELECT statement, joined by AND operators. The default comparison operator is LIKE but can be overridden as described in the table above. We automatically detect a numeric search and omit the quote characters around the filter term in this case while adding them when filtering for text. Single quote characters are automatically escaped and can therefore safely be used in a filter query. In case of any doubt you might want to check the generated SQL statement using the SQL Log panel - just make sure it is set to showing SQL submitted by the 'Application'.
