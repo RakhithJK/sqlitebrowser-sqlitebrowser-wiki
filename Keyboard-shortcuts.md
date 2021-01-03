@@ -14,12 +14,16 @@ For example, <kbd>Ctrl</kbd>+<kbd>"</kbd> is the shortcut for duplicating a row.
 * <kbd>Ctrl</kbd> + <kbd>N</kbd> creates a new database.
 * <kbd>Ctrl</kbd> + <kbd>Tab</kbd> go to next tab.
 * <kbd>Alt</kbd> + <kbd>0</kbd> restores the window layout used by the application by default (version 3.12).
-* <kbd>Alt</kbd> + <kbd>1</kbd> switches to the Database Structure tab.
-* <kbd>Alt</kbd> + <kbd>2</kbd> switches to the Browse Data tab.
-* <kbd>Alt</kbd> + <kbd>3</kbd> switches to the Edit Pragmas tab.
-* <kbd>Alt</kbd> + <kbd>4</kbd> switches to the Execute SQL tab.
+* <kbd>Alt</kbd> + <kbd>1</kbd> switches to the 'Database Structure' tab.
+* <kbd>Alt</kbd> + <kbd>2</kbd> switches to the 'Browse Data' tab.
+* <kbd>Alt</kbd> + <kbd>3</kbd> switches to the 'Edit Pragmas' tab.
+* <kbd>Alt</kbd> + <kbd>4</kbd> switches to the 'Execute SQL' tab.
 
-* <kbd>Ctrl</kbd> + <kbd>1</kbd>, * <kbd>Ctrl</kbd> + <kbd>2</kbd>, etc. opens the recent file whose position in the list is the number entered in the shorcut.
+* <kbd>Ctrl</kbd> + <kbd>1</kbd>, <kbd>Ctrl</kbd> + <kbd>2</kbd>, etc. opens the recent file whose position in the list is the number entered in the shorcut.
+
+* <kbd>Ctrl</kbd> + <kbd>F4</kbd> or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd> to close the database file (future version 3.13).
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd> or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F4</kbd> to close the project (including the database file) (future version 3.13).
+
 
 #### Database Structure tab
 * <kbd>Ctrl</kbd> + <kbd>R</kbd> and <kbd>F5</kbd> refresh the database structure.
@@ -41,6 +45,7 @@ For example, <kbd>Ctrl</kbd>+<kbd>"</kbd> is the shortcut for duplicating a row.
 * <kbd>Ctrl</kbd> + <kbd>Return</kbd> executes the SQL commands.
 * <kbd>Ctrl</kbd> + <kbd>R</kbd> and <kbd>F5</kbd> execute the SQL commands.
 * <kbd>Shift</kbd> + <kbd>F5</kbd> executes the SQL commands on the current line only.
+* <kbd>Ctrl</kbd> + <kbd>W</kbd> closes the current SQL tab.
 
 ## Edit dialog and edit pane
 * <kbd>Ctrl</kbd> + <kbd>Return</kbd> clicks the Apply button.
