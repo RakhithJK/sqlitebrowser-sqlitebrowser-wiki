@@ -1,1 +1,1 @@
-[Website](https://sqlitebrowser.org/) | [Twitter @sqlitebrowser](https://twitter.com/sqlitebrowser) | [DBHub.io](https://dbhub.io/)
+[Website](https://sqlitebrowser.org/) | [Twitter @sqlitebrowser](https://twitter.com/sqlitebrowser)
