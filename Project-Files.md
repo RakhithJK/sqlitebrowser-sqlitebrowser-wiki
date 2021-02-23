@@ -1,4 +1,4 @@
-Project files (*.sqbpro) contain settings and options that are 'outside' normal database files, for example, filter options for the 'Browse Data' tab, previously opened SQL tabs in the 'Execute SQL' tab and various PRAGMA settings.
+* Project files (*.sqbpro) contain settings and options that are 'outside' normal database files, for example, filter options for the 'Browse Data' tab, previously opened SQL tabs in the 'Execute SQL' tab and various PRAGMA settings.
 
 Normally when you open a database (*.db, *.SQLite) file, DB4S shows you the first table in the 'Browse Data' tab, resets any filters (so shows you all the available records), resets any PRAGMAs, and closes any SQL tabs in the 'Execute SQL' tab.  This can be frustrating if you perform the same actions on the same database repeatedly.  Instead, you can use project files to store these settings.
 
