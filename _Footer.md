@@ -1,1 +1,1 @@
-[Website](https://sqlitebrowser.org/) | [Twitter @sqlitebrowser](https://twitter.com/sqlitebrowser)
+haha poo
