@@ -56,13 +56,15 @@ For quick selection of the 'equal to' filter, you can click on any cell with the
 ## Regular-expression filter
 You can filter the column using a [regular expression](https://en.wikipedia.org/wiki/Regular_expression). You only have to enclose the regular expression in '/' characters, like in `/regexp/`. Examples:
 
-| Example        | Description         
-|----------------|---------------------
-|`/[a-zA-Z]/`    | Contains any letter   
-|`/^[a-zA-Z]*$/` | Contains only letters or is empty
-|`/Sat\|Sun/`    | Contains the word `Sat` or the word `Sun`
-|`/^Sat/`        | Begins with `Sat`
-|`/Sun$/`        | Ends with `Sun`
+| Example                                         | Description
+|-------------------------------------------------|---------------------
+|`/[a-zA-Z]/`                                     | Contains any letter   
+|`/^[a-zA-Z]*$/`                                  | Contains only letters or is empty
+|`/Sat\|Sun/`                                     | Contains the word `Sat` or the word `Sun`
+|`/^Sat/`                                         | Begins with `Sat`
+|`/Sun$/`                                         | Ends with `Sun`
+|`/^(?!^.*US.*$)/`                                | Exclude all cells containing `US`
+|`/^((?!^Microsoft Office$\|^Adobe Reader$).)*$/` | Exclude all cells that don't contain either (`Microsoft Office` OR `Adobe Reader`)
 
 If you want to use a "Containing" filter which has to include `/something/`, just use `\/something\/` to escape the character `/` and avoid the regular-expression interpretation.
 
