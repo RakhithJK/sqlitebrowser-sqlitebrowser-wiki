@@ -2,8 +2,8 @@ It's possible to use SpatiaLite on Windows by downloading the official `mod_spat
 
 Direct download links:
 
-* [32bit Download](http://www.gaia-gis.it/gaia-sins/windows-bin-x86/mod_spatialite-4.3.0a-win-x86.7z)
-* [64bit Download](http://www.gaia-gis.it/gaia-sins/windows-bin-amd64/mod_spatialite-4.3.0a-win-amd64.7z)
+* [32bit Download](http://www.gaia-gis.it/gaia-sins/windows-bin-x86/mod_spatialite-5.0.1-win-x86.7z)
+* [64bit Download](http://www.gaia-gis.it/gaia-sins/windows-bin-amd64/mod_spatialite-5.0.1-win-amd64.7z)
 
 Because the `mod_spatialite` library was built as multiple DLLs, you have to make sure Windows can find all of them. DB4S will load an absolute path to the `mod_spatialite.dll`, and `mod_spatialite.dll` in turn loads the rest of the shared libraries like `libgeos_c-1.dll`, `libproj-9.dll` and others. In order to find these dependent .dll's, they must be located in a directory Windows will search.
 
