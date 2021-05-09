@@ -48,6 +48,7 @@ Pages so far:
 * [Notes for compiling on OSX](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Notes-for-setting-up-your-build-environment-on-OSX) - Presently being developed too.  Assistance is very welcome. :grinning:
 * [[Notes for compiling on Windows]] - Presently being developed.  Assistance is very welcome.
 * [Our Release Process](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Release-process) - Checklist / steps to follow when creating new DB Browser for SQLite releases
+  * [[Notarizing our macOS releases]] - Steps to follow for notarizing our macOS releases
 * [[Source code highlights]] - Work in progress. Overview of parts of the codebase.
 
 ### Other
