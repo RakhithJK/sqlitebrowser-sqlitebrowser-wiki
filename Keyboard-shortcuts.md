@@ -37,6 +37,7 @@ For example, <kbd>Ctrl</kbd>+<kbd>"</kbd> is the shortcut for duplicating a row.
 * <kbd>Alt</kbd> + <kbd>Delete</kbd> and <kbd>Alt</kbd> + <kbd>Backspace</kbd> delete the content of the current cell(s), setting them to NULL.
 * <kbd>Tab</kbd> moves to the next cell when the table browser is focused. When being on the last cell, a new row is inserted automatically.
 * <kbd>F2</kbd> enters the cell editor mode.
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Left mouse button</kbd> on the value of a foreign key column shows the referenced row.
 
 #### Edit Pragmas tab
 * <kbd>Ctrl</kbd> + <kbd>R</kbd> and <kbd>F5</kbd> refresh the pragma list.
