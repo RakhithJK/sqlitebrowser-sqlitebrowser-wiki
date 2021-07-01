@@ -1,6 +1,7 @@
 Instructions for a build newbie for building DB Browser for SQLite on Debian Stretch/Buster.
 
 Tested on Jan 8, 2019 (Stretch).
+
 Tested on July 1st, 2021 (Buster).
 
 ## Prerequisites
