@@ -3,4 +3,5 @@ We haven't compiled much of a FAQ yet, but please feel welcome to contribute it 
 Meanwhile, taking a look at the list of [answered questions](https://github.com/sqlitebrowser/sqlitebrowser/issues?q=is%3Aclosed+is%3Aissue+label%3Aquestion) could solve your doubt. Otherwise, you could ask a [new question](https://github.com/sqlitebrowser/sqlitebrowser/issues/new?assignees=&labels=&template=Question.md&title=) to our community.
 
 # How do I copy/duplicate a table and its contents?
+Paste the following into the ExecuteSQL tab, changing Destination and Source to match the relevant tables.
 `INSERT INTO Destination SELECT * FROM Source;`
