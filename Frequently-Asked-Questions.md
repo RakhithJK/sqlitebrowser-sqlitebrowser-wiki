@@ -4,4 +4,5 @@ Meanwhile, taking a look at the list of [answered questions](https://github.com/
 
 # How do I copy/duplicate a table and its contents?
 Paste the following into the ExecuteSQL tab, changing Destination and Source to match the relevant tables.
+
 `INSERT INTO Destination SELECT * FROM Source;`
