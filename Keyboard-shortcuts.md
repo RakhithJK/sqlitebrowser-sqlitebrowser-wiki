@@ -110,7 +110,9 @@ Key | Command
 <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Del</kbd>	|	Delete line to right
 <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>	|	Delete current line
 <kbd>Ctrl</kbd>+<kbd>L</kbd>	|	Cut current line
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd>	|	Copy current line
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd>	|	Copy current line (before future v3.13)
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Insert</kbd>	|	Copy current line (after future v3.13)
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd>	|	Open SQL file in new tab (before future v3.13)
 <kbd>Ctrl</kbd>+<kbd>T</kbd>	|	Transpose current and previous lines
 <kbd>Ctrl</kbd>+<kbd>A</kbd>	|	Select all
 <kbd>Ctrl</kbd>+<kbd>D</kbd>	|	Duplicate selection
