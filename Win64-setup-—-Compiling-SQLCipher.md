@@ -136,9 +136,9 @@ If so, the process is now complete, with SQLCipher successfully compiled. 😋
 
 _[This step still needs to be written up properly.]_
 
-With Qt Creator, enable the `sqlcipher` option like this:
+With Qt Creator, change the value of the `sqlcipher` option to "ON" like this, then click "Apply Configuration Changes":
 
-![Enable sqlcipher cmake option](images/30_1024.jpg)
+![Enable sqlcipher cmake option](https://raw.githubusercontent.com/wiki/sqlitebrowser/sqlitebrowser/images/compilesqlcipher05.png)
 
 If using MSVC 2013 as the IDE instead of Qt Creator, add "-Dsqlcipher=1" to the cmake
 command for generating the solution file.  Like this:
