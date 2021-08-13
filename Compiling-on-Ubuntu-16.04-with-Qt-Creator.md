@@ -69,7 +69,7 @@ Qt is now installed.  Leave the "Launch Qt Creator" option enabled so it gets la
 
 ### Build DB Browser for SQLite
 
-The welcome screen for Qt Creator appears.  Click the "Open Project" button near the middle top, browse into the "sqlitebrowser" folder, then select the `sqlitebrowser.pro` file, and open it:
+The welcome screen for Qt Creator appears.  Click the "Open Project" button near the middle top, browse into the "sqlitebrowser" folder, then select the `CMakeLists.txt` file, and open it (note that the screenshots are outdated. Please open the `CMakeLists.txt` file instead of the `sqlitebrowser.pro` file. Also the UI of Qt Creator might have changed slightly if you are using a newer version):
 
 ![Qt Creator welcome screen](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/ubuntu_16.04/10_qt_creator_welcome_screen.png)
 ![Qt Creator browse to sqlitebrowser folder](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/ubuntu_16.04/11_qt_creator_open_sqlitebrowser_dir.png)
@@ -91,11 +91,7 @@ This screenshot shows "Shadow build" disabled, which is what we want:
 
 ![Qt Creator shadow build disabled](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/ubuntu_16.04/16_qt_creator_shadow_build_disabled.png)
 
-Now from the Qt Creator menu in the top bar, choose ***Build*** → ***Run qmake***:
-
-![Qt Creator run qmake](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/ubuntu_16.04/17_qt_creator_run_qmake.png)
-
-Wait a few seconds for it to finish, then choose ***Build*** → ***Build All***, also from the Qt Creator menu in the top bar:
+Now from the Qt Creator menu in the top bar, choose ***Build*** → ***Build All***:
 
 ![Qt Creator run build all](https://github.com/sqlitebrowser/db4s-screenshots/raw/master/wiki/ubuntu_16.04/18_qt_creator_run_build_all.png)
 
