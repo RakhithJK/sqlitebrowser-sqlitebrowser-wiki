@@ -10,7 +10,7 @@ Check that the following packages are installed. All are available in the normal
 
 - ``libsqlite3-0``, ``libsqlite3-dev`` and  ``sqlite3``
 - ``git``
-- either ``qt5-qmake`` or ``cmake``
+- ``cmake``
 - ``make``
 - the following pieces of the so-called GNU Compilation Collection (GCC): ``g++``, ``g++-6``, ``gcc`` and ``gcc-6`` (installing ``g++`` should bring the others as dependencies)
 - ``qt5-default`` and ``qttools5-dev`` with their dependencies (both version 5.7)
@@ -55,12 +55,7 @@ Then run
 
 This creates a directory ``sqlitebrowser``, fetches the files from Github and saves them to the directory and its subdirectories.
 
-### Step 2: Run cmake or qmake
-
-In this step you can use either ``cmake`` or ``qmake``. Using ``cmake`` produces a nicer-looking log showing percentage completion in the next ``make`` step. Using ``qmake`` produces a very long messy-looking log that does not tell much at least to an uninitiated. Anyway, both will generate the desired end result.
-
-
-#### Step 2a: If using cmake
+### Step 2: Run cmake
 
 Create a directory ``build`` under ``sqlitebrowser`` and navigate to it:
 
@@ -81,19 +76,9 @@ If building with SQLCipher support:
 
 This step is quick. It will create a file named ``Makefile`` and various other files needed in the actual build step in the ``build`` directory.
 
-#### Step 2b: If using qmake
-
-Run ``qmake`` in the ``sqlitebrowser`` directory:
-```
-    $ qmake
-```
-In addition to the ``Makefile`` file, ``qmake`` also creates a file named ``.qmake.stash`` in the ``sqlitebrowser`` directory. It lists the file locations where ``qmake`` searches for programmes and libraries.
-
 ### Step 3: Run make
 
-#### Step 3a: If using cmake
-
-If you used ``cmake`` in the previous step, run ``make`` in the ``build`` directory:
+After using ``cmake`` in the previous step, run ``make`` in the ``build`` directory:
 ```
     $ make
 ```
@@ -108,29 +93,11 @@ If everything goes well, the log ends with the following lines:
 
 The appr. 6 MB (7 MB if compiled with SQLCipher support) ``sqlitebrowser`` binary file now appears in the ``build`` directory together with some other files generated during build.
 
-#### Step 3b: If using qmake
-
-If you used ``qmake`` in the previous step, run ``make`` in the ``sqlitebrowser`` directory:
-```
-    $ make
-```
-This takes a few minutes. A loooooooooong undecipherable log runs on the screen.
-
-If everything goes well, the log ends with the following lines:
-
-```
-    make[2]: Leaving directory '/home/myusername/sqlitebrowser/src'
-    make[1]: Leaving directory '/home/myusername/sqlitebrowser/src'
-```
-
-The ``sqlitebrowser`` binary file appears in the ``src`` directory amidst the various source files.
-
-
 ### Step 4: Install your newly built DB Browser for SQLite
 
 #### Step 4a: Normal ``make install``
 
-If using ``cmake``, run the following command in the ``build`` directory. If using ``qmake``, run the following command in the ``src`` directory:
+Run the following command in the ``build`` directory:
 ```
     $ sudo make install
 ```
