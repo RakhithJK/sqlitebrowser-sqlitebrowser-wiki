@@ -17,7 +17,7 @@ people needing to run DB Browser for SQLite without installing it first.
   * [DB.Browser.for.SQLite-win32.zip](https://nightlies.sqlitebrowser.org/latest/DB.Browser.for.SQLite-win32.zip)
   * [DB.Browser.for.SQLite-win64.zip](https://nightlies.sqlitebrowser.org/latest/DB.Browser.for.SQLite-win64.zip)
 
-If you're not sure which one to get, try the .msi version first. :)
+If you're not sure which one to get, try the .msi version first. :smile:
 
 
 macOS
