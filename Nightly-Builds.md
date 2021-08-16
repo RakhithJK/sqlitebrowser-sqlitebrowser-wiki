@@ -29,7 +29,7 @@ Each build comes in two flavours:
   * One using SQLCipher, which provides optional encryption
 
 If you're wanting encryption, make sure you grab a build that has
-"SQLCipher" in the file name. :)
+"SQLCipher" in the file name. :smile:
 
   * [DB.Browser.for.SQLite.dmg](https://nightlies.sqlitebrowser.org/latest/DB.Browser.for.SQLite.dmg)    
   * [DB.Browser.for.SQLite-sqlcipher.dmg](https://nightlies.sqlitebrowser.org/latest/DB.Browser.for.SQLite-sqlcipher.dmg) (this supports encryption)
@@ -38,7 +38,7 @@ If you're wanting encryption, make sure you grab a build that has
 Linux
 =====
 
-Depending on your distribution you have a few options. :)
+Depending on your distribution you have a few options. :smile:
 
 * We build an AppImage for every change in the `master` branch:
   * https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/continuous
