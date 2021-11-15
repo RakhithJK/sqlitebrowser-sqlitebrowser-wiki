@@ -8,7 +8,7 @@ A full download of Visual Studio including recommended and optional downloads is
 
 In this wiki we will show you how to download and install Visual Studio 2017 using the web installer. We will only download the required components (around 1GB) that are needed to successfully build **DB Browser for SQLite**.
 
-First, go to https://www.visualstudio.com/downloads/ and click **Free download** under "Visual Studio Community 2017". This will download Visual Studio Installer (only 1.5MB) bootstrapper (`vs_Community.exe`).
+First, go to [https://www.visualstudio.com/downloads/](https://linkify.me/wOApYsn) and click **Free download** under "Visual Studio Community 2017". This will download Visual Studio Installer (only 1.5MB) bootstrapper (`vs_Community.exe`).
 
 [[images/vs2017-01.jpg]]
 
