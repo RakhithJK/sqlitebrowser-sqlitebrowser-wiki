@@ -153,7 +153,7 @@ This deletes the generated build files. Then, you can start again with ``./confi
 
 ### Step 5: Compile DB Browser for SQLite with your newly built SQLCipher
 
-You can now compile DB Browser for SQLite using this version of SQLCipher instead of the standard Debian SQLCipher packages as per these [instructions](https://github.com/sqlitebrowser/sqlitebrowser/wiki/DB-Browser-for-SQLite:-Build-from-Source-on-Debian-Stretch---Newbie-Instructions).
+You can now compile DB Browser for SQLite using this version of SQLCipher instead of the standard Debian SQLCipher packages as per these [instructions](https://github.com/sqlitebrowser/sqlitebrowser/wiki/DB-Browser-for-SQLite%3A-Build-from-Source-on-Debian.--Newbie-Instructions).
 
 If you have the standard Debian SQLCipher packages installed, uninstall them first. Other changes are not needed.
 
