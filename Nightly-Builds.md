@@ -1,5 +1,5 @@
 In https://nightlies.sqlitebrowser.org/latest you can find the automatic nightly builds for DB Browser for SQLite, made
-from our latest `master` branch source code on GitHub.
+from our latest `master` branch source code on GitHub. This means that these builds include the latest developments and bug fixes, not yet released. Nightly builds are usually stable, but from time to time new bugs might appear, which aren't in the stable versions.
 
 Windows
 =======
@@ -38,7 +38,7 @@ If you're wanting encryption, make sure you grab a build that has
 Linux
 =====
 
-Depending on your distribution you have a few options. :smile:
+Depending on your distribution, you have a few options. :smile:
 
 * We build an AppImage for every change in the `master` branch:
   * https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/continuous
