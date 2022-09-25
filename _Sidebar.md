@@ -36,7 +36,7 @@
   - [[Windows| Setting up a Win64 development environment for DB4S]]
     - [[Compiling SQLCipher | Win64 setup — Compiling SQLCipher]]
     - [[Notes| Notes for compiling on Windows]]
-  - [[OSX | Notes for setting up your build environment on OSX]]
+  - [[OSX | Notes for setting up your build environment on macOS]]
   - [[OpenSuSE | Notes for compiling on OpenSuSE]]
   - Ubuntu with
     - [[Qt Creator | Compiling on Ubuntu 16.04 with Qt Creator]]
