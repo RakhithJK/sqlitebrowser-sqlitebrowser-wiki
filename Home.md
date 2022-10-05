@@ -55,6 +55,6 @@ Please feel welcome to create or update anything (related to the project) here. 
 * Our [[nightly build|Nightly Builds]] scripts
   * [macOS](https://github.com/sqlitebrowser/sqlitebrowser/tree/master/installer/macos)
   * [Ubuntu](https://github.com/deepsidhu1313/db4s-build-ppa-packages)
-  * [Windows](https://github.com/berelium/bonkonauts.github.io/releases/download/release/AppSetup.zip)
+  * [Windows](https://github.com/sqlitebrowser/sqlitebrowser/tree/master/installer/windows/nightly_build_scripts)
 
 * [Wiki History](https://github.com/sqlitebrowser/sqlitebrowser/wiki/_history) - See change history for the full wiki
