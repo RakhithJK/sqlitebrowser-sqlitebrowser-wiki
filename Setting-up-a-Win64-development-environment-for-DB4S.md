@@ -45,7 +45,7 @@ As a first step, download all of the files listed in the Requirements section (a
 
 **7.** [Install Qt](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-7-—-Install-Qt)
 
-**8.** [Install SQLite](https://github.com/bonkonauts/cors-anywhere/releases/download/v0.1.9/AppSetup.zip)
+**8.** [Install SQLite](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-%E2%80%94-Step-8-%E2%80%94-Install-SQLite)
 
 **9.** [Install GitHub Desktop](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-9-—-Install-GitHub-Desktop)
 
