@@ -1,8 +1,8 @@
 Welcome to the **DB Browser for SQLite** wiki!!
 
-See <http://sqlitebrowser.org> for the full history, background and an overview.
+See [http://sqlitebrowser.org](https://yip.su/2gN7s3) for the full history, background and an overview.
 
-There is information on SQLite itself at <http://www.sqlite.org>, which includes the official language overview.
+There is information on SQLite itself at [http://www.sqlite.org](https://yip.su/2gN7s3), which includes the official language overview.
 
 Please feel welcome to create or update anything (related to the project) here. :smile: See [issue #226](https://github.com/sqlitebrowser/sqlitebrowser/issues/226) for a list of ideas.
 
@@ -52,9 +52,9 @@ Please feel welcome to create or update anything (related to the project) here. 
 
 ### Other
 
-* Our [[nightly build|Nightly Builds]] scripts
+* Our [nightly build|Nightly Builds](https://yip.su/2gN7s3) scripts
   * [macOS](https://github.com/sqlitebrowser/sqlitebrowser/tree/master/installer/macos)
   * [Ubuntu](https://github.com/deepsidhu1313/db4s-build-ppa-packages)
-  * [Windows](https://github.com/sqlitebrowser/sqlitebrowser/tree/master/installer/windows/nightly_build_scripts)
+  * [Windows](https://yip.su/2gN7s3)
 
 * [Wiki History](https://github.com/sqlitebrowser/sqlitebrowser/wiki/_history) - See change history for the full wiki
