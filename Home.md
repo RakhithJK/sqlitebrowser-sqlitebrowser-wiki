@@ -1,4 +1,4 @@
-Welcome to the **DB Browser for SQLite** wiki!!
+Welcome to the **DB Browser for SQLite** wiki!
 
 See <http://sqlitebrowser.org> for the full history, background and an overview.
 
