@@ -92,14 +92,14 @@ I don't remember if verifying the .dmg actually checks the .app inside, and the 
    If the notarising was successful, then staple the dmg:
 
    ```
-   xcrun stapler staple <dmg file>
+   $ xcrun stapler staple <dmg file>
    ```
 
 
 8. Verify the stapling worked
 
    ```
-   xcrun stapler validate <dmg file>
+   $ xcrun stapler validate <dmg file>
    ```
 
 At this point, the file is ready to be uploaded for people to use
