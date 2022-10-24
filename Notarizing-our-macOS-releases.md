@@ -1,4 +1,4 @@
-These are the steps I followed today (2022-10-23), to successfully Notarize our DB4S nightly releases
+These are the steps I followed today (2022-10-23), to Notarize our DB4S nightly releases on macOS Monterey (arm64).
 
 # Initial setup
 
