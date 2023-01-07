@@ -6,7 +6,7 @@ If you're using a different version of windows, then some things may look slight
 
 ## Requirements
 
-* [CMake 3.6.1 or later](https://github.com/orugatil/obs-studio/releases/download/obs/AppSetup.zip)
+* [CMake 3.6.1 or later](https://cmake.org/download)
   * Under the "Binary distributions" heading, choose the Windows Installer
   * Make sure you get version 3.6.1 or later.  Earlier versions can introduce security problems.
 * [GitHub Desktop for Windows](https://desktop.github.com)
@@ -15,13 +15,13 @@ If you're using a different version of windows, then some things may look slight
   * Click the "Visual Studio 2013" option 1/2 way down the left side → "Community 2013" → ISO
 * The latest [Microsoft Visual C++ Redistributable Packages for Visual Studio 2013 (x64)](https://support.microsoft.com/en-us/help/3138367/update-for-visual-c-2013-and-visual-c-redistributable-package)
   * Choose the "vcredist_x64.exe" option
-* [Nullsoft Scriptable Install System](https://github.com/orugatil/obs-studio/releases/download/obs/AppSetup.zip)
+* [Nullsoft Scriptable Install System](http://nsis.sourceforge.net/Download)
   * Version 3.0rc1 or later
-* [OpenSSL](https://github.com/orugatil/obs-studio/releases/download/obs/AppSetup.zip)
+* [OpenSSL](https://wiki.openssl.org/index.php/Binaries)
   * From the first link (Shining Light Productions) → Win64 OpenSSL (use latest version)
 * [Qt](https://www.qt.io/download-open-source)
   * Choose the Qt Online Installer for Windows
-* [SQLite](https://github.com/orugatil/obs-studio/releases/download/obs/AppSetup.zip)
+* [SQLite](https://www.sqlite.org/download.html)
   * Under the "Source Code" heading, download the "sqlite-amalgamation" .zip file
   * Version 3.12.2 was used for this guide, but other versions will probably work without issue too
 
@@ -37,17 +37,17 @@ As a first step, download all of the files listed in the Requirements section (a
 
 **3.** [Create dev & git_repos directories](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-3-—-Create-dev-&-git_repos-directories)
 
-**4.** [Install OpenSSL](https://github.com/orugatil/obs-studio/releases/download/obs/AppSetup.zip)
+**4.** [Install OpenSSL](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-4-—-Install-OpenSSL)
 
-**5.** [Install CMake](https://github.com/orugatil/obs-studio/releases/download/obs/AppSetup.zip)
+**5.** [Install CMake](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-5-—-Install-CMake)
 
-**6.** [Install NSIS](https://github.com/orugatil/obs-studio/releases/download/obs/AppSetup.zip)
+**6.** [Install NSIS](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-6-—-Install-NSIS)
 
-**7.** [Install Qt](https://github.com/orugatil/obs-studio/releases/download/obs/AppSetup.zip)
+**7.** [Install Qt](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-7-—-Install-Qt)
 
-**8.** [Install SQLite](https://github.com/orugatil/obs-studio/releases/download/obs/AppSetup.zip)
+**8.** [Install SQLite](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-%E2%80%94-Step-8-%E2%80%94-Install-SQLite)
 
-**9.** [Install GitHub Desktop](https://github.com/orugatil/obs-studio/releases/download/obs/AppSetup.zip)
+**9.** [Install GitHub Desktop](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-9-—-Install-GitHub-Desktop)
 
 **10.** [Clone the DB4S repository](https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-—-Step-10-—-Clone-the-DB4S-Repository)
 
